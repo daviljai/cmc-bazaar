@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Bazaar Graph</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+
+<body>
+
+    <h1>Mite Gel Price Graph</h1>
+
+    <canvas id="chart"></canvas>
+
+    <script>
+
+        async function loadGraph() {
+
+            const response = await fetch(
+                "/data/mite_gel.json"
+            )
+
+            const json = await response.json()
+
+            const labels = []
+            const prices = []
+
+            json.forEach(entry => {
+
+                labels.push(
+                    new Date(
+                        entry.time * 1000
+                    ).toLocaleTimeString()
+                )
+
+                prices.push(
+                    entry.data.buyPrice || 0
+                )
+            })
+
+            const ctx =
+                document.getElementById("chart")
+
+            new Chart(ctx, {
+
+                type: "line",
+
+                data: {
+
+                    labels: labels,
+
+                    datasets: [
+                        {
+                            label: "Buy Price",
+                            data: prices
+                        }
+                    ]
+                }
+            })
+        }
+
+        loadGraph()
+
+    </script>
+
+</body>
+</html>
