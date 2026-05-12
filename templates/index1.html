@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Bazaar Tracker</title>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<style>
+
+body{
+    background:#0f172a;
+    color:white;
+    font-family:Arial;
+    margin:0;
+    padding:20px;
+}
+
+h1{
+    text-align:center;
+}
+
+.container{
+    max-width:1200px;
+    margin:auto;
+}
+
+.search{
+    width:100%;
+    padding:14px;
+    border:none;
+    border-radius:12px;
+    margin-bottom:20px;
+    background:#1e293b;
+    color:white;
+    font-size:16px;
+}
+
+.items{
+    display:grid;
+    grid-template-columns:repeat(auto-fill,minmax(220px,1fr));
+    gap:15px;
+}
+
+.card{
+    background:#1e293b;
+    padding:15px;
+    border-radius:16px;
+    cursor:pointer;
+    transition:0.2s;
+}
+
+.card:hover{
+    transform:scale(1.03);
+    background:#334155;
+}
+
+.chartBox{
+    margin-top:30px;
+    background:#1e293b;
+    padding:20px;
+    border-radius:20px;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>📈 Bazaar Price Tracker</h1>
+
+<input
+class="search"
+id="search"
+placeholder="Search item..."
+onkeyup="filterItems()"
+/>
+
+<div class="items" id="items"></div>
+
+<div class="chartBox">
+    <canvas id="chart"></canvas>
+</div>
+
+</div>
+
+<script>
+
+const items = [
+"mite_gel",
+"enchanted_sugar",
+"enchanted_raw_duck",
+"cactus",
+"enchanted_packed_ice",
+"acacia_log",
+"dark_oak_log",
+"magma_cream",
+"cocoa_beans",
+"lapis_lazuli"
+];
+
+const itemsDiv = document.getElementById("items");
+
+items.forEach(item => {
+
+    const div = document.createElement("div");
+
+    div.className = "card";
+
+    div.innerHTML = `
+        <h3>${item}</h3>
+    `;
+
+    div.onclick = () => loadChart(item);
+
+    itemsDiv.appendChild(div);
+
+});
+
+function filterItems(){
+
+    const value =
+        document.getElementById("search")
+        .value
+        .toLowerCase();
+
+    document.querySelectorAll(".card").forEach(card => {
+
+        if(card.innerText.toLowerCase().includes(value)){
+            card.style.display = "block";
+        }else{
+            card.style.display = "none";
+        }
+
+    });
+
+}
+
+let chart;
+
+async function loadChart(item){
+
+    const response =
+        await fetch(`/api/${item}`);
+
+    const data =
+        await response.json();
+
+    const labels =
+        data.map(x =>
+            new Date(x.time * 1000)
+            .toLocaleTimeString()
+        );
+
+    const prices =
+        data.map(x => x.price);
+
+    const ctx =
+        document.getElementById("chart");
+
+    if(chart){
+        chart.destroy();
+    }
+
+    chart = new Chart(ctx, {
+
+        type:"line",
+
+        data:{
+            labels:labels,
+            datasets:[{
+                label:item,
+                data:prices,
+                borderWidth:3,
+                tension:0.2
+            }]
+        },
+
+        options:{
+            responsive:true
+        }
+
+    });
+
+}
+
+</script>
+
+</body>
+</html>
