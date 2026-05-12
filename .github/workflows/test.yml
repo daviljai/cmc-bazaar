@@ -1,35 +1,31 @@
-name: API Test
+name: Bazaar Test
 
 on:
   workflow_dispatch:
 
 jobs:
-  test:
+  scrape:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
+      - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Install Python
+      - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      - name: Install packages
-        run: pip install requests cloudscraper
+      - name: Run scraper
+        run: python test_scraper.py
 
-      - name: Run test
+      - name: Commit files
         run: |
-          python - <<EOF
-          import cloudscraper
+          git config --global user.name "github-actions"
+          git config --global user.email "actions@github.com"
 
-          scraper = cloudscraper.create_scraper()
+          git add .
 
-          url = "https://api.craftersmc.net/v1/resources/skyblock/bazaar/items"
+          git diff --cached --quiet || git commit -m "Update data"
 
-          response = scraper.get(url)
-
-          print("STATUS:", response.status_code)
-          print(response.text[:1000])
-          EOF
+          git push
