@@ -1,457 +1,70 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <title>Bazaar Tracker</title>
+
+    <title>Bazaar Graph</title>
 
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
-    <style>
-
-        body{
-            background:#111;
-            color:white;
-            font-family:Arial;
-            margin:0;
-            overflow:hidden;
-        }
-
-        h1{
-            padding:15px;
-            margin:0;
-            border-bottom:1px solid #333;
-        }
-
-        .container{
-            display:flex;
-            height:calc(100vh - 70px);
-        }
-
-        .sidebar{
-            width:260px;
-            min-width:260px;
-            border-right:1px solid #333;
-            overflow-y:auto;
-            padding:10px;
-            box-sizing:border-box;
-        }
-
-        .main{
-            flex:1;
-            display:flex;
-            flex-direction:column;
-            padding:15px;
-            overflow:hidden;
-            box-sizing:border-box;
-        }
-
-        .top{
-            display:flex;
-            gap:15px;
-            flex:1;
-            min-height:0;
-        }
-
-        .graphs{
-            flex:1;
-            display:flex;
-            flex-direction:column;
-            gap:12px;
-            min-height:0;
-        }
-
-        .chartBox{
-            background:#1b1b1b;
-            border-radius:12px;
-            padding:10px;
-            flex:1;
-            min-height:0;
-            height:45%;
-            box-sizing:border-box;
-        }
-
-       .stats{
-            width:320px;
-            min-width:320px;
-            background:#1b1b1b;
-            border-radius:12px;
-            padding:15px;
-            overflow-y:auto;
-            box-sizing:border-box;
-        }
-
-       #buyOrders,
-       #sellOrders{
-            max-height:350px;
-            overflow-y:auto;
-        }
-
-        .stat{
-            margin-bottom:18px;
-            padding-bottom:10px;
-            border-bottom:1px solid #333;
-        }
-
-        .stat h3{
-            margin:0 0 8px 0;
-            color:cyan;
-        }
-
-        canvas{
-            width:100% !important;
-            height:100% !important;
-        }
-
-        input{
-            width:100%;
-            padding:10px;
-            border:none;
-            border-radius:8px;
-            background:#222;
-            color:white;
-            margin-bottom:10px;
-            box-sizing:border-box;
-        }
-
-        a{
-            display:block;
-            color:white;
-            text-decoration:none;
-            padding:6px;
-            border-radius:6px;
-        }
-
-        a:hover{
-            background:#222;
-            color:lime;
-        }
-
-        @media (max-width: 1000px){
-
-            body{
-                overflow:auto;
-            }
-
-            .container{
-                flex-direction:column;
-                height:auto;
-            }
-
-            .sidebar{
-                width:100%;
-                min-width:100%;
-                height:250px;
-                border-right:none;
-                border-bottom:1px solid #333;
-            }
-
-            .top{
-                flex-direction:column;
-            }
-
-            .stats{
-                width:100%;
-                min-width:100%;
-            }
-
-            .chartBox{
-                height:300px;
-            }
-        }
-
-    </style>
 </head>
 
 <body>
 
-<h1>📈 Bazaar Tracker</h1>
+    <h1>Mite Gel Price Graph</h1>
 
-<div class="container">
+    <canvas id="chart"></canvas>
 
-    <div class="sidebar">
+    <script>
 
-        <input
-            type="text"
-            id="search"
-            placeholder="Search item..."
-            onkeyup="filterItems()"
-        >
+        async function loadGraph() {
 
-        <div id="itemList">
+            const response = await fetch(
+                "/data/mite_gel.json"
+            )
 
-            {% for item in items %}
-                <a href="#"
-                   class="itemLink"
-                   onclick="loadGraph('{{ item }}')">
-                    {{ item }}
-                </a>
-            {% endfor %}
+            const json = await response.json()
 
-        </div>
+            const labels = []
+            const prices = []
 
-    </div>
+            json.forEach(entry => {
 
-    <div class="main">
+                labels.push(
+                    new Date(
+                        entry.time * 1000
+                    ).toLocaleTimeString()
+                )
 
-        <h2 id="title">Select Item</h2>
+                prices.push(
+                    entry.data.buyPrice || 0
+                )
+            })
 
-        <div class="top">
+            const ctx =
+                document.getElementById("chart")
 
-            <div class="graphs">
+            new Chart(ctx, {
 
-                <div class="chartBox">
-                    <canvas id="priceChart"></canvas>
-                </div>
+                type: "line",
 
-                <div class="chartBox">
-                    <canvas id="volumeChart"></canvas>
-                </div>
+                data: {
 
-            </div>
+                    labels: labels,
 
-           <div class="stats">
-
-    <div class="stat">
-
-        <h3>Top Buy Orders</h3>
-
-        <div id="buyOrders">
-            No data
-        </div>
-
-    </div>
-
-    <div class="stat">
-
-        <h3>Top Sell Orders</h3>
-
-        <div id="sellOrders">
-            No data
-        </div>
-
-    </div>
-
-</div>
-                    
-                <div class="stat">
-                    <h3>Buy Volume</h3>
-
-                    Initial:
-                    <span id="buyVolInitial">-</span>
-
-                    <br><br>
-
-                    Current:
-                    <span id="buyVolCurrent">-</span>
-                </div>
-
-                <div class="stat">
-                    <h3>Sell Volume</h3>
-
-                    Initial:
-                    <span id="sellVolInitial">-</span>
-
-                    <br><br>
-
-                    Current:
-                    <span id="sellVolCurrent">-</span>
-                </div>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</div>
-
-<script>
-
-let priceChart = null;
-let volumeChart = null;
-
-function filterItems(){
-
-    const input =
-        document.getElementById("search")
-        .value
-        .toLowerCase();
-
-    const items =
-        document.getElementsByClassName("itemLink");
-
-    for(let i=0;i<items.length;i++){
-
-        const text =
-            items[i].innerText.toLowerCase();
-
-        items[i].style.display =
-            text.includes(input)
-            ? "block"
-            : "none";
-    }
-}
-
-async function loadGraph(item){
-
-    document.getElementById("title")
-        .innerText = item;
-
-    const response =
-        await fetch("/api/" + item);
-
-    const data =
-        await response.json();
-
-    const labels = data.map(x =>
-        new Date(x.time * 1000)
-        .toLocaleTimeString()
-    );
-
-    const buyPrices =
-    data.map(x => Number(x.buy1_price));
-
-const sellPrices =
-    data.map(x => Number(x.sell1_price));
-
-const buyVolumes =
-    data.map(x => x.buy_volume);
-
-const sellVolumes =
-    data.map(x => x.sell_volume);
-
-    if(data.length > 0){
-
-    const latest = data[data.length - 1];
-
-    let buyHtml = "";
-    let sellHtml = "";
-
-    for(let i = 1; i <= 8; i++){
-
-        buyHtml += `
-            <div style="
-                margin-bottom:8px;
-                padding:6px;
-                background:#222;
-                border-radius:6px;
-            ">
-                #${i}
-                <br>
-                Price:
-                ${latest[`buy${i}_price`]}
-                <br>
-                Qty:
-                ${latest[`buy${i}_qty`]}
-            </div>
-        `;
-
-        sellHtml += `
-            <div style="
-                margin-bottom:8px;
-                padding:6px;
-                background:#222;
-                border-radius:6px;
-            ">
-                #${i}
-                <br>
-                Price:
-                ${latest[`sell${i}_price`]}
-                <br>
-                Qty:
-                ${latest[`sell${i}_qty`]}
-            </div>
-        `;
-    }
-
-    document.getElementById("buyOrders")
-        .innerHTML = buyHtml;
-
-    document.getElementById("sellOrders")
-        .innerHTML = sellHtml;
-}
-
-    if(priceChart){
-        priceChart.destroy();
-    }
-
-    if(volumeChart){
-        volumeChart.destroy();
-    }
-
-    priceChart = new Chart(
-
-        document.getElementById("priceChart"),
-
-        {
-            type:"line",
-
-            data:{
-                labels:labels,
-
-                datasets:[
-
-                    {
-                        label:"Buy Price",
-                        data:buyPrices,
-                        borderColor:"lime",
-                        tension:0.2
-                    },
-
-                    {
-                        label:"Sell Price",
-                        data:sellPrices,
-                        borderColor:"red",
-                        tension:0.2
-                    }
-
-                ]
-            },
-
-            options:{
-                responsive:true,
-                maintainAspectRatio:false
-            }
+                    datasets: [
+                        {
+                            label: "Buy Price",
+                            data: prices
+                        }
+                    ]
+                }
+            })
         }
-    );
 
-    volumeChart = new Chart(
+        loadGraph()
 
-        document.getElementById("volumeChart"),
-
-        {
-            type:"line",
-
-            data:{
-                labels:labels,
-
-                datasets:[
-
-                    {
-                        label:"Buy Volume",
-                        data:buyVolumes,
-                        borderColor:"lime",
-                        tension:0.2
-                    },
-
-                    {
-                        label:"Sell Volume",
-                        data:sellVolumes,
-                        borderColor:"red",
-                        tension:0.2
-                    }
-
-                ]
-            },
-
-            options:{
-                responsive:true,
-                maintainAspectRatio:false
-            }
-        }
-    );
-}
-
-</script>
+    </script>
 
 </body>
 </html>
