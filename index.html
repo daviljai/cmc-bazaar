@@ -101,9 +101,9 @@ async function loadItems(){
 
     const select = document.getElementById("itemSelect");
 
-    items.items.sort();
+    items.sort();
 
-    items.items.forEach(item => {
+    items.forEach(item => {
 
         const option = document.createElement("option");
 
@@ -118,7 +118,7 @@ async function loadItems(){
         loadChart(select.value);
     });
 
-    loadChart(items.items[0]);
+    loadChart(items[0]);
 
 }
 
@@ -146,7 +146,7 @@ async function loadChart(item){
     });
 
     const buyPrices = data.map(
-    x => x.data.buyTopEntries?.[0]?.price || 0
+        x => x.data.buyTopEntries?.[0]?.price || 0
     );
 
     const sellPrices = data.map(
