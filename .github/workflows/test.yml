@@ -17,7 +17,7 @@ jobs:
           python-version: "3.11"
 
       - name: Install requirements
-        run: pip install requests
+        run: pip install requests cloudscraper
 
       - name: Run scraper
         run: python real_scraper.py
