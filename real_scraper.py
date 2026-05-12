@@ -16,7 +16,7 @@ headers = {
 
 DATA_FOLDER = "data"
 
-MAX_ENTRIES = 3000
+MAX_ENTRIES = 3200
 
 os.makedirs(DATA_FOLDER, exist_ok=True)
 
