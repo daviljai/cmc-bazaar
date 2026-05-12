@@ -2,69 +2,205 @@
 <html>
 
 <head>
-
-    <title>Bazaar Graph</title>
+    <title>CMC Bazaar</title>
 
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
+    <style>
+
+        body{
+            background:#111;
+            color:white;
+            font-family:Arial;
+            margin:0;
+            padding:20px;
+        }
+
+        h1{
+            text-align:center;
+        }
+
+        select{
+            width:300px;
+            padding:10px;
+            font-size:16px;
+            margin-bottom:20px;
+        }
+
+        .top{
+            display:flex;
+            gap:20px;
+            align-items:center;
+            flex-wrap:wrap;
+        }
+
+        .stats{
+            background:#1e1e1e;
+            padding:15px;
+            border-radius:10px;
+            min-width:250px;
+        }
+
+        .chart-container{
+            height:80vh;
+            background:#1e1e1e;
+            padding:20px;
+            border-radius:10px;
+        }
+
+    </style>
 </head>
 
 <body>
 
-    <h1>Mite Gel Price Graph</h1>
+    <h1>CMC Bazaar Tracker</h1>
 
-    <canvas id="chart"></canvas>
+    <div class="top">
 
-    <script>
+        <select id="itemSelect"></select>
 
-        async function loadGraph() {
+        <div class="stats">
 
-            const response = await fetch(
-                "/data/mite_gel.json"
-            )
+            <div>
+                Initial Buy:
+                <span id="initialBuy">0</span>
+            </div>
 
-            const json = await response.json()
+            <div>
+                Current Buy:
+                <span id="currentBuy">0</span>
+            </div>
 
-            const labels = []
-            const prices = []
+            <div>
+                Initial Sell:
+                <span id="initialSell">0</span>
+            </div>
 
-            json.forEach(entry => {
+            <div>
+                Current Sell:
+                <span id="currentSell">0</span>
+            </div>
 
-                labels.push(
-                    new Date(
-                        entry.time * 1000
-                    ).toLocaleTimeString()
-                )
+        </div>
 
-                prices.push(
-                    entry.data.buyPrice || 0
-                )
-            })
+    </div>
 
-            const ctx =
-                document.getElementById("chart")
+    <div class="chart-container">
+        <canvas id="chart"></canvas>
+    </div>
 
-            new Chart(ctx, {
+<script>
 
-                type: "line",
+let chart;
 
-                data: {
+async function loadItems(){
 
-                    labels: labels,
+    const response = await fetch("data/all_items.json");
 
-                    datasets: [
-                        {
-                            label: "Buy Price",
-                            data: prices
-                        }
-                    ]
-                }
-            })
+    const items = await response.json();
+
+    const select = document.getElementById("itemSelect");
+
+    items.items.sort();
+
+    items.items.forEach(item => {
+
+        const option = document.createElement("option");
+
+        option.value = item;
+        option.textContent = item;
+
+        select.appendChild(option);
+
+    });
+
+    select.addEventListener("change", () => {
+        loadChart(select.value);
+    });
+
+    loadChart(items.items[0]);
+
+}
+
+async function loadChart(item){
+
+    const response = await fetch(`data/${item}.json`);
+
+    const raw = await response.json();
+
+    const data = raw.data || [];
+
+    if(data.length === 0){
+
+        alert("No data");
+
+        return;
+    }
+
+    const labels = data.map(x => {
+
+        const d = new Date(x.time * 1000);
+
+        return d.toLocaleTimeString();
+
+    });
+
+    const buyPrices = data.map(x => x.data.buyTopEntries[0].price);
+
+    const sellPrices = data.map(x => x.data.sellTopEntries[0].price);
+
+    document.getElementById("initialBuy").innerText =
+        buyPrices[0];
+
+    document.getElementById("currentBuy").innerText =
+        buyPrices[buyPrices.length - 1];
+
+    document.getElementById("initialSell").innerText =
+        sellPrices[0];
+
+    document.getElementById("currentSell").innerText =
+        sellPrices[sellPrices.length - 1];
+
+    if(chart){
+        chart.destroy();
+    }
+
+    chart = new Chart(
+
+        document.getElementById("chart"),
+
+        {
+            type:"line",
+
+            data:{
+                labels:labels,
+
+                datasets:[
+                    {
+                        label:"Buy Price",
+                        data:buyPrices,
+                        borderColor:"lime"
+                    },
+
+                    {
+                        label:"Sell Price",
+                        data:sellPrices,
+                        borderColor:"red"
+                    }
+                ]
+            },
+
+            options:{
+                responsive:true,
+                maintainAspectRatio:false
+            }
         }
+    );
+}
 
-        loadGraph()
+loadItems();
 
-    </script>
+</script>
 
 </body>
 </html>
