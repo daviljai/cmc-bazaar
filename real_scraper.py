@@ -13,29 +13,64 @@ headers = {
 
 scraper = cloudscraper.create_scraper()
 
-url = f"{BASE_URL}/resources/skyblock/bazaar/items"
+# CREATE DATA FOLDER
+os.makedirs("data", exist_ok=True)
+
+# GET ITEM LIST
+items_url = f"{BASE_URL}/resources/skyblock/bazaar/items"
 
 response = scraper.get(
-    url,
+    items_url,
     headers=headers
 )
 
-print("STATUS:", response.status_code)
-print(response.text[:500])
+print("ITEM STATUS:", response.status_code)
 
 data = response.json()
 
 items = data.get("items", [])
 
-output = {
-    "time": int(time.time()),
-    "total_items": len(items),
-    "items": items[:50]
-}
+print("TOTAL ITEMS:", len(items))
 
-os.makedirs("data", exist_ok=True)
+# SAVE ITEM LIST
+with open("data/all_items.json", "w") as f:
+    json.dump(items, f, indent=4)
 
-with open("data/bazaar.json", "w") as f:
-    json.dump(output, f, indent=4)
+# FETCH EACH ITEM
+for item in items:
 
-print("Saved bazaar.json")
+    try:
+
+        print("Fetching:", item)
+
+        item_url = f"{BASE_URL}/skyblock/bazaar/{item}/details"
+
+        response = scraper.get(
+            item_url,
+            headers=headers
+        )
+
+        print("STATUS:", response.status_code)
+
+        item_data = response.json()
+
+        output = {
+            "time": int(time.time()),
+            "item": item,
+            "data": item_data
+        }
+
+        file_path = f"data/{item}.json"
+
+        with open(file_path, "w") as f:
+            json.dump(output, f, indent=4)
+
+        print("Saved:", file_path)
+
+        time.sleep(1)
+
+    except Exception as e:
+
+        print("ERROR:", item, e)
+
+print("DONE")
