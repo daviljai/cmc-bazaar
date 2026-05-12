@@ -1,0 +1,9 @@
+{
+    "time": 1778599173,
+    "item": "turbo_beetroot_1",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 37,
+        "error": "rate_limit_exceeded"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "time": 1778599181,
+    "item": "turbo_sugar_cane_2",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 29,
+        "error": "rate_limit_exceeded"
+    }
+}

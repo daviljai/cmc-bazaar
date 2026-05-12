@@ -1,0 +1,9 @@
+{
+    "time": 1778599135,
+    "item": "enchanted_ice",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 75,
+        "error": "rate_limit_exceeded"
+    }
+}

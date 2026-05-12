@@ -1,0 +1,9 @@
+{
+    "time": 1778599073,
+    "item": "enchanted_melon_block",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 137,
+        "error": "rate_limit_exceeded"
+    }
+}

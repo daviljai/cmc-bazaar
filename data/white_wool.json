@@ -1,0 +1,9 @@
+{
+    "time": 1778598965,
+    "item": "white_wool",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 245,
+        "error": "rate_limit_exceeded"
+    }
+}

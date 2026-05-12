@@ -1,0 +1,9 @@
+{
+    "time": 1778599055,
+    "item": "enchanted_slime_block",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 155,
+        "error": "rate_limit_exceeded"
+    }
+}

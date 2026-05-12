@@ -1,0 +1,9 @@
+{
+    "time": 1778598990,
+    "item": "enchanted_birch_log",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 220,
+        "error": "rate_limit_exceeded"
+    }
+}

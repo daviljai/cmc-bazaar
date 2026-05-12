@@ -1,0 +1,9 @@
+{
+    "time": 1778599052,
+    "item": "enchanted_raw_beef",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 159,
+        "error": "rate_limit_exceeded"
+    }
+}

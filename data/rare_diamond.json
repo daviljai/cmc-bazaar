@@ -1,0 +1,9 @@
+{
+    "time": 1778598979,
+    "item": "rare_diamond",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 231,
+        "error": "rate_limit_exceeded"
+    }
+}

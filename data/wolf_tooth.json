@@ -1,0 +1,9 @@
+{
+    "time": 1778598992,
+    "item": "wolf_tooth",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 218,
+        "error": "rate_limit_exceeded"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "time": 1778599060,
+    "item": "obsidian_tablet",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 151,
+        "error": "rate_limit_exceeded"
+    }
+}

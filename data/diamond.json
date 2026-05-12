@@ -1,0 +1,9 @@
+{
+    "time": 1778599136,
+    "item": "diamond",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 74,
+        "error": "rate_limit_exceeded"
+    }
+}

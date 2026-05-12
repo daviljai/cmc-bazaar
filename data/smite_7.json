@@ -1,0 +1,50 @@
+{
+    "time": 1778599215,
+    "item": "smite_7",
+    "data": {
+        "success": true,
+        "itemId": "smite_7",
+        "buyTopEntries": [
+            {
+                "price": 12000000.799999997,
+                "quantity": 2,
+                "orderCount": 1
+            },
+            {
+                "price": 9000000.599999998,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 9000000.499999998,
+                "quantity": 2,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 15499999.700000001,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 17999998.199999988,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 17999998.499999993,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 17999998.9,
+                "quantity": 2,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 5,
+        "sellVolume": 5,
+        "weeklyAveragePrice": 16379999.445333332
+    }
+}

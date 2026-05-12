@@ -1,0 +1,9 @@
+{
+    "time": 1778599021,
+    "item": "exp_share_core",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 189,
+        "error": "rate_limit_exceeded"
+    }
+}

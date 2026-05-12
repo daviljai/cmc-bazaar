@@ -1,0 +1,9 @@
+{
+    "time": 1778599046,
+    "item": "enchanted_brown_mushroom_block",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 164,
+        "error": "rate_limit_exceeded"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "time": 1778599004,
+    "item": "packed_ice",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 206,
+        "error": "rate_limit_exceeded"
+    }
+}

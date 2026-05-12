@@ -1,0 +1,9 @@
+{
+    "time": 1778599099,
+    "item": "furball",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 111,
+        "error": "rate_limit_exceeded"
+    }
+}

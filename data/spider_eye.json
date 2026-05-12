@@ -1,0 +1,9 @@
+{
+    "time": 1778599162,
+    "item": "spider_eye",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 48,
+        "error": "rate_limit_exceeded"
+    }
+}

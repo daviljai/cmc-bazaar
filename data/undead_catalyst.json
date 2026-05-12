@@ -1,0 +1,9 @@
+{
+    "time": 1778599068,
+    "item": "undead_catalyst",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 143,
+        "error": "rate_limit_exceeded"
+    }
+}

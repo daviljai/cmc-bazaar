@@ -1,0 +1,9 @@
+{
+    "time": 1778599016,
+    "item": "turbo_wheat_2",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 194,
+        "error": "rate_limit_exceeded"
+    }
+}

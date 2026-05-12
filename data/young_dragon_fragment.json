@@ -1,0 +1,9 @@
+{
+    "time": 1778599101,
+    "item": "young_dragon_fragment",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 110,
+        "error": "rate_limit_exceeded"
+    }
+}

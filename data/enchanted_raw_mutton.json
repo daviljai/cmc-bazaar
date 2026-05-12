@@ -1,0 +1,9 @@
+{
+    "time": 1778599080,
+    "item": "enchanted_raw_mutton",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 130,
+        "error": "rate_limit_exceeded"
+    }
+}

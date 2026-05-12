@@ -1,0 +1,90 @@
+{
+    "time": 1778598937,
+    "item": "enchanted_cocoa_beans",
+    "data": {
+        "success": true,
+        "itemId": "enchanted_cocoa_beans",
+        "buyTopEntries": [
+            {
+                "price": 131.19999999999993,
+                "quantity": 2000,
+                "orderCount": 1
+            },
+            {
+                "price": 131.09999999999994,
+                "quantity": 2997,
+                "orderCount": 1
+            },
+            {
+                "price": 130.89999999999995,
+                "quantity": 640,
+                "orderCount": 1
+            },
+            {
+                "price": 130.79999999999995,
+                "quantity": 8000,
+                "orderCount": 1
+            },
+            {
+                "price": 130.69999999999996,
+                "quantity": 12439,
+                "orderCount": 1
+            },
+            {
+                "price": 102.79999999999995,
+                "quantity": 42,
+                "orderCount": 1
+            },
+            {
+                "price": 102.29999999999998,
+                "quantity": 2861,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 449.79999999999995,
+                "quantity": 907,
+                "orderCount": 1
+            },
+            {
+                "price": 449.9,
+                "quantity": 52,
+                "orderCount": 1
+            },
+            {
+                "price": 450.0,
+                "quantity": 536,
+                "orderCount": 2
+            },
+            {
+                "price": 497.3999999999994,
+                "quantity": 56,
+                "orderCount": 1
+            },
+            {
+                "price": 497.59999999999945,
+                "quantity": 50,
+                "orderCount": 1
+            },
+            {
+                "price": 497.99999999999955,
+                "quantity": 1125,
+                "orderCount": 1
+            },
+            {
+                "price": 498.6999999999997,
+                "quantity": 1121,
+                "orderCount": 1
+            },
+            {
+                "price": 498.7999999999997,
+                "quantity": 784,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 28979,
+        "sellVolume": 31608,
+        "weeklyAveragePrice": 302.9655039999998
+    }
+}

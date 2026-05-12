@@ -1,0 +1,9 @@
+{
+    "time": 1778599208,
+    "item": "delicate_5",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 2,
+        "error": "rate_limit_exceeded"
+    }
+}

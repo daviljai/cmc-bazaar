@@ -1,0 +1,9 @@
+{
+    "time": 1778599196,
+    "item": "enchanted_string",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 14,
+        "error": "rate_limit_exceeded"
+    }
+}

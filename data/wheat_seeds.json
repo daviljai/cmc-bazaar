@@ -1,0 +1,9 @@
+{
+    "time": 1778599171,
+    "item": "wheat_seeds",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 39,
+        "error": "rate_limit_exceeded"
+    }
+}

@@ -1,0 +1,70 @@
+{
+    "time": 1778598918,
+    "item": "dark_oak_log",
+    "data": {
+        "success": true,
+        "itemId": "dark_oak_log",
+        "buyTopEntries": [
+            {
+                "price": 1.0,
+                "quantity": 5624,
+                "orderCount": 1
+            },
+            {
+                "price": 0.7,
+                "quantity": 6462,
+                "orderCount": 1
+            },
+            {
+                "price": 0.1,
+                "quantity": 11361,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 12.9,
+                "quantity": 252,
+                "orderCount": 1
+            },
+            {
+                "price": 13.0,
+                "quantity": 216,
+                "orderCount": 1
+            },
+            {
+                "price": 297.79999999999984,
+                "quantity": 66,
+                "orderCount": 1
+            },
+            {
+                "price": 297.9999999999999,
+                "quantity": 1678,
+                "orderCount": 1
+            },
+            {
+                "price": 298.19999999999993,
+                "quantity": 384,
+                "orderCount": 1
+            },
+            {
+                "price": 298.5,
+                "quantity": 375,
+                "orderCount": 1
+            },
+            {
+                "price": 298.6,
+                "quantity": 11462,
+                "orderCount": 1
+            },
+            {
+                "price": 299.29999999999984,
+                "quantity": 144,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 23447,
+        "sellVolume": 14577,
+        "weeklyAveragePrice": 5.354778625954199
+    }
+}

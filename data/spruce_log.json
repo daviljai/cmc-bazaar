@@ -1,0 +1,9 @@
+{
+    "time": 1778599083,
+    "item": "spruce_log",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 127,
+        "error": "rate_limit_exceeded"
+    }
+}

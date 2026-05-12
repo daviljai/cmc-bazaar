@@ -1,0 +1,80 @@
+{
+    "time": 1778598925,
+    "item": "enchanted_sugar_cane",
+    "data": {
+        "success": true,
+        "itemId": "enchanted_sugar_cane",
+        "buyTopEntries": [
+            {
+                "price": 40005.0,
+                "quantity": 38,
+                "orderCount": 1
+            },
+            {
+                "price": 40002.29999999997,
+                "quantity": 144,
+                "orderCount": 1
+            },
+            {
+                "price": 40002.19999999997,
+                "quantity": 24,
+                "orderCount": 1
+            },
+            {
+                "price": 40001.39999999998,
+                "quantity": 30,
+                "orderCount": 1
+            },
+            {
+                "price": 20000.999999999985,
+                "quantity": 95,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 59988.400000000016,
+                "quantity": 93,
+                "orderCount": 1
+            },
+            {
+                "price": 59988.500000000015,
+                "quantity": 46,
+                "orderCount": 2
+            },
+            {
+                "price": 59988.60000000001,
+                "quantity": 6,
+                "orderCount": 1
+            },
+            {
+                "price": 59988.70000000001,
+                "quantity": 133,
+                "orderCount": 1
+            },
+            {
+                "price": 59989.200000000004,
+                "quantity": 6,
+                "orderCount": 1
+            },
+            {
+                "price": 59994.700000000004,
+                "quantity": 111,
+                "orderCount": 1
+            },
+            {
+                "price": 59994.9,
+                "quantity": 116,
+                "orderCount": 1
+            },
+            {
+                "price": 59999.000000000015,
+                "quantity": 154,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 331,
+        "sellVolume": 815,
+        "weeklyAveragePrice": 52281.21346666667
+    }
+}

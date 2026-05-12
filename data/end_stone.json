@@ -1,0 +1,9 @@
+{
+    "time": 1778599045,
+    "item": "end_stone",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 165,
+        "error": "rate_limit_exceeded"
+    }
+}

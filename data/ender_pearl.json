@@ -1,0 +1,9 @@
+{
+    "time": 1778599094,
+    "item": "ender_pearl",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 116,
+        "error": "rate_limit_exceeded"
+    }
+}

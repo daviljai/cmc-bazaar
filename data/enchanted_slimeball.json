@@ -1,0 +1,9 @@
+{
+    "time": 1778599159,
+    "item": "enchanted_slimeball",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 51,
+        "error": "rate_limit_exceeded"
+    }
+}

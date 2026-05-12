@@ -1,0 +1,9 @@
+{
+    "time": 1778599049,
+    "item": "auto_smelter",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 161,
+        "error": "rate_limit_exceeded"
+    }
+}

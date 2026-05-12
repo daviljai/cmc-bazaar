@@ -1,0 +1,9 @@
+{
+    "time": 1778598985,
+    "item": "rabbit_hide",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 225,
+        "error": "rate_limit_exceeded"
+    }
+}

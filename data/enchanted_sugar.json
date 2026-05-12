@@ -1,0 +1,95 @@
+{
+    "time": 1778598912,
+    "item": "enchanted_sugar",
+    "data": {
+        "success": true,
+        "itemId": "enchanted_sugar",
+        "buyTopEntries": [
+            {
+                "price": 281.2000000000003,
+                "quantity": 2997,
+                "orderCount": 1
+            },
+            {
+                "price": 281.10000000000025,
+                "quantity": 640,
+                "orderCount": 1
+            },
+            {
+                "price": 281.0000000000002,
+                "quantity": 38,
+                "orderCount": 1
+            },
+            {
+                "price": 280.9000000000002,
+                "quantity": 64,
+                "orderCount": 1
+            },
+            {
+                "price": 262.2000000000005,
+                "quantity": 907,
+                "orderCount": 1
+            },
+            {
+                "price": 260.20000000000005,
+                "quantity": 943,
+                "orderCount": 1
+            },
+            {
+                "price": 210.79999999999995,
+                "quantity": 1265,
+                "orderCount": 1
+            },
+            {
+                "price": 210.69999999999996,
+                "quantity": 110,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 498.1999999999996,
+                "quantity": 3274,
+                "orderCount": 2
+            },
+            {
+                "price": 498.2999999999996,
+                "quantity": 102,
+                "orderCount": 1
+            },
+            {
+                "price": 498.39999999999964,
+                "quantity": 8,
+                "orderCount": 1
+            },
+            {
+                "price": 498.49999999999966,
+                "quantity": 1352,
+                "orderCount": 1
+            },
+            {
+                "price": 498.6999999999997,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 498.89999999999975,
+                "quantity": 1507,
+                "orderCount": 1
+            },
+            {
+                "price": 498.9999999999998,
+                "quantity": 315,
+                "orderCount": 2
+            },
+            {
+                "price": 499.39999999999986,
+                "quantity": 2292,
+                "orderCount": 3
+            }
+        ],
+        "buyVolume": 11597,
+        "sellVolume": 9836,
+        "weeklyAveragePrice": 416.0587574468084
+    }
+}

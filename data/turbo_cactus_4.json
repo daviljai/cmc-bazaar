@@ -1,0 +1,9 @@
+{
+    "time": 1778599203,
+    "item": "turbo_cactus_4",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 7,
+        "error": "rate_limit_exceeded"
+    }
+}

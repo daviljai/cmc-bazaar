@@ -1,0 +1,9 @@
+{
+    "time": 1778599168,
+    "item": "ice",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 42,
+        "error": "rate_limit_exceeded"
+    }
+}

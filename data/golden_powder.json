@@ -1,0 +1,85 @@
+{
+    "time": 1778598948,
+    "item": "golden_powder",
+    "data": {
+        "success": true,
+        "itemId": "golden_powder",
+        "buyTopEntries": [
+            {
+                "price": 1020.1,
+                "quantity": 47,
+                "orderCount": 1
+            },
+            {
+                "price": 1020.0,
+                "quantity": 17,
+                "orderCount": 1
+            },
+            {
+                "price": 1000.8000000000002,
+                "quantity": 23,
+                "orderCount": 1
+            },
+            {
+                "price": 1000.7000000000002,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 1000.1,
+                "quantity": 98,
+                "orderCount": 1
+            },
+            {
+                "price": 10.1,
+                "quantity": 996,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 8698.999999999996,
+                "quantity": 2,
+                "orderCount": 1
+            },
+            {
+                "price": 8699.099999999997,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 8699.299999999997,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 8699.399999999998,
+                "quantity": 2,
+                "orderCount": 1
+            },
+            {
+                "price": 8699.499999999998,
+                "quantity": 2,
+                "orderCount": 1
+            },
+            {
+                "price": 8700.0,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 8799.699999999999,
+                "quantity": 8,
+                "orderCount": 1
+            },
+            {
+                "price": 8800.0,
+                "quantity": 1,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 1182,
+        "sellVolume": 236,
+        "weeklyAveragePrice": 5635.300099999997
+    }
+}

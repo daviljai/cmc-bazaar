@@ -1,0 +1,9 @@
+{
+    "time": 1778599160,
+    "item": "end_stone_shulker",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 50,
+        "error": "rate_limit_exceeded"
+    }
+}

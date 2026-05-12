@@ -1,0 +1,9 @@
+{
+    "time": 1778599053,
+    "item": "protector_dragon_fragment",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 157,
+        "error": "rate_limit_exceeded"
+    }
+}

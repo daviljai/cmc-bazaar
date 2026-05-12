@@ -1,0 +1,9 @@
+{
+    "time": 1778598976,
+    "item": "rabbit_foot",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 234,
+        "error": "rate_limit_exceeded"
+    }
+}

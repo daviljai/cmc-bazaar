@@ -1,0 +1,9 @@
+{
+    "time": 1778599104,
+    "item": "feather",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 106,
+        "error": "rate_limit_exceeded"
+    }
+}

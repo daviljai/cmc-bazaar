@@ -1,0 +1,9 @@
+{
+    "time": 1778598996,
+    "item": "cropie",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 214,
+        "error": "rate_limit_exceeded"
+    }
+}

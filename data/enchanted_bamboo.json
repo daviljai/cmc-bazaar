@@ -1,0 +1,9 @@
+{
+    "time": 1778599118,
+    "item": "enchanted_bamboo",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 92,
+        "error": "rate_limit_exceeded"
+    }
+}

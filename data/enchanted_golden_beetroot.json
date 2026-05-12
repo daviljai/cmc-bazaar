@@ -1,0 +1,70 @@
+{
+    "time": 1778598942,
+    "item": "enchanted_golden_beetroot",
+    "data": {
+        "success": true,
+        "itemId": "enchanted_golden_beetroot",
+        "buyTopEntries": [
+            {
+                "price": 34001.39999999998,
+                "quantity": 240,
+                "orderCount": 1
+            },
+            {
+                "price": 34001.29999999998,
+                "quantity": 34,
+                "orderCount": 1
+            },
+            {
+                "price": 34000.59999999999,
+                "quantity": 86,
+                "orderCount": 1
+            },
+            {
+                "price": 34000.1,
+                "quantity": 180,
+                "orderCount": 1
+            },
+            {
+                "price": 32009.799999999857,
+                "quantity": 191,
+                "orderCount": 1
+            },
+            {
+                "price": 31000.499999999993,
+                "quantity": 12,
+                "orderCount": 1
+            },
+            {
+                "price": 20005.199999999997,
+                "quantity": 76,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 42000.0,
+                "quantity": 2,
+                "orderCount": 1
+            },
+            {
+                "price": 49999.40000000001,
+                "quantity": 31,
+                "orderCount": 1
+            },
+            {
+                "price": 49999.50000000001,
+                "quantity": 5,
+                "orderCount": 1
+            },
+            {
+                "price": 64999.0,
+                "quantity": 3,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 819,
+        "sellVolume": 41,
+        "weeklyAveragePrice": 40822.34861904762
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "time": 1778599001,
+    "item": "revenant_flesh",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 209,
+        "error": "rate_limit_exceeded"
+    }
+}

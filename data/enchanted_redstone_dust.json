@@ -1,0 +1,9 @@
+{
+    "time": 1778599143,
+    "item": "enchanted_redstone_dust",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 67,
+        "error": "rate_limit_exceeded"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "time": 1778598971,
+    "item": "ender_monocle",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 239,
+        "error": "rate_limit_exceeded"
+    }
+}

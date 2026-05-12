@@ -1,0 +1,9 @@
+{
+    "time": 1778598977,
+    "item": "enchanted_diamond",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 233,
+        "error": "rate_limit_exceeded"
+    }
+}

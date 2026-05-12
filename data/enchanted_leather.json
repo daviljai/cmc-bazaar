@@ -1,0 +1,95 @@
+{
+    "time": 1778598924,
+    "item": "enchanted_leather",
+    "data": {
+        "success": true,
+        "itemId": "enchanted_leather",
+        "buyTopEntries": [
+            {
+                "price": 2010.7999999999993,
+                "quantity": 840,
+                "orderCount": 1
+            },
+            {
+                "price": 1810.1999999999998,
+                "quantity": 140,
+                "orderCount": 1
+            },
+            {
+                "price": 1800.6999999999994,
+                "quantity": 124,
+                "orderCount": 1
+            },
+            {
+                "price": 1335.5,
+                "quantity": 1024,
+                "orderCount": 1
+            },
+            {
+                "price": 1325.1,
+                "quantity": 1024,
+                "orderCount": 1
+            },
+            {
+                "price": 1302.8999999999974,
+                "quantity": 2,
+                "orderCount": 1
+            },
+            {
+                "price": 1300.2999999999997,
+                "quantity": 64,
+                "orderCount": 1
+            },
+            {
+                "price": 1300.1,
+                "quantity": 24,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 4979.199999999997,
+                "quantity": 44,
+                "orderCount": 1
+            },
+            {
+                "price": 4979.299999999997,
+                "quantity": 175,
+                "orderCount": 1
+            },
+            {
+                "price": 4979.399999999998,
+                "quantity": 74,
+                "orderCount": 1
+            },
+            {
+                "price": 4979.499999999998,
+                "quantity": 230,
+                "orderCount": 1
+            },
+            {
+                "price": 4979.5999999999985,
+                "quantity": 491,
+                "orderCount": 1
+            },
+            {
+                "price": 4979.799999999999,
+                "quantity": 61,
+                "orderCount": 1
+            },
+            {
+                "price": 4988.799999999999,
+                "quantity": 10,
+                "orderCount": 1
+            },
+            {
+                "price": 4989.0,
+                "quantity": 4175,
+                "orderCount": 2
+            }
+        ],
+        "buyVolume": 4836,
+        "sellVolume": 15990,
+        "weeklyAveragePrice": 4007.736611764705
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "time": 1778599041,
+    "item": "dragon_horn",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 169,
+        "error": "rate_limit_exceeded"
+    }
+}

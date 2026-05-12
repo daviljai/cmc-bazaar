@@ -1,0 +1,9 @@
+{
+    "time": 1778599211,
+    "item": "critical_6",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 1,
+        "error": "rate_limit_exceeded"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "time": 1778599209,
+    "item": "turbo_pumpkin_5",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 1,
+        "error": "rate_limit_exceeded"
+    }
+}

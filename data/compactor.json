@@ -1,0 +1,9 @@
+{
+    "time": 1778598964,
+    "item": "compactor",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 246,
+        "error": "rate_limit_exceeded"
+    }
+}

@@ -1,0 +1,95 @@
+{
+    "time": 1778598934,
+    "item": "enchanted_magma_cream",
+    "data": {
+        "success": true,
+        "itemId": "enchanted_magma_cream",
+        "buyTopEntries": [
+            {
+                "price": 608.8000000000002,
+                "quantity": 4594,
+                "orderCount": 1
+            },
+            {
+                "price": 608.7000000000002,
+                "quantity": 315,
+                "orderCount": 1
+            },
+            {
+                "price": 608.4000000000001,
+                "quantity": 4335,
+                "orderCount": 1
+            },
+            {
+                "price": 608.1,
+                "quantity": 10810,
+                "orderCount": 1
+            },
+            {
+                "price": 608.0,
+                "quantity": 25600,
+                "orderCount": 2
+            },
+            {
+                "price": 601.4000000000003,
+                "quantity": 784,
+                "orderCount": 1
+            },
+            {
+                "price": 596.8000000000004,
+                "quantity": 12800,
+                "orderCount": 1
+            },
+            {
+                "price": 595.1,
+                "quantity": 6083,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 636.4999999999992,
+                "quantity": 708,
+                "orderCount": 1
+            },
+            {
+                "price": 636.5999999999992,
+                "quantity": 13,
+                "orderCount": 1
+            },
+            {
+                "price": 636.6999999999992,
+                "quantity": 1241,
+                "orderCount": 1
+            },
+            {
+                "price": 636.7999999999993,
+                "quantity": 1536,
+                "orderCount": 1
+            },
+            {
+                "price": 636.8999999999993,
+                "quantity": 1533,
+                "orderCount": 1
+            },
+            {
+                "price": 636.9999999999993,
+                "quantity": 1231,
+                "orderCount": 1
+            },
+            {
+                "price": 637.0999999999993,
+                "quantity": 892,
+                "orderCount": 1
+            },
+            {
+                "price": 637.1999999999994,
+                "quantity": 1,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 70889,
+        "sellVolume": 85383,
+        "weeklyAveragePrice": 626.2372584269663
+    }
+}

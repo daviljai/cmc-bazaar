@@ -1,0 +1,9 @@
+{
+    "time": 1778599091,
+    "item": "string",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 119,
+        "error": "rate_limit_exceeded"
+    }
+}

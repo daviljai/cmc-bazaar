@@ -1,0 +1,9 @@
+{
+    "time": 1778599117,
+    "item": "gunpowder",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 94,
+        "error": "rate_limit_exceeded"
+    }
+}

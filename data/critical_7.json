@@ -1,0 +1,45 @@
+{
+    "time": 1778599214,
+    "item": "critical_7",
+    "data": {
+        "success": true,
+        "itemId": "critical_7",
+        "buyTopEntries": [
+            {
+                "price": 25000000.0,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 21000000.1,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 20000001.500000022,
+                "quantity": 2,
+                "orderCount": 1
+            },
+            {
+                "price": 20000000.0,
+                "quantity": 1,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 43700000.0,
+                "quantity": 10,
+                "orderCount": 1
+            },
+            {
+                "price": 50000000.0,
+                "quantity": 1,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 5,
+        "sellVolume": 11,
+        "weeklyAveragePrice": 38351999.896
+    }
+}

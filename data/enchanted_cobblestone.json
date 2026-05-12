@@ -1,0 +1,9 @@
+{
+    "time": 1778599066,
+    "item": "enchanted_cobblestone",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 144,
+        "error": "rate_limit_exceeded"
+    }
+}

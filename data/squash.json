@@ -1,0 +1,9 @@
+{
+    "time": 1778599037,
+    "item": "squash",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 173,
+        "error": "rate_limit_exceeded"
+    }
+}

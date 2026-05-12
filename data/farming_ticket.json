@@ -1,0 +1,9 @@
+{
+    "time": 1778598975,
+    "item": "farming_ticket",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 235,
+        "error": "rate_limit_exceeded"
+    }
+}

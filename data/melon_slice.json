@@ -1,0 +1,9 @@
+{
+    "time": 1778598974,
+    "item": "melon_slice",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 236,
+        "error": "rate_limit_exceeded"
+    }
+}

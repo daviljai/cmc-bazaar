@@ -1,0 +1,9 @@
+{
+    "time": 1778599153,
+    "item": "enchanted_jungle_log",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 57,
+        "error": "rate_limit_exceeded"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "time": 1778599093,
+    "item": "slime_ball",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 117,
+        "error": "rate_limit_exceeded"
+    }
+}

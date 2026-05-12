@@ -1,0 +1,60 @@
+{
+    "time": 1778598962,
+    "item": "fused_remnants",
+    "data": {
+        "success": true,
+        "itemId": "fused_remnants",
+        "buyTopEntries": [
+            {
+                "price": 3000003.7000000034,
+                "quantity": 4,
+                "orderCount": 1
+            },
+            {
+                "price": 3000003.6000000034,
+                "quantity": 3,
+                "orderCount": 1
+            },
+            {
+                "price": 3000003.5000000033,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 3000003.300000003,
+                "quantity": 5,
+                "orderCount": 1
+            },
+            {
+                "price": 3000003.200000003,
+                "quantity": 10,
+                "orderCount": 1
+            },
+            {
+                "price": 3000003.000000003,
+                "quantity": 2,
+                "orderCount": 1
+            },
+            {
+                "price": 3000002.7000000025,
+                "quantity": 4,
+                "orderCount": 1
+            },
+            {
+                "price": 1000001.0,
+                "quantity": 20,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 6999999.9,
+                "quantity": 1,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 13019,
+        "sellVolume": 1,
+        "weeklyAveragePrice": 5646315.862526316
+    }
+}

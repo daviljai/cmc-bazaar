@@ -1,0 +1,9 @@
+{
+    "time": 1778599003,
+    "item": "enchanted_emerald_block",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 207,
+        "error": "rate_limit_exceeded"
+    }
+}

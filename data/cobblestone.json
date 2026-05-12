@@ -1,0 +1,70 @@
+{
+    "time": 1778598941,
+    "item": "cobblestone",
+    "data": {
+        "success": true,
+        "itemId": "cobblestone",
+        "buyTopEntries": [
+            {
+                "price": 2.2,
+                "quantity": 1550,
+                "orderCount": 1
+            },
+            {
+                "price": 2.0,
+                "quantity": 5569,
+                "orderCount": 1
+            },
+            {
+                "price": 1.9000000000000008,
+                "quantity": 10262,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 32.0,
+                "quantity": 1096,
+                "orderCount": 1
+            },
+            {
+                "price": 38.0,
+                "quantity": 469,
+                "orderCount": 1
+            },
+            {
+                "price": 41.8,
+                "quantity": 760,
+                "orderCount": 1
+            },
+            {
+                "price": 44.9,
+                "quantity": 544,
+                "orderCount": 1
+            },
+            {
+                "price": 45.0,
+                "quantity": 32,
+                "orderCount": 1
+            },
+            {
+                "price": 50.0,
+                "quantity": 1594,
+                "orderCount": 1
+            },
+            {
+                "price": 84.70000000000002,
+                "quantity": 127,
+                "orderCount": 1
+            },
+            {
+                "price": 84.80000000000001,
+                "quantity": 640,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 17381,
+        "sellVolume": 16889,
+        "weeklyAveragePrice": 25.722275229357795
+    }
+}

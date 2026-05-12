@@ -1,0 +1,9 @@
+{
+    "time": 1778599112,
+    "item": "enchanted_raw_rabbit",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 98,
+        "error": "rate_limit_exceeded"
+    }
+}

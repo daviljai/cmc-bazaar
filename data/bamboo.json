@@ -1,0 +1,65 @@
+{
+    "time": 1778598929,
+    "item": "bamboo",
+    "data": {
+        "success": true,
+        "itemId": "bamboo",
+        "buyTopEntries": [
+            {
+                "price": 0.2,
+                "quantity": 12584,
+                "orderCount": 1
+            },
+            {
+                "price": 0.1,
+                "quantity": 9439,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 20.0,
+                "quantity": 204,
+                "orderCount": 1
+            },
+            {
+                "price": 23.799999999999997,
+                "quantity": 58,
+                "orderCount": 1
+            },
+            {
+                "price": 23.9,
+                "quantity": 194,
+                "orderCount": 1
+            },
+            {
+                "price": 24.0,
+                "quantity": 18431,
+                "orderCount": 9
+            },
+            {
+                "price": 30.0,
+                "quantity": 119,
+                "orderCount": 1
+            },
+            {
+                "price": 32.899999999999984,
+                "quantity": 2225,
+                "orderCount": 1
+            },
+            {
+                "price": 35.0,
+                "quantity": 5296,
+                "orderCount": 4
+            },
+            {
+                "price": 67.9,
+                "quantity": 7,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 22023,
+        "sellVolume": 66643,
+        "weeklyAveragePrice": 18.968695652173913
+    }
+}

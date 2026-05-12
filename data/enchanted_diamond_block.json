@@ -1,0 +1,9 @@
+{
+    "time": 1778599089,
+    "item": "enchanted_diamond_block",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 121,
+        "error": "rate_limit_exceeded"
+    }
+}

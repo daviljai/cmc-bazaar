@@ -1,0 +1,9 @@
+{
+    "time": 1778598999,
+    "item": "enchanted_hopper",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 211,
+        "error": "rate_limit_exceeded"
+    }
+}

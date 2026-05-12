@@ -1,0 +1,9 @@
+{
+    "time": 1778599126,
+    "item": "raw_duck",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 84,
+        "error": "rate_limit_exceeded"
+    }
+}

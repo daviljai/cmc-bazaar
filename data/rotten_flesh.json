@@ -1,0 +1,9 @@
+{
+    "time": 1778599075,
+    "item": "rotten_flesh",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 135,
+        "error": "rate_limit_exceeded"
+    }
+}

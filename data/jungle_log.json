@@ -1,0 +1,9 @@
+{
+    "time": 1778599087,
+    "item": "jungle_log",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 123,
+        "error": "rate_limit_exceeded"
+    }
+}

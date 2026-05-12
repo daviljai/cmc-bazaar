@@ -1,0 +1,9 @@
+{
+    "time": 1778599017,
+    "item": "turbo_mushroom_2",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 193,
+        "error": "rate_limit_exceeded"
+    }
+}

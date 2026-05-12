@@ -1,0 +1,9 @@
+{
+    "time": 1778599183,
+    "item": "enchanted_charcoal",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 27,
+        "error": "rate_limit_exceeded"
+    }
+}

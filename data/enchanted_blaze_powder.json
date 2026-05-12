@@ -1,0 +1,9 @@
+{
+    "time": 1778599078,
+    "item": "enchanted_blaze_powder",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 132,
+        "error": "rate_limit_exceeded"
+    }
+}

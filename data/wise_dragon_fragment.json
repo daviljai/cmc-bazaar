@@ -1,0 +1,9 @@
+{
+    "time": 1778599071,
+    "item": "wise_dragon_fragment",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 139,
+        "error": "rate_limit_exceeded"
+    }
+}

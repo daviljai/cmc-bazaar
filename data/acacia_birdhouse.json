@@ -1,0 +1,9 @@
+{
+    "time": 1778599086,
+    "item": "acacia_birdhouse",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 124,
+        "error": "rate_limit_exceeded"
+    }
+}

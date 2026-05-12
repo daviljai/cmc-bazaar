@@ -1,0 +1,95 @@
+{
+    "time": 1778598955,
+    "item": "envoy_horns",
+    "data": {
+        "success": true,
+        "itemId": "envoy_horns",
+        "buyTopEntries": [
+            {
+                "price": 501.3000000000003,
+                "quantity": 8,
+                "orderCount": 1
+            },
+            {
+                "price": 501.10000000000025,
+                "quantity": 83,
+                "orderCount": 1
+            },
+            {
+                "price": 501.0000000000002,
+                "quantity": 216,
+                "orderCount": 3
+            },
+            {
+                "price": 500.70000000000016,
+                "quantity": 53,
+                "orderCount": 1
+            },
+            {
+                "price": 500.60000000000014,
+                "quantity": 813,
+                "orderCount": 1
+            },
+            {
+                "price": 500.0,
+                "quantity": 2,
+                "orderCount": 1
+            },
+            {
+                "price": 102.0,
+                "quantity": 502,
+                "orderCount": 1
+            },
+            {
+                "price": 101.0,
+                "quantity": 564,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 4491.099999999977,
+                "quantity": 84,
+                "orderCount": 1
+            },
+            {
+                "price": 4491.199999999977,
+                "quantity": 3,
+                "orderCount": 1
+            },
+            {
+                "price": 4491.299999999977,
+                "quantity": 4,
+                "orderCount": 2
+            },
+            {
+                "price": 4491.399999999978,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 4491.499999999978,
+                "quantity": 142,
+                "orderCount": 1
+            },
+            {
+                "price": 4491.5999999999785,
+                "quantity": 60,
+                "orderCount": 1
+            },
+            {
+                "price": 4491.799999999979,
+                "quantity": 10,
+                "orderCount": 1
+            },
+            {
+                "price": 4491.89999999998,
+                "quantity": 10,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 16449,
+        "sellVolume": 3164,
+        "weeklyAveragePrice": 1840.635127272721
+    }
+}

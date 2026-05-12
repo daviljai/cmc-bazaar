@@ -1,0 +1,9 @@
+{
+    "time": 1778598997,
+    "item": "enchanted_emerald",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 213,
+        "error": "rate_limit_exceeded"
+    }
+}

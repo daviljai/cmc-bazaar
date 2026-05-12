@@ -1,0 +1,95 @@
+{
+    "time": 1778598956,
+    "item": "experience_bottle",
+    "data": {
+        "success": true,
+        "itemId": "experience_bottle",
+        "buyTopEntries": [
+            {
+                "price": 2.6,
+                "quantity": 2666,
+                "orderCount": 1
+            },
+            {
+                "price": 2.5,
+                "quantity": 7849,
+                "orderCount": 1
+            },
+            {
+                "price": 2.400000000000001,
+                "quantity": 300,
+                "orderCount": 1
+            },
+            {
+                "price": 2.3000000000000007,
+                "quantity": 193,
+                "orderCount": 1
+            },
+            {
+                "price": 2.2000000000000006,
+                "quantity": 15,
+                "orderCount": 1
+            },
+            {
+                "price": 1.8000000000000005,
+                "quantity": 45,
+                "orderCount": 1
+            },
+            {
+                "price": 1.7000000000000004,
+                "quantity": 334,
+                "orderCount": 1
+            },
+            {
+                "price": 1.6000000000000003,
+                "quantity": 15,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 45.0,
+                "quantity": 326,
+                "orderCount": 1
+            },
+            {
+                "price": 56.9,
+                "quantity": 655,
+                "orderCount": 1
+            },
+            {
+                "price": 59.9,
+                "quantity": 1725,
+                "orderCount": 1
+            },
+            {
+                "price": 60.0,
+                "quantity": 3206,
+                "orderCount": 5
+            },
+            {
+                "price": 67.50000000000003,
+                "quantity": 796,
+                "orderCount": 1
+            },
+            {
+                "price": 67.80000000000001,
+                "quantity": 1389,
+                "orderCount": 2
+            },
+            {
+                "price": 99.60000000000002,
+                "quantity": 49,
+                "orderCount": 1
+            },
+            {
+                "price": 99.9,
+                "quantity": 256,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 12804,
+        "sellVolume": 9045,
+        "weeklyAveragePrice": 50.44693333333333
+    }
+}

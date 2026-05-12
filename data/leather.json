@@ -1,0 +1,9 @@
+{
+    "time": 1778598983,
+    "item": "leather",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 227,
+        "error": "rate_limit_exceeded"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "time": 1778598980,
+    "item": "enchanted_acacia_log",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 230,
+        "error": "rate_limit_exceeded"
+    }
+}

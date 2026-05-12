@@ -1,0 +1,9 @@
+{
+    "time": 1778599050,
+    "item": "enchanted_ender_pearl",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 160,
+        "error": "rate_limit_exceeded"
+    }
+}

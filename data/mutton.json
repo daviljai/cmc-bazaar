@@ -1,0 +1,9 @@
+{
+    "time": 1778599107,
+    "item": "mutton",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 103,
+        "error": "rate_limit_exceeded"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "time": 1778599111,
+    "item": "strong_dragon_fragment",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 99,
+        "error": "rate_limit_exceeded"
+    }
+}

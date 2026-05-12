@@ -1,0 +1,9 @@
+{
+    "time": 1778599193,
+    "item": "respite_3",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 17,
+        "error": "rate_limit_exceeded"
+    }
+}

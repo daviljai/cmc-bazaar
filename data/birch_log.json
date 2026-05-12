@@ -1,0 +1,9 @@
+{
+    "time": 1778599085,
+    "item": "birch_log",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 125,
+        "error": "rate_limit_exceeded"
+    }
+}

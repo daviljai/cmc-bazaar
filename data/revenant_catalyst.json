@@ -1,0 +1,9 @@
+{
+    "time": 1778599169,
+    "item": "revenant_catalyst",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 41,
+        "error": "rate_limit_exceeded"
+    }
+}

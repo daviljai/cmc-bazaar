@@ -1,0 +1,9 @@
+{
+    "time": 1778598993,
+    "item": "enchanted_wool",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 217,
+        "error": "rate_limit_exceeded"
+    }
+}

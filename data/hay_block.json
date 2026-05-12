@@ -1,0 +1,9 @@
+{
+    "time": 1778598966,
+    "item": "hay_block",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 244,
+        "error": "rate_limit_exceeded"
+    }
+}

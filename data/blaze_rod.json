@@ -1,0 +1,9 @@
+{
+    "time": 1778599105,
+    "item": "blaze_rod",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 105,
+        "error": "rate_limit_exceeded"
+    }
+}

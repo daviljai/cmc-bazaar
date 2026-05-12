@@ -1,0 +1,9 @@
+{
+    "time": 1778599039,
+    "item": "enchanted_ender_eye",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 171,
+        "error": "rate_limit_exceeded"
+    }
+}

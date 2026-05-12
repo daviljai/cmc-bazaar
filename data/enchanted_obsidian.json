@@ -1,0 +1,95 @@
+{
+    "time": 1778599216,
+    "item": "enchanted_obsidian",
+    "data": {
+        "success": true,
+        "itemId": "enchanted_obsidian",
+        "buyTopEntries": [
+            {
+                "price": 1328.7999999999975,
+                "quantity": 1894,
+                "orderCount": 1
+            },
+            {
+                "price": 1328.6999999999975,
+                "quantity": 1880,
+                "orderCount": 1
+            },
+            {
+                "price": 1328.5999999999976,
+                "quantity": 698,
+                "orderCount": 1
+            },
+            {
+                "price": 1328.4999999999977,
+                "quantity": 719,
+                "orderCount": 1
+            },
+            {
+                "price": 1327.8999999999983,
+                "quantity": 5940,
+                "orderCount": 1
+            },
+            {
+                "price": 1327.4999999999986,
+                "quantity": 165,
+                "orderCount": 1
+            },
+            {
+                "price": 1327.199999999999,
+                "quantity": 830,
+                "orderCount": 1
+            },
+            {
+                "price": 1326.7999999999993,
+                "quantity": 1839,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 1998.3000000000006,
+                "quantity": 832,
+                "orderCount": 1
+            },
+            {
+                "price": 1998.4000000000005,
+                "quantity": 7,
+                "orderCount": 1
+            },
+            {
+                "price": 1998.5000000000005,
+                "quantity": 4016,
+                "orderCount": 2
+            },
+            {
+                "price": 1998.6000000000004,
+                "quantity": 180,
+                "orderCount": 1
+            },
+            {
+                "price": 1998.7000000000003,
+                "quantity": 6,
+                "orderCount": 1
+            },
+            {
+                "price": 1998.8000000000002,
+                "quantity": 1170,
+                "orderCount": 1
+            },
+            {
+                "price": 1998.9,
+                "quantity": 11,
+                "orderCount": 1
+            },
+            {
+                "price": 1999.0,
+                "quantity": 283,
+                "orderCount": 2
+            }
+        ],
+        "buyVolume": 26557,
+        "sellVolume": 25794,
+        "weeklyAveragePrice": 1534.4677551020402
+    }
+}

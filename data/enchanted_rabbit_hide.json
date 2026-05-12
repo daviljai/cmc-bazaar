@@ -1,0 +1,9 @@
+{
+    "time": 1778599040,
+    "item": "enchanted_rabbit_hide",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 170,
+        "error": "rate_limit_exceeded"
+    }
+}

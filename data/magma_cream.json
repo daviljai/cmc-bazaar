@@ -1,0 +1,75 @@
+{
+    "time": 1778598920,
+    "item": "magma_cream",
+    "data": {
+        "success": true,
+        "itemId": "magma_cream",
+        "buyTopEntries": [
+            {
+                "price": 1.5000000000000004,
+                "quantity": 1330,
+                "orderCount": 1
+            },
+            {
+                "price": 1.4000000000000004,
+                "quantity": 121,
+                "orderCount": 1
+            },
+            {
+                "price": 1.3000000000000003,
+                "quantity": 1264,
+                "orderCount": 3
+            },
+            {
+                "price": 1.1,
+                "quantity": 40096,
+                "orderCount": 5
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 31.499999999999993,
+                "quantity": 599,
+                "orderCount": 1
+            },
+            {
+                "price": 31.599999999999994,
+                "quantity": 970,
+                "orderCount": 1
+            },
+            {
+                "price": 31.699999999999996,
+                "quantity": 256,
+                "orderCount": 1
+            },
+            {
+                "price": 31.9,
+                "quantity": 228,
+                "orderCount": 1
+            },
+            {
+                "price": 32.0,
+                "quantity": 2325,
+                "orderCount": 2
+            },
+            {
+                "price": 58.9,
+                "quantity": 512,
+                "orderCount": 1
+            },
+            {
+                "price": 79.9,
+                "quantity": 8,
+                "orderCount": 1
+            },
+            {
+                "price": 80.0,
+                "quantity": 1216,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 42811,
+        "sellVolume": 7152,
+        "weeklyAveragePrice": 12.11575478927203
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "time": 1778599210,
+    "item": "turbo_cactus_5",
+    "data": {
+        "success": true,
+        "itemId": "turbo_cactus_5",
+        "buyTopEntries": [
+            {
+                "price": 1000.8000000000002,
+                "quantity": 21,
+                "orderCount": 2
+            }
+        ],
+        "sellTopEntries": [],
+        "buyVolume": 21,
+        "sellVolume": 0,
+        "weeklyAveragePrice": 2080000.0
+    }
+}

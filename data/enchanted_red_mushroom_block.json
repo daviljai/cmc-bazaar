@@ -1,0 +1,80 @@
+{
+    "time": 1778598935,
+    "item": "enchanted_red_mushroom_block",
+    "data": {
+        "success": true,
+        "itemId": "enchanted_red_mushroom_block",
+        "buyTopEntries": [
+            {
+                "price": 250.1,
+                "quantity": 456,
+                "orderCount": 2
+            },
+            {
+                "price": 4.399999999999999,
+                "quantity": 123,
+                "orderCount": 1
+            },
+            {
+                "price": 4.1,
+                "quantity": 62,
+                "orderCount": 1
+            },
+            {
+                "price": 4.0,
+                "quantity": 128,
+                "orderCount": 1
+            },
+            {
+                "price": 3.6,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 1.9000000000000008,
+                "quantity": 12795,
+                "orderCount": 1
+            },
+            {
+                "price": 1.7000000000000006,
+                "quantity": 12800,
+                "orderCount": 1
+            },
+            {
+                "price": 1.6000000000000005,
+                "quantity": 128,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 39999.30000000001,
+                "quantity": 68,
+                "orderCount": 1
+            },
+            {
+                "price": 39999.40000000001,
+                "quantity": 12,
+                "orderCount": 2
+            },
+            {
+                "price": 39999.600000000006,
+                "quantity": 3,
+                "orderCount": 1
+            },
+            {
+                "price": 39999.9,
+                "quantity": 89,
+                "orderCount": 1
+            },
+            {
+                "price": 40000.0,
+                "quantity": 10,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 26989,
+        "sellVolume": 182,
+        "weeklyAveragePrice": 16803.096000000012
+    }
+}

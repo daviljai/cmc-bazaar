@@ -1,0 +1,95 @@
+{
+    "time": 1778598931,
+    "item": "enchanted_coal",
+    "data": {
+        "success": true,
+        "itemId": "enchanted_coal",
+        "buyTopEntries": [
+            {
+                "price": 501.50000000000034,
+                "quantity": 1840,
+                "orderCount": 1
+            },
+            {
+                "price": 501.4000000000003,
+                "quantity": 53,
+                "orderCount": 1
+            },
+            {
+                "price": 501.3000000000003,
+                "quantity": 569,
+                "orderCount": 1
+            },
+            {
+                "price": 501.10000000000025,
+                "quantity": 2519,
+                "orderCount": 1
+            },
+            {
+                "price": 501.0000000000002,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 401.4,
+                "quantity": 2112,
+                "orderCount": 1
+            },
+            {
+                "price": 401.2000000000003,
+                "quantity": 749,
+                "orderCount": 1
+            },
+            {
+                "price": 400.0,
+                "quantity": 67,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 1099.2000000000007,
+                "quantity": 1976,
+                "orderCount": 1
+            },
+            {
+                "price": 1099.3000000000006,
+                "quantity": 16,
+                "orderCount": 1
+            },
+            {
+                "price": 1099.4000000000005,
+                "quantity": 87,
+                "orderCount": 1
+            },
+            {
+                "price": 1099.5000000000005,
+                "quantity": 980,
+                "orderCount": 1
+            },
+            {
+                "price": 1099.6000000000004,
+                "quantity": 152,
+                "orderCount": 1
+            },
+            {
+                "price": 1099.7000000000003,
+                "quantity": 52,
+                "orderCount": 1
+            },
+            {
+                "price": 1100.0,
+                "quantity": 6,
+                "orderCount": 1
+            },
+            {
+                "price": 1250.0,
+                "quantity": 875,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 40299,
+        "sellVolume": 12840,
+        "weeklyAveragePrice": 775.7151860465119
+    }
+}

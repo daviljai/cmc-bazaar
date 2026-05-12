@@ -1,0 +1,9 @@
+{
+    "time": 1778598989,
+    "item": "budget_hopper",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 221,
+        "error": "rate_limit_exceeded"
+    }
+}

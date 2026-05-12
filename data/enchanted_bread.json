@@ -1,0 +1,9 @@
+{
+    "time": 1778599130,
+    "item": "enchanted_bread",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 80,
+        "error": "rate_limit_exceeded"
+    }
+}

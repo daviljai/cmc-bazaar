@@ -1,0 +1,9 @@
+{
+    "time": 1778599096,
+    "item": "the_art_of_war",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 114,
+        "error": "rate_limit_exceeded"
+    }
+}

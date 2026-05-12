@@ -1,0 +1,9 @@
+{
+    "time": 1778599097,
+    "item": "enchanted_blaze_rod",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 113,
+        "error": "rate_limit_exceeded"
+    }
+}

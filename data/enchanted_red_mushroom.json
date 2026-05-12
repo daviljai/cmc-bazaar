@@ -1,0 +1,9 @@
+{
+    "time": 1778599132,
+    "item": "enchanted_red_mushroom",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 78,
+        "error": "rate_limit_exceeded"
+    }
+}

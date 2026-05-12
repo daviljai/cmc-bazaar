@@ -1,0 +1,9 @@
+{
+    "time": 1778599095,
+    "item": "potato_spreading",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 115,
+        "error": "rate_limit_exceeded"
+    }
+}

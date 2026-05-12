@@ -1,0 +1,9 @@
+{
+    "time": 1778599161,
+    "item": "enchanted_lapis_block",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 49,
+        "error": "rate_limit_exceeded"
+    }
+}

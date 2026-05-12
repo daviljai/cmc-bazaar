@@ -1,0 +1,9 @@
+{
+    "time": 1778599156,
+    "item": "enchanted_gunpowder",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 54,
+        "error": "rate_limit_exceeded"
+    }
+}

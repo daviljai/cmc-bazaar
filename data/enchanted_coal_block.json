@@ -1,0 +1,9 @@
+{
+    "time": 1778599054,
+    "item": "enchanted_coal_block",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 156,
+        "error": "rate_limit_exceeded"
+    }
+}

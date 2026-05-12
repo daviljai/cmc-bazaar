@@ -1,0 +1,35 @@
+{
+    "time": 1778598930,
+    "item": "bone",
+    "data": {
+        "success": true,
+        "itemId": "bone",
+        "buyTopEntries": [
+            {
+                "price": 1.1,
+                "quantity": 2501,
+                "orderCount": 1
+            },
+            {
+                "price": 1.0,
+                "quantity": 12763,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 20.0,
+                "quantity": 1280,
+                "orderCount": 2
+            },
+            {
+                "price": 50.0,
+                "quantity": 10440,
+                "orderCount": 2
+            }
+        ],
+        "buyVolume": 15264,
+        "sellVolume": 11720,
+        "weeklyAveragePrice": 6.009527777777778
+    }
+}

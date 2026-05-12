@@ -1,0 +1,9 @@
+{
+    "time": 1778599127,
+    "item": "coal",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 83,
+        "error": "rate_limit_exceeded"
+    }
+}

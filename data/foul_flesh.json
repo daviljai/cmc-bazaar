@@ -1,0 +1,9 @@
+{
+    "time": 1778598991,
+    "item": "foul_flesh",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 219,
+        "error": "rate_limit_exceeded"
+    }
+}

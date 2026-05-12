@@ -1,0 +1,70 @@
+{
+    "time": 1778598947,
+    "item": "fire_fragment",
+    "data": {
+        "success": true,
+        "itemId": "fire_fragment",
+        "buyTopEntries": [
+            {
+                "price": 2300001.900000002,
+                "quantity": 8,
+                "orderCount": 1
+            },
+            {
+                "price": 2300001.8000000017,
+                "quantity": 4,
+                "orderCount": 1
+            },
+            {
+                "price": 2300000.7000000007,
+                "quantity": 2,
+                "orderCount": 1
+            },
+            {
+                "price": 2300000.4000000004,
+                "quantity": 4,
+                "orderCount": 1
+            },
+            {
+                "price": 900001.6999999996,
+                "quantity": 2,
+                "orderCount": 1
+            },
+            {
+                "price": 800005.4999999987,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 800000.1,
+                "quantity": 1,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 2999999.8,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 2999999.9,
+                "quantity": 4,
+                "orderCount": 1
+            },
+            {
+                "price": 3000000.0,
+                "quantity": 2,
+                "orderCount": 2
+            },
+            {
+                "price": 4499999.400000002,
+                "quantity": 3,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 22,
+        "sellVolume": 10,
+        "weeklyAveragePrice": 2747314.948166667
+    }
+}

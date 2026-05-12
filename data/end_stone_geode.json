@@ -1,0 +1,9 @@
+{
+    "time": 1778599166,
+    "item": "end_stone_geode",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 45,
+        "error": "rate_limit_exceeded"
+    }
+}

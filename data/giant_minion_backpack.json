@@ -1,0 +1,9 @@
+{
+    "time": 1778598995,
+    "item": "giant_minion_backpack",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 215,
+        "error": "rate_limit_exceeded"
+    }
+}

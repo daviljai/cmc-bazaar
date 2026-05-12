@@ -1,0 +1,9 @@
+{
+    "time": 1778599129,
+    "item": "titanic_experience_bottle",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 81,
+        "error": "rate_limit_exceeded"
+    }
+}

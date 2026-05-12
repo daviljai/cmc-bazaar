@@ -1,0 +1,9 @@
+{
+    "time": 1778599164,
+    "item": "enchanted_spider_eye",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 46,
+        "error": "rate_limit_exceeded"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "time": 1778599114,
+    "item": "enchanted_bookshelf",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 96,
+        "error": "rate_limit_exceeded"
+    }
+}

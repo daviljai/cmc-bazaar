@@ -1,0 +1,65 @@
+{
+    "time": 1778598914,
+    "item": "cactus",
+    "data": {
+        "success": true,
+        "itemId": "cactus",
+        "buyTopEntries": [
+            {
+                "price": 0.6,
+                "quantity": 8334,
+                "orderCount": 1
+            },
+            {
+                "price": 0.5,
+                "quantity": 715,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 10.0,
+                "quantity": 256,
+                "orderCount": 1
+            },
+            {
+                "price": 91.10000000000005,
+                "quantity": 2421,
+                "orderCount": 2
+            },
+            {
+                "price": 91.20000000000005,
+                "quantity": 2068,
+                "orderCount": 2
+            },
+            {
+                "price": 91.30000000000004,
+                "quantity": 804,
+                "orderCount": 1
+            },
+            {
+                "price": 91.50000000000003,
+                "quantity": 1593,
+                "orderCount": 1
+            },
+            {
+                "price": 92.50000000000003,
+                "quantity": 785,
+                "orderCount": 1
+            },
+            {
+                "price": 92.60000000000002,
+                "quantity": 100,
+                "orderCount": 1
+            },
+            {
+                "price": 92.9,
+                "quantity": 1654,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 9049,
+        "sellVolume": 86386,
+        "weeklyAveragePrice": 46.84559139784947
+    }
+}

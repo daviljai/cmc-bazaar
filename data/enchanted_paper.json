@@ -1,0 +1,95 @@
+{
+    "time": 1778598952,
+    "item": "enchanted_paper",
+    "data": {
+        "success": true,
+        "itemId": "enchanted_paper",
+        "buyTopEntries": [
+            {
+                "price": 300.0,
+                "quantity": 993,
+                "orderCount": 1
+            },
+            {
+                "price": 150.1,
+                "quantity": 93,
+                "orderCount": 1
+            },
+            {
+                "price": 31.200000000000003,
+                "quantity": 390,
+                "orderCount": 1
+            },
+            {
+                "price": 31.0,
+                "quantity": 35,
+                "orderCount": 1
+            },
+            {
+                "price": 30.1,
+                "quantity": 126,
+                "orderCount": 1
+            },
+            {
+                "price": 10.399999999999999,
+                "quantity": 112,
+                "orderCount": 1
+            },
+            {
+                "price": 10.1,
+                "quantity": 124,
+                "orderCount": 1
+            },
+            {
+                "price": 0.4,
+                "quantity": 500,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 1799.8000000000002,
+                "quantity": 218,
+                "orderCount": 1
+            },
+            {
+                "price": 1799.9,
+                "quantity": 6,
+                "orderCount": 2
+            },
+            {
+                "price": 1800.0,
+                "quantity": 134,
+                "orderCount": 1
+            },
+            {
+                "price": 2000.0,
+                "quantity": 2,
+                "orderCount": 1
+            },
+            {
+                "price": 2489.9,
+                "quantity": 246,
+                "orderCount": 1
+            },
+            {
+                "price": 2499.5000000000005,
+                "quantity": 10,
+                "orderCount": 1
+            },
+            {
+                "price": 2500.0,
+                "quantity": 2,
+                "orderCount": 1
+            },
+            {
+                "price": 3050.5000000000005,
+                "quantity": 39,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 24915,
+        "sellVolume": 721,
+        "weeklyAveragePrice": 1091.361023255814
+    }
+}

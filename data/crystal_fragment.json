@@ -1,0 +1,9 @@
+{
+    "time": 1778599158,
+    "item": "crystal_fragment",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 53,
+        "error": "rate_limit_exceeded"
+    }
+}

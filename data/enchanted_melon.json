@@ -1,0 +1,95 @@
+{
+    "time": 1778598939,
+    "item": "enchanted_melon",
+    "data": {
+        "success": true,
+        "itemId": "enchanted_melon",
+        "buyTopEntries": [
+            {
+                "price": 76.49999999999996,
+                "quantity": 1789,
+                "orderCount": 1
+            },
+            {
+                "price": 76.39999999999996,
+                "quantity": 107,
+                "orderCount": 1
+            },
+            {
+                "price": 76.29999999999997,
+                "quantity": 1355,
+                "orderCount": 1
+            },
+            {
+                "price": 75.99999999999999,
+                "quantity": 2000,
+                "orderCount": 1
+            },
+            {
+                "price": 75.7,
+                "quantity": 110,
+                "orderCount": 1
+            },
+            {
+                "price": 75.49999999999969,
+                "quantity": 12474,
+                "orderCount": 1
+            },
+            {
+                "price": 74.59999999999974,
+                "quantity": 2928,
+                "orderCount": 1
+            },
+            {
+                "price": 74.19999999999976,
+                "quantity": 664,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 194.9,
+                "quantity": 224,
+                "orderCount": 1
+            },
+            {
+                "price": 195.0,
+                "quantity": 6165,
+                "orderCount": 3
+            },
+            {
+                "price": 200.0,
+                "quantity": 26,
+                "orderCount": 1
+            },
+            {
+                "price": 279.5,
+                "quantity": 18,
+                "orderCount": 1
+            },
+            {
+                "price": 312.0,
+                "quantity": 3,
+                "orderCount": 1
+            },
+            {
+                "price": 686.6999999999999,
+                "quantity": 662,
+                "orderCount": 1
+            },
+            {
+                "price": 686.8,
+                "quantity": 724,
+                "orderCount": 1
+            },
+            {
+                "price": 687.0,
+                "quantity": 1509,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 41929,
+        "sellVolume": 9698,
+        "weeklyAveragePrice": 107.69793442622941
+    }
+}

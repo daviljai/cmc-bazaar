@@ -1,0 +1,90 @@
+{
+    "time": 1778598951,
+    "item": "enchanted_cooked_porkchop",
+    "data": {
+        "success": true,
+        "itemId": "enchanted_cooked_porkchop",
+        "buyTopEntries": [
+            {
+                "price": 115002.70000000011,
+                "quantity": 35,
+                "orderCount": 1
+            },
+            {
+                "price": 115002.60000000011,
+                "quantity": 21,
+                "orderCount": 1
+            },
+            {
+                "price": 115002.4000000001,
+                "quantity": 154,
+                "orderCount": 1
+            },
+            {
+                "price": 115001.40000000004,
+                "quantity": 187,
+                "orderCount": 1
+            },
+            {
+                "price": 115000.60000000003,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 70000.0,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 20000.0,
+                "quantity": 1,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 134998.99999999994,
+                "quantity": 14,
+                "orderCount": 1
+            },
+            {
+                "price": 134999.09999999995,
+                "quantity": 2,
+                "orderCount": 1
+            },
+            {
+                "price": 134999.19999999995,
+                "quantity": 7,
+                "orderCount": 1
+            },
+            {
+                "price": 134999.29999999996,
+                "quantity": 26,
+                "orderCount": 1
+            },
+            {
+                "price": 134999.39999999997,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 134999.49999999997,
+                "quantity": 147,
+                "orderCount": 1
+            },
+            {
+                "price": 134999.59999999998,
+                "quantity": 5,
+                "orderCount": 1
+            },
+            {
+                "price": 139990.09999999942,
+                "quantity": 3,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 400,
+        "sellVolume": 2803,
+        "weeklyAveragePrice": 129035.5195319147
+    }
+}

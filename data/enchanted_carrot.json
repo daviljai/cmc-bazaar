@@ -1,0 +1,9 @@
+{
+    "time": 1778599163,
+    "item": "enchanted_carrot",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 47,
+        "error": "rate_limit_exceeded"
+    }
+}

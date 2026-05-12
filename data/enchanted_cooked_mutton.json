@@ -1,0 +1,80 @@
+{
+    "time": 1778598945,
+    "item": "enchanted_cooked_mutton",
+    "data": {
+        "success": true,
+        "itemId": "enchanted_cooked_mutton",
+        "buyTopEntries": [
+            {
+                "price": 61000.0,
+                "quantity": 8,
+                "orderCount": 1
+            },
+            {
+                "price": 60000.79999999999,
+                "quantity": 44,
+                "orderCount": 1
+            },
+            {
+                "price": 60000.69999999999,
+                "quantity": 4,
+                "orderCount": 1
+            },
+            {
+                "price": 60000.59999999999,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 55000.1,
+                "quantity": 10,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 136999.8,
+                "quantity": 7,
+                "orderCount": 1
+            },
+            {
+                "price": 136999.9,
+                "quantity": 2,
+                "orderCount": 1
+            },
+            {
+                "price": 137000.0,
+                "quantity": 4,
+                "orderCount": 1
+            },
+            {
+                "price": 139993.29999999996,
+                "quantity": 99,
+                "orderCount": 1
+            },
+            {
+                "price": 139993.39999999997,
+                "quantity": 18,
+                "orderCount": 1
+            },
+            {
+                "price": 139993.49999999997,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 139993.59999999998,
+                "quantity": 3,
+                "orderCount": 1
+            },
+            {
+                "price": 139993.69999999998,
+                "quantity": 3,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 67,
+        "sellVolume": 255,
+        "weeklyAveragePrice": 105724.2418181818
+    }
+}

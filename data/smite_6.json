@@ -1,0 +1,85 @@
+{
+    "time": 1778599213,
+    "item": "smite_6",
+    "data": {
+        "success": true,
+        "itemId": "smite_6",
+        "buyTopEntries": [
+            {
+                "price": 5000.600000000002,
+                "quantity": 31,
+                "orderCount": 1
+            },
+            {
+                "price": 5000.500000000002,
+                "quantity": 15,
+                "orderCount": 1
+            },
+            {
+                "price": 5000.4000000000015,
+                "quantity": 41,
+                "orderCount": 1
+            },
+            {
+                "price": 5000.200000000001,
+                "quantity": 56,
+                "orderCount": 1
+            },
+            {
+                "price": 400.20000000000005,
+                "quantity": 92,
+                "orderCount": 1
+            },
+            {
+                "price": 100.1,
+                "quantity": 3,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 39999.8,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 39999.9,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 40000.0,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 41999.10000000001,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 41999.20000000001,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 41999.30000000001,
+                "quantity": 2,
+                "orderCount": 1
+            },
+            {
+                "price": 41999.40000000001,
+                "quantity": 2,
+                "orderCount": 1
+            },
+            {
+                "price": 41999.50000000001,
+                "quantity": 11,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 238,
+        "sellVolume": 112,
+        "weeklyAveragePrice": 28986.525392857147
+    }
+}

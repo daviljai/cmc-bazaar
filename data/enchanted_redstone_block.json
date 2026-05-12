@@ -1,0 +1,95 @@
+{
+    "time": 1778598943,
+    "item": "enchanted_redstone_block",
+    "data": {
+        "success": true,
+        "itemId": "enchanted_redstone_block",
+        "buyTopEntries": [
+            {
+                "price": 25001.799999999974,
+                "quantity": 240,
+                "orderCount": 1
+            },
+            {
+                "price": 25001.699999999975,
+                "quantity": 64,
+                "orderCount": 1
+            },
+            {
+                "price": 25001.499999999978,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 25001.39999999998,
+                "quantity": 24,
+                "orderCount": 2
+            },
+            {
+                "price": 25001.29999999998,
+                "quantity": 49,
+                "orderCount": 1
+            },
+            {
+                "price": 25000.899999999987,
+                "quantity": 6,
+                "orderCount": 1
+            },
+            {
+                "price": 25000.59999999999,
+                "quantity": 17,
+                "orderCount": 1
+            },
+            {
+                "price": 23002.199999999997,
+                "quantity": 1,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 29998.00000000003,
+                "quantity": 14,
+                "orderCount": 1
+            },
+            {
+                "price": 29998.100000000028,
+                "quantity": 31,
+                "orderCount": 2
+            },
+            {
+                "price": 29998.200000000026,
+                "quantity": 26,
+                "orderCount": 1
+            },
+            {
+                "price": 29998.300000000025,
+                "quantity": 6,
+                "orderCount": 2
+            },
+            {
+                "price": 29998.400000000023,
+                "quantity": 11,
+                "orderCount": 1
+            },
+            {
+                "price": 29998.500000000022,
+                "quantity": 177,
+                "orderCount": 1
+            },
+            {
+                "price": 29998.60000000002,
+                "quantity": 22,
+                "orderCount": 1
+            },
+            {
+                "price": 29998.800000000017,
+                "quantity": 58,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 7672,
+        "sellVolume": 5461,
+        "weeklyAveragePrice": 29055.25515098469
+    }
+}

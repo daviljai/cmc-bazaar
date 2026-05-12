@@ -1,0 +1,9 @@
+{
+    "time": 1778599038,
+    "item": "beef",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 172,
+        "error": "rate_limit_exceeded"
+    }
+}

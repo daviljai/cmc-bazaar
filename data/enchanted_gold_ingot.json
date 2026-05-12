@@ -1,0 +1,9 @@
+{
+    "time": 1778599131,
+    "item": "enchanted_gold_ingot",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 79,
+        "error": "rate_limit_exceeded"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "time": 1778599008,
+    "item": "turbo_carrot_1",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 202,
+        "error": "rate_limit_exceeded"
+    }
+}

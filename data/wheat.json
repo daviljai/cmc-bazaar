@@ -1,0 +1,80 @@
+{
+    "time": 1778599218,
+    "item": "wheat",
+    "data": {
+        "success": true,
+        "itemId": "wheat",
+        "buyTopEntries": [
+            {
+                "price": 0.5,
+                "quantity": 11984,
+                "orderCount": 1
+            },
+            {
+                "price": 0.4,
+                "quantity": 12799,
+                "orderCount": 1
+            },
+            {
+                "price": 0.30000000000000004,
+                "quantity": 21347,
+                "orderCount": 2
+            },
+            {
+                "price": 0.2,
+                "quantity": 2873,
+                "orderCount": 1
+            },
+            {
+                "price": 0.1,
+                "quantity": 8250,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 39.9,
+                "quantity": 132,
+                "orderCount": 1
+            },
+            {
+                "price": 40.0,
+                "quantity": 11,
+                "orderCount": 1
+            },
+            {
+                "price": 45.0,
+                "quantity": 1366,
+                "orderCount": 2
+            },
+            {
+                "price": 50.0,
+                "quantity": 813,
+                "orderCount": 3
+            },
+            {
+                "price": 119.20000000000005,
+                "quantity": 6,
+                "orderCount": 1
+            },
+            {
+                "price": 119.50000000000003,
+                "quantity": 497,
+                "orderCount": 1
+            },
+            {
+                "price": 119.60000000000002,
+                "quantity": 292,
+                "orderCount": 1
+            },
+            {
+                "price": 119.80000000000001,
+                "quantity": 2240,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 57253,
+        "sellVolume": 23197,
+        "weeklyAveragePrice": 8.089038674033148
+    }
+}

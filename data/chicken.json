@@ -1,0 +1,9 @@
+{
+    "time": 1778599057,
+    "item": "chicken",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 153,
+        "error": "rate_limit_exceeded"
+    }
+}

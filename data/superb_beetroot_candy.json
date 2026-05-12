@@ -1,0 +1,9 @@
+{
+    "time": 1778599103,
+    "item": "superb_beetroot_candy",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 107,
+        "error": "rate_limit_exceeded"
+    }
+}

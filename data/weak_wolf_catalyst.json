@@ -1,0 +1,95 @@
+{
+    "time": 1778598950,
+    "item": "weak_wolf_catalyst",
+    "data": {
+        "success": true,
+        "itemId": "weak_wolf_catalyst",
+        "buyTopEntries": [
+            {
+                "price": 380.20000000000005,
+                "quantity": 14,
+                "orderCount": 1
+            },
+            {
+                "price": 380.1,
+                "quantity": 51,
+                "orderCount": 1
+            },
+            {
+                "price": 301.0000000000002,
+                "quantity": 985,
+                "orderCount": 1
+            },
+            {
+                "price": 300.9000000000002,
+                "quantity": 131,
+                "orderCount": 1
+            },
+            {
+                "price": 300.30000000000007,
+                "quantity": 13,
+                "orderCount": 1
+            },
+            {
+                "price": 300.20000000000005,
+                "quantity": 92,
+                "orderCount": 1
+            },
+            {
+                "price": 300.1,
+                "quantity": 81,
+                "orderCount": 1
+            },
+            {
+                "price": 300.0,
+                "quantity": 239,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 1949.9,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 1950.0,
+                "quantity": 5,
+                "orderCount": 2
+            },
+            {
+                "price": 1969.6000000000004,
+                "quantity": 9,
+                "orderCount": 1
+            },
+            {
+                "price": 1969.7000000000003,
+                "quantity": 8,
+                "orderCount": 1
+            },
+            {
+                "price": 1969.8000000000002,
+                "quantity": 5,
+                "orderCount": 1
+            },
+            {
+                "price": 1969.9,
+                "quantity": 4,
+                "orderCount": 1
+            },
+            {
+                "price": 1989.7000000000003,
+                "quantity": 12,
+                "orderCount": 1
+            },
+            {
+                "price": 1999.7000000000003,
+                "quantity": 25,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 1606,
+        "sellVolume": 435,
+        "weeklyAveragePrice": 935.0774285714286
+    }
+}

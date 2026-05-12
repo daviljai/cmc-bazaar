@@ -1,0 +1,9 @@
+{
+    "time": 1778599062,
+    "item": "enchanted_feather",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 148,
+        "error": "rate_limit_exceeded"
+    }
+}

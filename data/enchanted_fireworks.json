@@ -1,0 +1,9 @@
+{
+    "time": 1778599079,
+    "item": "enchanted_fireworks",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 131,
+        "error": "rate_limit_exceeded"
+    }
+}

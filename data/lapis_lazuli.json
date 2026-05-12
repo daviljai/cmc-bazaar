@@ -1,0 +1,85 @@
+{
+    "time": 1778598922,
+    "item": "lapis_lazuli",
+    "data": {
+        "success": true,
+        "itemId": "lapis_lazuli",
+        "buyTopEntries": [
+            {
+                "price": 5.0,
+                "quantity": 9414,
+                "orderCount": 1
+            },
+            {
+                "price": 2.0,
+                "quantity": 6405,
+                "orderCount": 1
+            },
+            {
+                "price": 0.6,
+                "quantity": 11818,
+                "orderCount": 1
+            },
+            {
+                "price": 0.30000000000000004,
+                "quantity": 2,
+                "orderCount": 1
+            },
+            {
+                "price": 0.2,
+                "quantity": 3319,
+                "orderCount": 1
+            },
+            {
+                "price": 0.1,
+                "quantity": 10022,
+                "orderCount": 2
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 39.9,
+                "quantity": 6,
+                "orderCount": 1
+            },
+            {
+                "price": 40.0,
+                "quantity": 3258,
+                "orderCount": 2
+            },
+            {
+                "price": 47.0,
+                "quantity": 128,
+                "orderCount": 1
+            },
+            {
+                "price": 59.4,
+                "quantity": 326,
+                "orderCount": 1
+            },
+            {
+                "price": 59.5,
+                "quantity": 2016,
+                "orderCount": 2
+            },
+            {
+                "price": 59.6,
+                "quantity": 1619,
+                "orderCount": 1
+            },
+            {
+                "price": 59.9,
+                "quantity": 112,
+                "orderCount": 1
+            },
+            {
+                "price": 60.0,
+                "quantity": 1044,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 40980,
+        "sellVolume": 57747,
+        "weeklyAveragePrice": 24.80160000000002
+    }
+}

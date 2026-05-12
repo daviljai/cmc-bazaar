@@ -1,0 +1,9 @@
+{
+    "time": 1778599098,
+    "item": "enchanted_raw_porkchop",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 112,
+        "error": "rate_limit_exceeded"
+    }
+}

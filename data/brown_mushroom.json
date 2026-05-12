@@ -1,0 +1,9 @@
+{
+    "time": 1778599000,
+    "item": "brown_mushroom",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 210,
+        "error": "rate_limit_exceeded"
+    }
+}

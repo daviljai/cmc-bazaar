@@ -1,0 +1,9 @@
+{
+    "time": 1778599022,
+    "item": "turbo_cocoa_3",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 188,
+        "error": "rate_limit_exceeded"
+    }
+}

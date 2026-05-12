@@ -1,0 +1,9 @@
+{
+    "time": 1778599102,
+    "item": "enchanted_end_stone",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 108,
+        "error": "rate_limit_exceeded"
+    }
+}

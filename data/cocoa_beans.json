@@ -1,0 +1,60 @@
+{
+    "time": 1778598921,
+    "item": "cocoa_beans",
+    "data": {
+        "success": true,
+        "itemId": "cocoa_beans",
+        "buyTopEntries": [
+            {
+                "price": 5.0,
+                "quantity": 40499,
+                "orderCount": 4
+            },
+            {
+                "price": 3.6000000000000023,
+                "quantity": 12800,
+                "orderCount": 1
+            },
+            {
+                "price": 3.500000000000002,
+                "quantity": 11289,
+                "orderCount": 1
+            },
+            {
+                "price": 3.200000000000002,
+                "quantity": 4951,
+                "orderCount": 1
+            },
+            {
+                "price": 3.100000000000002,
+                "quantity": 12800,
+                "orderCount": 1
+            },
+            {
+                "price": 2.9000000000000017,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 2.5000000000000013,
+                "quantity": 6257,
+                "orderCount": 1
+            },
+            {
+                "price": 1.3000000000000003,
+                "quantity": 500,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 6.0,
+                "quantity": 1247,
+                "orderCount": 2
+            }
+        ],
+        "buyVolume": 89097,
+        "sellVolume": 1247,
+        "weeklyAveragePrice": 4.795964912280703
+    }
+}

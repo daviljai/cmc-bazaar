@@ -1,0 +1,9 @@
+{
+    "time": 1778598963,
+    "item": "redstone",
+    "data": {
+        "message": "Too many requests. Please slow down.",
+        "retryAfter": 247,
+        "error": "rate_limit_exceeded"
+    }
+}
