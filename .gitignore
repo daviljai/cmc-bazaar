@@ -1,0 +1,4 @@
+bazaar.db
+bazaar.db-shm
+bazaar.db-wal
+.env
