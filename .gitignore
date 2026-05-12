@@ -2,3 +2,6 @@ bazaar.db
 bazaar.db-shm
 bazaar.db-wal
 .env
+*.db
+*.db-shm
+*.db-wal
