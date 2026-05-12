@@ -1,42 +1,47 @@
-import cloudscraper
-import json
 import os
+import json
 import time
+import requests
+from dotenv import load_dotenv
 
-BASE_URL = "https://api.craftersmc.net/v1"
+load_dotenv()
 
 API_KEY = os.getenv("API_KEY")
+
+BASE_URL = "https://api.craftersmc.net/v1"
 
 headers = {
     "X-API-Key": API_KEY
 }
 
-scraper = cloudscraper.create_scraper()
+DATA_FOLDER = "data"
 
-# CREATE DATA FOLDER
-os.makedirs("data", exist_ok=True)
+MAX_ENTRIES = 3000
+
+os.makedirs(DATA_FOLDER, exist_ok=True)
 
 # GET ITEM LIST
 items_url = f"{BASE_URL}/resources/skyblock/bazaar/items"
 
-response = scraper.get(
+items_response = requests.get(
     items_url,
-    headers=headers
+    headers=headers,
+    timeout=20
 )
 
-print("ITEM STATUS:", response.status_code)
+print("ITEM STATUS:", items_response.status_code)
 
-data = response.json()
+if items_response.status_code != 200:
+    print("Failed to fetch item list")
+    exit()
 
-items = data.get("items", [])
+items_data = items_response.json()
+
+items = items_data["items"]
 
 print("TOTAL ITEMS:", len(items))
 
-# SAVE ITEM LIST
-with open("data/all_items.json", "w") as f:
-    json.dump(items, f, indent=4)
-
-# FETCH EACH ITEM
+# SCAN ITEMS
 for item in items:
 
     while True:
@@ -45,11 +50,12 @@ for item in items:
 
             print("Fetching:", item)
 
-            item_url = f"{BASE_URL}/skyblock/bazaar/{item}/details"
+            url = f"{BASE_URL}/skyblock/bazaar/{item}/details"
 
-            response = scraper.get(
-                item_url,
-                headers=headers
+            response = requests.get(
+                url,
+                headers=headers,
+                timeout=20
             )
 
             print("STATUS:", response.status_code)
@@ -58,26 +64,61 @@ for item in items:
             if response.status_code == 429:
 
                 print("RATE LIMITED - waiting 15 sec")
+
                 time.sleep(15)
+
                 continue
 
-            item_data = response.json()
+            # SKIP BAD RESPONSES
+            if response.status_code != 200:
 
-            output = {
+                print("Skipping:", item)
+
+                break
+
+            data = response.json()
+
+            # CREATE ENTRY
+            entry = {
                 "time": int(time.time()),
-                "item": item,
-                "data": item_data
+                "data": data
             }
 
-            file_path = f"data/{item}.json"
+            path = f"{DATA_FOLDER}/{item}.json"
 
-            with open(file_path, "w") as f:
-                json.dump(output, f, indent=4)
+            # LOAD OLD DATA
+            if os.path.exists(path):
 
-            print("Saved:", file_path)
+                with open(path, "r") as f:
 
-            # NORMAL DELAY
-            time.sleep(3)
+                    try:
+                        history = json.load(f)
+
+                    except:
+                        history = []
+
+            else:
+                history = []
+
+            # ADD NEW ENTRY
+            history.append(entry)
+
+            # KEEP LAST 3000 ENTRIES
+            history = history[-MAX_ENTRIES:]
+
+            # SAVE
+            with open(path, "w") as f:
+
+                json.dump(
+                    history,
+                    f,
+                    indent=4
+                )
+
+            print("Saved:", path)
+
+            # SMALL DELAY
+            time.sleep(2)
 
             break
 
@@ -85,4 +126,6 @@ for item in items:
 
             print("ERROR:", item, e)
 
-            time.sleep(10)
+            time.sleep(5)
+
+print("SCAN COMPLETE")
