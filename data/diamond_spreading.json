@@ -1,9 +1,80 @@
 {
-    "time": 1778599061,
+    "time": 1778600452,
     "item": "diamond_spreading",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 149,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "diamond_spreading",
+        "buyTopEntries": [
+            {
+                "price": 170.0,
+                "quantity": 5,
+                "orderCount": 1
+            },
+            {
+                "price": 153.49999999999986,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 153.39999999999986,
+                "quantity": 23,
+                "orderCount": 1
+            },
+            {
+                "price": 55.0,
+                "quantity": 12,
+                "orderCount": 1
+            },
+            {
+                "price": 20.0,
+                "quantity": 12798,
+                "orderCount": 1
+            },
+            {
+                "price": 13.599999999999998,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 13.2,
+                "quantity": 8,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 6999.799999999999,
+                "quantity": 9,
+                "orderCount": 2
+            },
+            {
+                "price": 6999.9,
+                "quantity": 15,
+                "orderCount": 1
+            },
+            {
+                "price": 7000.0,
+                "quantity": 107,
+                "orderCount": 6
+            },
+            {
+                "price": 8653.999999999996,
+                "quantity": 22,
+                "orderCount": 1
+            },
+            {
+                "price": 8654.099999999997,
+                "quantity": 28,
+                "orderCount": 1
+            },
+            {
+                "price": 8654.699999999999,
+                "quantity": 5,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 12848,
+        "sellVolume": 186,
+        "weeklyAveragePrice": 4878.388923076923
     }
 }

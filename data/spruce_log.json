@@ -1,9 +1,60 @@
 {
-    "time": 1778599083,
+    "time": 1778600518,
     "item": "spruce_log",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 127,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "spruce_log",
+        "buyTopEntries": [
+            {
+                "price": 0.1,
+                "quantity": 5,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 5.7,
+                "quantity": 269,
+                "orderCount": 1
+            },
+            {
+                "price": 5.8,
+                "quantity": 10081,
+                "orderCount": 3
+            },
+            {
+                "price": 5.9,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 10.0,
+                "quantity": 84,
+                "orderCount": 1
+            },
+            {
+                "price": 99.00000000000006,
+                "quantity": 3429,
+                "orderCount": 2
+            },
+            {
+                "price": 198.2,
+                "quantity": 10120,
+                "orderCount": 2
+            },
+            {
+                "price": 198.4000000000001,
+                "quantity": 2026,
+                "orderCount": 2
+            },
+            {
+                "price": 198.60000000000008,
+                "quantity": 76,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 5,
+        "sellVolume": 42193,
+        "weeklyAveragePrice": 1.6864852071005918
     }
 }

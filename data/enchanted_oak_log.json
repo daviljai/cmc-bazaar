@@ -1,9 +1,75 @@
 {
-    "time": 1778599170,
+    "time": 1778601133,
     "item": "enchanted_oak_log",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 40,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "enchanted_oak_log",
+        "buyTopEntries": [
+            {
+                "price": 405.1,
+                "quantity": 186,
+                "orderCount": 1
+            },
+            {
+                "price": 276.20000000000005,
+                "quantity": 8655,
+                "orderCount": 1
+            },
+            {
+                "price": 215.39999999999998,
+                "quantity": 192,
+                "orderCount": 1
+            },
+            {
+                "price": 210.29999999999998,
+                "quantity": 8,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 450.0,
+                "quantity": 226,
+                "orderCount": 1
+            },
+            {
+                "price": 699.8,
+                "quantity": 58,
+                "orderCount": 1
+            },
+            {
+                "price": 699.9,
+                "quantity": 290,
+                "orderCount": 1
+            },
+            {
+                "price": 700.0,
+                "quantity": 34,
+                "orderCount": 1
+            },
+            {
+                "price": 749.4999999999999,
+                "quantity": 1024,
+                "orderCount": 1
+            },
+            {
+                "price": 749.5999999999999,
+                "quantity": 839,
+                "orderCount": 1
+            },
+            {
+                "price": 749.6999999999999,
+                "quantity": 2240,
+                "orderCount": 1
+            },
+            {
+                "price": 749.8,
+                "quantity": 144,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 9041,
+        "sellVolume": 35600,
+        "weeklyAveragePrice": 603.704890207715
     }
 }

@@ -1,9 +1,85 @@
 {
-    "time": 1778599054,
+    "time": 1778600432,
     "item": "enchanted_coal_block",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 156,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "enchanted_coal_block",
+        "buyTopEntries": [
+            {
+                "price": 55000.59999999999,
+                "quantity": 21,
+                "orderCount": 1
+            },
+            {
+                "price": 55000.399999999994,
+                "quantity": 64,
+                "orderCount": 1
+            },
+            {
+                "price": 55000.0,
+                "quantity": 33,
+                "orderCount": 1
+            },
+            {
+                "price": 51000.49999999999,
+                "quantity": 6,
+                "orderCount": 1
+            },
+            {
+                "price": 50003.59999999995,
+                "quantity": 8,
+                "orderCount": 1
+            },
+            {
+                "price": 18000.0,
+                "quantity": 1,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 56998.100000000006,
+                "quantity": 97,
+                "orderCount": 1
+            },
+            {
+                "price": 56998.200000000004,
+                "quantity": 80,
+                "orderCount": 1
+            },
+            {
+                "price": 56998.3,
+                "quantity": 8,
+                "orderCount": 1
+            },
+            {
+                "price": 56998.5,
+                "quantity": 13,
+                "orderCount": 1
+            },
+            {
+                "price": 56998.6,
+                "quantity": 3,
+                "orderCount": 1
+            },
+            {
+                "price": 56999.000000000015,
+                "quantity": 54,
+                "orderCount": 1
+            },
+            {
+                "price": 56999.20000000001,
+                "quantity": 5,
+                "orderCount": 1
+            },
+            {
+                "price": 56999.30000000001,
+                "quantity": 44,
+                "orderCount": 2
+            }
+        ],
+        "buyVolume": 133,
+        "sellVolume": 3183,
+        "weeklyAveragePrice": 56844.69968831169
     }
 }

@@ -1,9 +1,85 @@
 {
-    "time": 1778598983,
+    "time": 1778599864,
     "item": "leather",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 227,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "leather",
+        "buyTopEntries": [
+            {
+                "price": 2.3000000000000003,
+                "quantity": 11444,
+                "orderCount": 1
+            },
+            {
+                "price": 2.2,
+                "quantity": 140,
+                "orderCount": 1
+            },
+            {
+                "price": 2.1,
+                "quantity": 11387,
+                "orderCount": 1
+            },
+            {
+                "price": 1.3000000000000003,
+                "quantity": 1719,
+                "orderCount": 1
+            },
+            {
+                "price": 1.1,
+                "quantity": 11269,
+                "orderCount": 1
+            },
+            {
+                "price": 0.30000000000000004,
+                "quantity": 202,
+                "orderCount": 2
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 208.50000000000003,
+                "quantity": 1983,
+                "orderCount": 2
+            },
+            {
+                "price": 208.60000000000002,
+                "quantity": 384,
+                "orderCount": 1
+            },
+            {
+                "price": 208.70000000000002,
+                "quantity": 627,
+                "orderCount": 2
+            },
+            {
+                "price": 208.9,
+                "quantity": 123,
+                "orderCount": 1
+            },
+            {
+                "price": 209.0,
+                "quantity": 175,
+                "orderCount": 1
+            },
+            {
+                "price": 210.0,
+                "quantity": 573,
+                "orderCount": 1
+            },
+            {
+                "price": 253.8,
+                "quantity": 66,
+                "orderCount": 1
+            },
+            {
+                "price": 253.9,
+                "quantity": 303,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 36161,
+        "sellVolume": 7942,
+        "weeklyAveragePrice": 94.50314814814816
     }
 }

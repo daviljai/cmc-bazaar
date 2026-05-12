@@ -1,9 +1,95 @@
 {
-    "time": 1778599072,
+    "time": 1778600485,
     "item": "enchanted_dark_oak_log",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 138,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "enchanted_dark_oak_log",
+        "buyTopEntries": [
+            {
+                "price": 669.8000000000002,
+                "quantity": 2405,
+                "orderCount": 1
+            },
+            {
+                "price": 669.7000000000002,
+                "quantity": 105,
+                "orderCount": 1
+            },
+            {
+                "price": 669.6000000000001,
+                "quantity": 320,
+                "orderCount": 1
+            },
+            {
+                "price": 669.5000000000001,
+                "quantity": 12,
+                "orderCount": 1
+            },
+            {
+                "price": 669.3000000000001,
+                "quantity": 981,
+                "orderCount": 1
+            },
+            {
+                "price": 669.0,
+                "quantity": 277,
+                "orderCount": 2
+            },
+            {
+                "price": 607.4000000000008,
+                "quantity": 1000,
+                "orderCount": 1
+            },
+            {
+                "price": 606.9000000000007,
+                "quantity": 169,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 999.9,
+                "quantity": 6928,
+                "orderCount": 4
+            },
+            {
+                "price": 1000.0,
+                "quantity": 1145,
+                "orderCount": 2
+            },
+            {
+                "price": 1098.900000000001,
+                "quantity": 1558,
+                "orderCount": 1
+            },
+            {
+                "price": 1099.000000000001,
+                "quantity": 1216,
+                "orderCount": 1
+            },
+            {
+                "price": 1099.2000000000007,
+                "quantity": 22,
+                "orderCount": 1
+            },
+            {
+                "price": 1099.4000000000005,
+                "quantity": 355,
+                "orderCount": 1
+            },
+            {
+                "price": 1099.5000000000005,
+                "quantity": 576,
+                "orderCount": 1
+            },
+            {
+                "price": 1099.6000000000004,
+                "quantity": 494,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 11878,
+        "sellVolume": 39977,
+        "weeklyAveragePrice": 1040.5608925619845
     }
 }

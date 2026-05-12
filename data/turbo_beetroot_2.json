@@ -1,9 +1,13 @@
 {
-    "time": 1778599180,
+    "time": 1778601163,
     "item": "turbo_beetroot_2",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 30,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "turbo_beetroot_2",
+        "buyTopEntries": [],
+        "sellTopEntries": [],
+        "buyVolume": 0,
+        "sellVolume": 0,
+        "weeklyAveragePrice": 20800.0
     }
 }

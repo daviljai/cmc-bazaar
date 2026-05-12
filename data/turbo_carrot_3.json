@@ -1,9 +1,19 @@
 {
-    "time": 1778599019,
+    "time": 1778600148,
     "item": "turbo_carrot_3",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 192,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "turbo_carrot_3",
+        "buyTopEntries": [
+            {
+                "price": 200.0,
+                "quantity": 197,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [],
+        "buyVolume": 197,
+        "sellVolume": 0,
+        "weeklyAveragePrice": 360.0
     }
 }

@@ -1,9 +1,95 @@
 {
-    "time": 1778598980,
+    "time": 1778599854,
     "item": "enchanted_acacia_log",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 230,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "enchanted_acacia_log",
+        "buyTopEntries": [
+            {
+                "price": 628.2000000000008,
+                "quantity": 6400,
+                "orderCount": 1
+            },
+            {
+                "price": 628.1000000000008,
+                "quantity": 5000,
+                "orderCount": 1
+            },
+            {
+                "price": 628.0000000000008,
+                "quantity": 335,
+                "orderCount": 1
+            },
+            {
+                "price": 627.9000000000008,
+                "quantity": 5787,
+                "orderCount": 1
+            },
+            {
+                "price": 627.8000000000008,
+                "quantity": 3000,
+                "orderCount": 1
+            },
+            {
+                "price": 627.4000000000007,
+                "quantity": 2050,
+                "orderCount": 1
+            },
+            {
+                "price": 627.2000000000006,
+                "quantity": 204,
+                "orderCount": 1
+            },
+            {
+                "price": 626.1000000000004,
+                "quantity": 516,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 949.5999999999999,
+                "quantity": 2422,
+                "orderCount": 2
+            },
+            {
+                "price": 949.6999999999999,
+                "quantity": 2224,
+                "orderCount": 3
+            },
+            {
+                "price": 949.8,
+                "quantity": 144,
+                "orderCount": 1
+            },
+            {
+                "price": 949.9,
+                "quantity": 859,
+                "orderCount": 2
+            },
+            {
+                "price": 950.0,
+                "quantity": 242,
+                "orderCount": 2
+            },
+            {
+                "price": 1149.9,
+                "quantity": 6316,
+                "orderCount": 4
+            },
+            {
+                "price": 1448.2000000000016,
+                "quantity": 378,
+                "orderCount": 1
+            },
+            {
+                "price": 1448.3000000000015,
+                "quantity": 704,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 27709,
+        "sellVolume": 42675,
+        "weeklyAveragePrice": 942.7688494623659
     }
 }

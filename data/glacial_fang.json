@@ -1,9 +1,85 @@
 {
-    "time": 1778599077,
+    "time": 1778600499,
     "item": "glacial_fang",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 133,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "glacial_fang",
+        "buyTopEntries": [
+            {
+                "price": 700001.2999999999,
+                "quantity": 10,
+                "orderCount": 1
+            },
+            {
+                "price": 700001.2,
+                "quantity": 49,
+                "orderCount": 1
+            },
+            {
+                "price": 700000.6999999998,
+                "quantity": 7,
+                "orderCount": 1
+            },
+            {
+                "price": 600100.0,
+                "quantity": 64,
+                "orderCount": 1
+            },
+            {
+                "price": 300000.3999999999,
+                "quantity": 30,
+                "orderCount": 1
+            },
+            {
+                "price": 300000.29999999993,
+                "quantity": 20,
+                "orderCount": 1
+            },
+            {
+                "price": 100.1,
+                "quantity": 100,
+                "orderCount": 1
+            },
+            {
+                "price": 100.0,
+                "quantity": 5000,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 882999.9,
+                "quantity": 14,
+                "orderCount": 1
+            },
+            {
+                "price": 929995.800000001,
+                "quantity": 4,
+                "orderCount": 1
+            },
+            {
+                "price": 929998.9000000003,
+                "quantity": 23,
+                "orderCount": 1
+            },
+            {
+                "price": 1000000.0,
+                "quantity": 14,
+                "orderCount": 1
+            },
+            {
+                "price": 1099999.4999999995,
+                "quantity": 10,
+                "orderCount": 1
+            },
+            {
+                "price": 1240000.0,
+                "quantity": 3,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 5408,
+        "sellVolume": 68,
+        "weeklyAveragePrice": 810282.5327058823
     }
 }

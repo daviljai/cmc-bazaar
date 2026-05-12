@@ -1,9 +1,95 @@
 {
-    "time": 1778599159,
+    "time": 1778601100,
     "item": "enchanted_slimeball",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 51,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "enchanted_slimeball",
+        "buyTopEntries": [
+            {
+                "price": 1000.0,
+                "quantity": 9486,
+                "orderCount": 1
+            },
+            {
+                "price": 647.0,
+                "quantity": 3000,
+                "orderCount": 1
+            },
+            {
+                "price": 646.0,
+                "quantity": 1280,
+                "orderCount": 1
+            },
+            {
+                "price": 645.0,
+                "quantity": 4268,
+                "orderCount": 1
+            },
+            {
+                "price": 620.3000000000001,
+                "quantity": 5000,
+                "orderCount": 1
+            },
+            {
+                "price": 602.2000000000003,
+                "quantity": 2,
+                "orderCount": 1
+            },
+            {
+                "price": 602.1000000000003,
+                "quantity": 1400,
+                "orderCount": 1
+            },
+            {
+                "price": 601.4000000000001,
+                "quantity": 971,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 1499.1000000000008,
+                "quantity": 54,
+                "orderCount": 1
+            },
+            {
+                "price": 1499.2000000000007,
+                "quantity": 16,
+                "orderCount": 1
+            },
+            {
+                "price": 1499.3000000000006,
+                "quantity": 523,
+                "orderCount": 1
+            },
+            {
+                "price": 1499.4000000000005,
+                "quantity": 64,
+                "orderCount": 1
+            },
+            {
+                "price": 1499.5000000000005,
+                "quantity": 64,
+                "orderCount": 1
+            },
+            {
+                "price": 1499.6000000000004,
+                "quantity": 115,
+                "orderCount": 1
+            },
+            {
+                "price": 1499.7000000000003,
+                "quantity": 69,
+                "orderCount": 1
+            },
+            {
+                "price": 1499.8000000000002,
+                "quantity": 3612,
+                "orderCount": 3
+            }
+        ],
+        "buyVolume": 31390,
+        "sellVolume": 15350,
+        "weeklyAveragePrice": 1051.6415430267064
     }
 }

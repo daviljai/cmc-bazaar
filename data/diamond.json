@@ -1,9 +1,60 @@
 {
-    "time": 1778599136,
+    "time": 1778600852,
     "item": "diamond",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 74,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "diamond",
+        "buyTopEntries": [
+            {
+                "price": 4.199999999999999,
+                "quantity": 239,
+                "orderCount": 1
+            },
+            {
+                "price": 4.1,
+                "quantity": 5266,
+                "orderCount": 1
+            },
+            {
+                "price": 4.0,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 3.0,
+                "quantity": 22517,
+                "orderCount": 2
+            },
+            {
+                "price": 2.9,
+                "quantity": 12800,
+                "orderCount": 1
+            },
+            {
+                "price": 2.6,
+                "quantity": 10136,
+                "orderCount": 1
+            },
+            {
+                "price": 2.5,
+                "quantity": 53,
+                "orderCount": 1
+            },
+            {
+                "price": 2.1,
+                "quantity": 6418,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 20.0,
+                "quantity": 703,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 81646,
+        "sellVolume": 703,
+        "weeklyAveragePrice": 5.96716295025729
     }
 }

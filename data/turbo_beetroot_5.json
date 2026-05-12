@@ -1,9 +1,54 @@
 {
-    "time": 1778599205,
+    "time": 1778601417,
     "item": "turbo_beetroot_5",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 5,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "turbo_beetroot_5",
+        "buyTopEntries": [
+            {
+                "price": 100000.0,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 50000.0,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 10001.500000000005,
+                "quantity": 20,
+                "orderCount": 1
+            },
+            {
+                "price": 10001.400000000005,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 10001.300000000005,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 10001.200000000004,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 10001.100000000004,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 10001.000000000004,
+                "quantity": 2,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [],
+        "buyVolume": 61,
+        "sellVolume": 0,
+        "weeklyAveragePrice": "NaN"
     }
 }

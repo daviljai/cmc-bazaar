@@ -1,9 +1,70 @@
 {
-    "time": 1778599172,
+    "time": 1778601140,
     "item": "turbo_potato_1",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 38,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "turbo_potato_1",
+        "buyTopEntries": [
+            {
+                "price": 7000.0,
+                "quantity": 30,
+                "orderCount": 1
+            },
+            {
+                "price": 5500.200000000001,
+                "quantity": 8,
+                "orderCount": 1
+            },
+            {
+                "price": 5500.1,
+                "quantity": 17,
+                "orderCount": 1
+            },
+            {
+                "price": 5500.0,
+                "quantity": 40,
+                "orderCount": 1
+            },
+            {
+                "price": 5000.1,
+                "quantity": 30,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 39999.700000000004,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 39999.8,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 39999.9,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 40000.0,
+                "quantity": 70,
+                "orderCount": 1
+            },
+            {
+                "price": 74999.79999999999,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 86000.0,
+                "quantity": 1,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 125,
+        "sellVolume": 75,
+        "weeklyAveragePrice": 26402.785352941177
     }
 }

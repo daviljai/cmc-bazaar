@@ -1,9 +1,40 @@
 {
-    "time": 1778599017,
+    "time": 1778600145,
     "item": "turbo_mushroom_2",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 193,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "turbo_mushroom_2",
+        "buyTopEntries": [
+            {
+                "price": 20.0,
+                "quantity": 7,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 109999.59999999998,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 109999.69999999998,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 109999.9,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 299999.6000000001,
+                "quantity": 2,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 7,
+        "sellVolume": 5,
+        "weeklyAveragePrice": "NaN"
     }
 }

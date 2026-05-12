@@ -1,9 +1,65 @@
 {
-    "time": 1778599158,
+    "time": 1778601097,
     "item": "crystal_fragment",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 53,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "crystal_fragment",
+        "buyTopEntries": [
+            {
+                "price": 5000.600000000002,
+                "quantity": 20,
+                "orderCount": 1
+            },
+            {
+                "price": 5000.4000000000015,
+                "quantity": 35,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 9999.699999999999,
+                "quantity": 2,
+                "orderCount": 1
+            },
+            {
+                "price": 9999.8,
+                "quantity": 89,
+                "orderCount": 1
+            },
+            {
+                "price": 9999.9,
+                "quantity": 27,
+                "orderCount": 1
+            },
+            {
+                "price": 10000.0,
+                "quantity": 14,
+                "orderCount": 1
+            },
+            {
+                "price": 11998.399999999994,
+                "quantity": 3,
+                "orderCount": 1
+            },
+            {
+                "price": 11998.499999999995,
+                "quantity": 6,
+                "orderCount": 2
+            },
+            {
+                "price": 11998.599999999995,
+                "quantity": 3,
+                "orderCount": 1
+            },
+            {
+                "price": 11998.699999999995,
+                "quantity": 17,
+                "orderCount": 2
+            }
+        ],
+        "buyVolume": 55,
+        "sellVolume": 777,
+        "weeklyAveragePrice": 8693.579881081088
     }
 }

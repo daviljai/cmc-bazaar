@@ -1,9 +1,95 @@
 {
-    "time": 1778599109,
+    "time": 1778600773,
     "item": "enchanted_bone",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 102,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "enchanted_bone",
+        "buyTopEntries": [
+            {
+                "price": 682.0000000000001,
+                "quantity": 320,
+                "orderCount": 1
+            },
+            {
+                "price": 681.9000000000001,
+                "quantity": 989,
+                "orderCount": 1
+            },
+            {
+                "price": 681.8000000000001,
+                "quantity": 160,
+                "orderCount": 1
+            },
+            {
+                "price": 510.5000000000001,
+                "quantity": 8628,
+                "orderCount": 1
+            },
+            {
+                "price": 510.1,
+                "quantity": 971,
+                "orderCount": 1
+            },
+            {
+                "price": 501.8000000000004,
+                "quantity": 185,
+                "orderCount": 1
+            },
+            {
+                "price": 500.0,
+                "quantity": 611,
+                "orderCount": 1
+            },
+            {
+                "price": 450.0,
+                "quantity": 5375,
+                "orderCount": 2
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 1249.6000000000004,
+                "quantity": 652,
+                "orderCount": 1
+            },
+            {
+                "price": 1249.7000000000003,
+                "quantity": 147,
+                "orderCount": 1
+            },
+            {
+                "price": 1249.8000000000002,
+                "quantity": 182,
+                "orderCount": 2
+            },
+            {
+                "price": 1249.9,
+                "quantity": 1060,
+                "orderCount": 1
+            },
+            {
+                "price": 1299.9,
+                "quantity": 6,
+                "orderCount": 1
+            },
+            {
+                "price": 1499.9,
+                "quantity": 33,
+                "orderCount": 1
+            },
+            {
+                "price": 1500.0,
+                "quantity": 336,
+                "orderCount": 1
+            },
+            {
+                "price": 1691.800000000003,
+                "quantity": 4617,
+                "orderCount": 3
+            }
+        ],
+        "buyVolume": 31492,
+        "sellVolume": 44007,
+        "weeklyAveragePrice": 820.4305338983052
     }
 }

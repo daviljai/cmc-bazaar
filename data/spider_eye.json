@@ -1,9 +1,24 @@
 {
-    "time": 1778599162,
+    "time": 1778601110,
     "item": "spider_eye",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 48,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "spider_eye",
+        "buyTopEntries": [
+            {
+                "price": 5.0,
+                "quantity": 366,
+                "orderCount": 1
+            },
+            {
+                "price": 1.0,
+                "quantity": 9124,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [],
+        "buyVolume": 9490,
+        "sellVolume": 0,
+        "weeklyAveragePrice": 3.170773519163763
     }
 }

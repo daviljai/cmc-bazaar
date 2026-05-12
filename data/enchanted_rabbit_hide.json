@@ -1,9 +1,65 @@
 {
-    "time": 1778599040,
+    "time": 1778600211,
     "item": "enchanted_rabbit_hide",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 170,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "enchanted_rabbit_hide",
+        "buyTopEntries": [
+            {
+                "price": 520.0,
+                "quantity": 3000,
+                "orderCount": 1
+            },
+            {
+                "price": 300.20000000000005,
+                "quantity": 5000,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 998.3999999999996,
+                "quantity": 5,
+                "orderCount": 1
+            },
+            {
+                "price": 998.4999999999997,
+                "quantity": 64,
+                "orderCount": 1
+            },
+            {
+                "price": 998.5999999999997,
+                "quantity": 411,
+                "orderCount": 1
+            },
+            {
+                "price": 998.7999999999997,
+                "quantity": 2,
+                "orderCount": 1
+            },
+            {
+                "price": 998.8999999999997,
+                "quantity": 3033,
+                "orderCount": 2
+            },
+            {
+                "price": 998.9999999999998,
+                "quantity": 101,
+                "orderCount": 1
+            },
+            {
+                "price": 999.2999999999998,
+                "quantity": 438,
+                "orderCount": 3
+            },
+            {
+                "price": 1048.5000000000014,
+                "quantity": 2,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 8000,
+        "sellVolume": 9070,
+        "weeklyAveragePrice": 779.5233333333334
     }
 }

@@ -1,9 +1,75 @@
 {
-    "time": 1778599003,
+    "time": 1778599920,
     "item": "enchanted_emerald_block",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 207,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "enchanted_emerald_block",
+        "buyTopEntries": [
+            {
+                "price": 120008.20000000048,
+                "quantity": 29,
+                "orderCount": 1
+            },
+            {
+                "price": 120008.10000000047,
+                "quantity": 8,
+                "orderCount": 1
+            },
+            {
+                "price": 120007.80000000045,
+                "quantity": 12,
+                "orderCount": 1
+            },
+            {
+                "price": 48336.0,
+                "quantity": 250,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 153589.69999999998,
+                "quantity": 36,
+                "orderCount": 1
+            },
+            {
+                "price": 153589.8,
+                "quantity": 19,
+                "orderCount": 1
+            },
+            {
+                "price": 153590.0,
+                "quantity": 4,
+                "orderCount": 1
+            },
+            {
+                "price": 153597.59999999992,
+                "quantity": 69,
+                "orderCount": 1
+            },
+            {
+                "price": 153597.79999999993,
+                "quantity": 9,
+                "orderCount": 1
+            },
+            {
+                "price": 153598.49999999997,
+                "quantity": 9,
+                "orderCount": 1
+            },
+            {
+                "price": 153598.8,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 153599.0,
+                "quantity": 4,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 299,
+        "sellVolume": 1047,
+        "weeklyAveragePrice": 145102.85365517274
     }
 }

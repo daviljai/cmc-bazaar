@@ -1,9 +1,90 @@
 {
-    "time": 1778599094,
+    "time": 1778600548,
     "item": "ender_pearl",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 116,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "ender_pearl",
+        "buyTopEntries": [
+            {
+                "price": 2.6000000000000005,
+                "quantity": 6999,
+                "orderCount": 2
+            },
+            {
+                "price": 2.2,
+                "quantity": 3,
+                "orderCount": 1
+            },
+            {
+                "price": 1.3000000000000003,
+                "quantity": 5214,
+                "orderCount": 1
+            },
+            {
+                "price": 1.1,
+                "quantity": 17969,
+                "orderCount": 2
+            },
+            {
+                "price": 1.0,
+                "quantity": 5000,
+                "orderCount": 1
+            },
+            {
+                "price": 0.8,
+                "quantity": 9560,
+                "orderCount": 1
+            },
+            {
+                "price": 0.4,
+                "quantity": 12594,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 542.2999999999982,
+                "quantity": 543,
+                "orderCount": 1
+            },
+            {
+                "price": 542.6999999999983,
+                "quantity": 180,
+                "orderCount": 1
+            },
+            {
+                "price": 543.1999999999985,
+                "quantity": 198,
+                "orderCount": 1
+            },
+            {
+                "price": 543.3999999999985,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 543.5999999999985,
+                "quantity": 470,
+                "orderCount": 2
+            },
+            {
+                "price": 544.4999999999987,
+                "quantity": 47,
+                "orderCount": 1
+            },
+            {
+                "price": 545.499999999999,
+                "quantity": 233,
+                "orderCount": 1
+            },
+            {
+                "price": 545.599999999999,
+                "quantity": 66,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 57339,
+        "sellVolume": 9027,
+        "weeklyAveragePrice": 6.455353962264149
     }
 }

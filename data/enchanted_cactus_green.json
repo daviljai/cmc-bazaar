@@ -1,9 +1,95 @@
 {
-    "time": 1778599151,
+    "time": 1778601077,
     "item": "enchanted_cactus_green",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 59,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "enchanted_cactus_green",
+        "buyTopEntries": [
+            {
+                "price": 89.19999999999976,
+                "quantity": 700,
+                "orderCount": 1
+            },
+            {
+                "price": 89.09999999999977,
+                "quantity": 208,
+                "orderCount": 1
+            },
+            {
+                "price": 88.89999999999978,
+                "quantity": 640,
+                "orderCount": 1
+            },
+            {
+                "price": 88.4999999999998,
+                "quantity": 2045,
+                "orderCount": 1
+            },
+            {
+                "price": 88.29999999999981,
+                "quantity": 12242,
+                "orderCount": 1
+            },
+            {
+                "price": 88.09999999999982,
+                "quantity": 1000,
+                "orderCount": 1
+            },
+            {
+                "price": 86.29999999999993,
+                "quantity": 678,
+                "orderCount": 1
+            },
+            {
+                "price": 85.19999999999999,
+                "quantity": 20,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 496.5999999999992,
+                "quantity": 159,
+                "orderCount": 1
+            },
+            {
+                "price": 496.69999999999925,
+                "quantity": 128,
+                "orderCount": 1
+            },
+            {
+                "price": 496.7999999999993,
+                "quantity": 815,
+                "orderCount": 1
+            },
+            {
+                "price": 496.8999999999993,
+                "quantity": 373,
+                "orderCount": 1
+            },
+            {
+                "price": 496.9999999999993,
+                "quantity": 193,
+                "orderCount": 1
+            },
+            {
+                "price": 497.09999999999934,
+                "quantity": 131,
+                "orderCount": 1
+            },
+            {
+                "price": 497.3999999999994,
+                "quantity": 709,
+                "orderCount": 1
+            },
+            {
+                "price": 497.49999999999943,
+                "quantity": 570,
+                "orderCount": 2
+            }
+        ],
+        "buyVolume": 23205,
+        "sellVolume": 5019,
+        "weeklyAveragePrice": 408.85661538461477
     }
 }

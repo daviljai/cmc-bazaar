@@ -1,9 +1,95 @@
 {
-    "time": 1778598996,
+    "time": 1778599901,
     "item": "cropie",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 214,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "cropie",
+        "buyTopEntries": [
+            {
+                "price": 35012.29999999998,
+                "quantity": 23,
+                "orderCount": 1
+            },
+            {
+                "price": 35012.19999999998,
+                "quantity": 3,
+                "orderCount": 1
+            },
+            {
+                "price": 35012.099999999984,
+                "quantity": 32,
+                "orderCount": 1
+            },
+            {
+                "price": 35011.999999999985,
+                "quantity": 64,
+                "orderCount": 1
+            },
+            {
+                "price": 35011.89999999999,
+                "quantity": 126,
+                "orderCount": 1
+            },
+            {
+                "price": 35011.59999999999,
+                "quantity": 13,
+                "orderCount": 1
+            },
+            {
+                "price": 35000.0,
+                "quantity": 173,
+                "orderCount": 1
+            },
+            {
+                "price": 27500.499999999993,
+                "quantity": 32,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 42493.700000000004,
+                "quantity": 19,
+                "orderCount": 1
+            },
+            {
+                "price": 42493.8,
+                "quantity": 97,
+                "orderCount": 2
+            },
+            {
+                "price": 42493.9,
+                "quantity": 6,
+                "orderCount": 1
+            },
+            {
+                "price": 42494.0,
+                "quantity": 20,
+                "orderCount": 1
+            },
+            {
+                "price": 42494.700000000004,
+                "quantity": 51,
+                "orderCount": 1
+            },
+            {
+                "price": 42494.8,
+                "quantity": 10,
+                "orderCount": 1
+            },
+            {
+                "price": 44999.100000000006,
+                "quantity": 4,
+                "orderCount": 1
+            },
+            {
+                "price": 44999.4,
+                "quantity": 10,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 1227,
+        "sellVolume": 467,
+        "weeklyAveragePrice": 40105.15330994152
     }
 }

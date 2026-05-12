@@ -1,9 +1,90 @@
 {
-    "time": 1778599167,
+    "time": 1778601123,
     "item": "golden_feather",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 43,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "golden_feather",
+        "buyTopEntries": [
+            {
+                "price": 4000017.1000000066,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 4000017.0000000065,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 4000016.9000000064,
+                "quantity": 2,
+                "orderCount": 1
+            },
+            {
+                "price": 4000016.8000000063,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 4000016.7000000062,
+                "quantity": 2,
+                "orderCount": 1
+            },
+            {
+                "price": 4000016.500000006,
+                "quantity": 2,
+                "orderCount": 1
+            },
+            {
+                "price": 4000015.1000000047,
+                "quantity": 2,
+                "orderCount": 1
+            },
+            {
+                "price": 3200002.000000002,
+                "quantity": 1,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 5699999.000000004,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 5699999.100000003,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 5699999.200000003,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 5699999.300000003,
+                "quantity": 3,
+                "orderCount": 1
+            },
+            {
+                "price": 5700000.0,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 9599999.0,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 25000000.0,
+                "quantity": 7,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 14,
+        "sellVolume": 15,
+        "weeklyAveragePrice": 4743827.54836364
     }
 }

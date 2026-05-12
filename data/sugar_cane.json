@@ -1,9 +1,55 @@
 {
-    "time": 1778599056,
+    "time": 1778600439,
     "item": "sugar_cane",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 154,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "sugar_cane",
+        "buyTopEntries": [
+            {
+                "price": 1.3000000000000003,
+                "quantity": 34,
+                "orderCount": 1
+            },
+            {
+                "price": 1.2000000000000002,
+                "quantity": 1535,
+                "orderCount": 1
+            },
+            {
+                "price": 1.1,
+                "quantity": 16,
+                "orderCount": 1
+            },
+            {
+                "price": 1.0,
+                "quantity": 1392,
+                "orderCount": 1
+            },
+            {
+                "price": 0.30000000000000004,
+                "quantity": 11017,
+                "orderCount": 1
+            },
+            {
+                "price": 0.1,
+                "quantity": 621,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 91.9,
+                "quantity": 512,
+                "orderCount": 1
+            },
+            {
+                "price": 92.0,
+                "quantity": 712,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 14615,
+        "sellVolume": 1224,
+        "weeklyAveragePrice": 22.316114285714285
     }
 }

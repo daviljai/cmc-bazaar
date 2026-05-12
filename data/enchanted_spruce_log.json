@@ -1,9 +1,70 @@
 {
-    "time": 1778598972,
+    "time": 1778599831,
     "item": "enchanted_spruce_log",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 238,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "enchanted_spruce_log",
+        "buyTopEntries": [
+            {
+                "price": 322.6000000000006,
+                "quantity": 943,
+                "orderCount": 1
+            },
+            {
+                "price": 300.0,
+                "quantity": 403,
+                "orderCount": 1
+            },
+            {
+                "price": 255.1,
+                "quantity": 20,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 1497.3000000000025,
+                "quantity": 1927,
+                "orderCount": 2
+            },
+            {
+                "price": 1497.6000000000022,
+                "quantity": 9,
+                "orderCount": 1
+            },
+            {
+                "price": 1498.5000000000014,
+                "quantity": 12,
+                "orderCount": 1
+            },
+            {
+                "price": 1498.800000000001,
+                "quantity": 34,
+                "orderCount": 1
+            },
+            {
+                "price": 1498.900000000001,
+                "quantity": 960,
+                "orderCount": 1
+            },
+            {
+                "price": 1499.000000000001,
+                "quantity": 512,
+                "orderCount": 1
+            },
+            {
+                "price": 1499.8000000000002,
+                "quantity": 7705,
+                "orderCount": 6
+            },
+            {
+                "price": 1798.900000000001,
+                "quantity": 1464,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 1366,
+        "sellVolume": 20102,
+        "weeklyAveragePrice": 1033.6034285714297
     }
 }

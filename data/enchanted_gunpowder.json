@@ -1,9 +1,95 @@
 {
-    "time": 1778599156,
+    "time": 1778601093,
     "item": "enchanted_gunpowder",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 54,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "enchanted_gunpowder",
+        "buyTopEntries": [
+            {
+                "price": 1180.3999999999996,
+                "quantity": 222,
+                "orderCount": 1
+            },
+            {
+                "price": 1180.1999999999998,
+                "quantity": 1976,
+                "orderCount": 1
+            },
+            {
+                "price": 1180.1,
+                "quantity": 2000,
+                "orderCount": 1
+            },
+            {
+                "price": 1180.0,
+                "quantity": 8,
+                "orderCount": 1
+            },
+            {
+                "price": 1100.0,
+                "quantity": 1500,
+                "orderCount": 1
+            },
+            {
+                "price": 557.0,
+                "quantity": 552,
+                "orderCount": 1
+            },
+            {
+                "price": 555.6000000000013,
+                "quantity": 5,
+                "orderCount": 1
+            },
+            {
+                "price": 554.500000000001,
+                "quantity": 1342,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 1697.900000000002,
+                "quantity": 318,
+                "orderCount": 1
+            },
+            {
+                "price": 1698.0000000000018,
+                "quantity": 48,
+                "orderCount": 1
+            },
+            {
+                "price": 1698.1000000000017,
+                "quantity": 2240,
+                "orderCount": 1
+            },
+            {
+                "price": 1698.2000000000016,
+                "quantity": 220,
+                "orderCount": 2
+            },
+            {
+                "price": 1698.4000000000015,
+                "quantity": 404,
+                "orderCount": 1
+            },
+            {
+                "price": 1700.0,
+                "quantity": 536,
+                "orderCount": 1
+            },
+            {
+                "price": 1746.2000000000007,
+                "quantity": 1416,
+                "orderCount": 1
+            },
+            {
+                "price": 1746.4000000000005,
+                "quantity": 1314,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 27938,
+        "sellVolume": 19496,
+        "weeklyAveragePrice": 1527.3623571428577
     }
 }

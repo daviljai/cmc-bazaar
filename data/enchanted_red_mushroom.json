@@ -1,9 +1,90 @@
 {
-    "time": 1778599132,
+    "time": 1778600842,
     "item": "enchanted_red_mushroom",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 78,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "enchanted_red_mushroom",
+        "buyTopEntries": [
+            {
+                "price": 700.4000000000001,
+                "quantity": 1024,
+                "orderCount": 1
+            },
+            {
+                "price": 700.3000000000001,
+                "quantity": 640,
+                "orderCount": 1
+            },
+            {
+                "price": 700.2,
+                "quantity": 5,
+                "orderCount": 1
+            },
+            {
+                "price": 450.0,
+                "quantity": 971,
+                "orderCount": 1
+            },
+            {
+                "price": 399.70000000000016,
+                "quantity": 769,
+                "orderCount": 1
+            },
+            {
+                "price": 399.20000000000005,
+                "quantity": 409,
+                "orderCount": 1
+            },
+            {
+                "price": 399.0,
+                "quantity": 390,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 2499.6000000000004,
+                "quantity": 35,
+                "orderCount": 1
+            },
+            {
+                "price": 3699.6000000000004,
+                "quantity": 309,
+                "orderCount": 1
+            },
+            {
+                "price": 3699.7000000000003,
+                "quantity": 157,
+                "orderCount": 1
+            },
+            {
+                "price": 3699.8,
+                "quantity": 252,
+                "orderCount": 1
+            },
+            {
+                "price": 3699.9,
+                "quantity": 394,
+                "orderCount": 1
+            },
+            {
+                "price": 3700.0,
+                "quantity": 4531,
+                "orderCount": 1
+            },
+            {
+                "price": 9490.499999999998,
+                "quantity": 10,
+                "orderCount": 1
+            },
+            {
+                "price": 9493.599999999999,
+                "quantity": 146,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 4208,
+        "sellVolume": 6253,
+        "weeklyAveragePrice": 1676.9699565217393
     }
 }

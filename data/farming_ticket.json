@@ -1,9 +1,95 @@
 {
-    "time": 1778598975,
+    "time": 1778599841,
     "item": "farming_ticket",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 235,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "farming_ticket",
+        "buyTopEntries": [
+            {
+                "price": 12106.90000000001,
+                "quantity": 220,
+                "orderCount": 1
+            },
+            {
+                "price": 12106.80000000001,
+                "quantity": 11,
+                "orderCount": 1
+            },
+            {
+                "price": 12106.60000000001,
+                "quantity": 192,
+                "orderCount": 1
+            },
+            {
+                "price": 12106.400000000009,
+                "quantity": 11,
+                "orderCount": 1
+            },
+            {
+                "price": 12105.600000000006,
+                "quantity": 72,
+                "orderCount": 1
+            },
+            {
+                "price": 12105.400000000005,
+                "quantity": 21,
+                "orderCount": 1
+            },
+            {
+                "price": 12103.100000000011,
+                "quantity": 65,
+                "orderCount": 1
+            },
+            {
+                "price": 12102.90000000001,
+                "quantity": 68,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 15487.199999999997,
+                "quantity": 208,
+                "orderCount": 1
+            },
+            {
+                "price": 15487.299999999997,
+                "quantity": 35,
+                "orderCount": 2
+            },
+            {
+                "price": 15487.399999999998,
+                "quantity": 230,
+                "orderCount": 1
+            },
+            {
+                "price": 15487.9,
+                "quantity": 127,
+                "orderCount": 1
+            },
+            {
+                "price": 15488.499999999998,
+                "quantity": 157,
+                "orderCount": 1
+            },
+            {
+                "price": 15488.599999999999,
+                "quantity": 33,
+                "orderCount": 1
+            },
+            {
+                "price": 15488.8,
+                "quantity": 8,
+                "orderCount": 1
+            },
+            {
+                "price": 15496.799999999988,
+                "quantity": 134,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 2999,
+        "sellVolume": 2573,
+        "weeklyAveragePrice": 14344.74101891551
     }
 }

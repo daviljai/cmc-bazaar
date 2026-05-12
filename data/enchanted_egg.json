@@ -1,9 +1,80 @@
 {
-    "time": 1778598987,
+    "time": 1778599874,
     "item": "enchanted_egg",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 223,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "enchanted_egg",
+        "buyTopEntries": [
+            {
+                "price": 5000.800000000003,
+                "quantity": 180,
+                "orderCount": 1
+            },
+            {
+                "price": 5000.700000000003,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 5000.600000000002,
+                "quantity": 9,
+                "orderCount": 2
+            },
+            {
+                "price": 5000.500000000002,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 5000.200000000001,
+                "quantity": 64,
+                "orderCount": 1
+            },
+            {
+                "price": 5000.1,
+                "quantity": 8,
+                "orderCount": 1
+            },
+            {
+                "price": 10.699999999999998,
+                "quantity": 28,
+                "orderCount": 2
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 199999.9,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 200000.0,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 214664.79999999993,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 214664.89999999994,
+                "quantity": 11,
+                "orderCount": 1
+            },
+            {
+                "price": 214664.99999999994,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 214665.19999999995,
+                "quantity": 70,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 291,
+        "sellVolume": 85,
+        "weeklyAveragePrice": 211234.19199999995
     }
 }

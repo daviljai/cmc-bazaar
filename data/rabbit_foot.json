@@ -1,9 +1,80 @@
 {
-    "time": 1778598976,
+    "time": 1778599844,
     "item": "rabbit_foot",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 234,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "rabbit_foot",
+        "buyTopEntries": [
+            {
+                "price": 1.5,
+                "quantity": 2777,
+                "orderCount": 1
+            },
+            {
+                "price": 0.8,
+                "quantity": 10143,
+                "orderCount": 1
+            },
+            {
+                "price": 0.7000000000000001,
+                "quantity": 12800,
+                "orderCount": 1
+            },
+            {
+                "price": 0.6000000000000001,
+                "quantity": 12800,
+                "orderCount": 1
+            },
+            {
+                "price": 0.30000000000000004,
+                "quantity": 5003,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 5.0000000000000036,
+                "quantity": 183,
+                "orderCount": 1
+            },
+            {
+                "price": 5.200000000000003,
+                "quantity": 48,
+                "orderCount": 1
+            },
+            {
+                "price": 5.600000000000001,
+                "quantity": 87,
+                "orderCount": 2
+            },
+            {
+                "price": 7.3000000000000025,
+                "quantity": 138,
+                "orderCount": 1
+            },
+            {
+                "price": 7.600000000000001,
+                "quantity": 71,
+                "orderCount": 1
+            },
+            {
+                "price": 7.800000000000001,
+                "quantity": 62,
+                "orderCount": 1
+            },
+            {
+                "price": 7.9,
+                "quantity": 272,
+                "orderCount": 1
+            },
+            {
+                "price": 8.0,
+                "quantity": 30,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 43523,
+        "sellVolume": 5873,
+        "weeklyAveragePrice": 1.17496
     }
 }

@@ -1,9 +1,75 @@
 {
-    "time": 1778599140,
+    "time": 1778600865,
     "item": "enchanted_golden_carrot",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 70,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "enchanted_golden_carrot",
+        "buyTopEntries": [
+            {
+                "price": 10005.40000000002,
+                "quantity": 28,
+                "orderCount": 1
+            },
+            {
+                "price": 10005.30000000002,
+                "quantity": 34,
+                "orderCount": 1
+            },
+            {
+                "price": 10005.200000000019,
+                "quantity": 37,
+                "orderCount": 1
+            },
+            {
+                "price": 10005.000000000018,
+                "quantity": 24,
+                "orderCount": 1
+            },
+            {
+                "price": 10004.500000000016,
+                "quantity": 64,
+                "orderCount": 1
+            },
+            {
+                "price": 10003.600000000013,
+                "quantity": 19,
+                "orderCount": 1
+            },
+            {
+                "price": 1000.2,
+                "quantity": 1661,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 50000.0,
+                "quantity": 2148,
+                "orderCount": 1
+            },
+            {
+                "price": 64999.600000000006,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 74999.49999999997,
+                "quantity": 12,
+                "orderCount": 1
+            },
+            {
+                "price": 109997.79999999987,
+                "quantity": 36,
+                "orderCount": 1
+            },
+            {
+                "price": 249998.3999999999,
+                "quantity": 17,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 1867,
+        "sellVolume": 2214,
+        "weeklyAveragePrice": 37846.540774193556
     }
 }

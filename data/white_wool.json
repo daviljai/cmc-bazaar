@@ -1,9 +1,54 @@
 {
-    "time": 1778598965,
+    "time": 1778599811,
     "item": "white_wool",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 245,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "white_wool",
+        "buyTopEntries": [],
+        "sellTopEntries": [
+            {
+                "price": 29.799999999999997,
+                "quantity": 77,
+                "orderCount": 2
+            },
+            {
+                "price": 29.9,
+                "quantity": 270,
+                "orderCount": 1
+            },
+            {
+                "price": 30.0,
+                "quantity": 79,
+                "orderCount": 1
+            },
+            {
+                "price": 39.9,
+                "quantity": 321,
+                "orderCount": 1
+            },
+            {
+                "price": 44.0,
+                "quantity": 55,
+                "orderCount": 1
+            },
+            {
+                "price": 44.8,
+                "quantity": 109,
+                "orderCount": 1
+            },
+            {
+                "price": 45.0,
+                "quantity": 750,
+                "orderCount": 1
+            },
+            {
+                "price": 49.9,
+                "quantity": 54,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 0,
+        "sellVolume": 1715,
+        "weeklyAveragePrice": 30.929599999999994
     }
 }

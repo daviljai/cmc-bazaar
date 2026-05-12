@@ -1,9 +1,95 @@
 {
-    "time": 1778598989,
+    "time": 1778599881,
     "item": "budget_hopper",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 221,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "budget_hopper",
+        "buyTopEntries": [
+            {
+                "price": 3101.199999999999,
+                "quantity": 30,
+                "orderCount": 1
+            },
+            {
+                "price": 3101.099999999999,
+                "quantity": 15,
+                "orderCount": 1
+            },
+            {
+                "price": 3100.999999999999,
+                "quantity": 14,
+                "orderCount": 1
+            },
+            {
+                "price": 3100.7999999999993,
+                "quantity": 2,
+                "orderCount": 1
+            },
+            {
+                "price": 3100.2999999999997,
+                "quantity": 25,
+                "orderCount": 1
+            },
+            {
+                "price": 3100.1,
+                "quantity": 3,
+                "orderCount": 1
+            },
+            {
+                "price": 3020.2999999999997,
+                "quantity": 11,
+                "orderCount": 2
+            },
+            {
+                "price": 1003.1000000000007,
+                "quantity": 6,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 23779.700000000004,
+                "quantity": 3,
+                "orderCount": 1
+            },
+            {
+                "price": 23779.800000000003,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 23779.9,
+                "quantity": 5,
+                "orderCount": 1
+            },
+            {
+                "price": 23899.9,
+                "quantity": 5,
+                "orderCount": 1
+            },
+            {
+                "price": 24997.500000000007,
+                "quantity": 3,
+                "orderCount": 1
+            },
+            {
+                "price": 24997.600000000006,
+                "quantity": 8,
+                "orderCount": 1
+            },
+            {
+                "price": 24997.700000000004,
+                "quantity": 21,
+                "orderCount": 1
+            },
+            {
+                "price": 24999.500000000007,
+                "quantity": 1,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 258,
+        "sellVolume": 177,
+        "weeklyAveragePrice": 20150.123848101266
     }
 }

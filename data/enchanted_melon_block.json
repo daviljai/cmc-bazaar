@@ -1,9 +1,80 @@
 {
-    "time": 1778599073,
+    "time": 1778600489,
     "item": "enchanted_melon_block",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 137,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "enchanted_melon_block",
+        "buyTopEntries": [
+            {
+                "price": 12000.7,
+                "quantity": 125,
+                "orderCount": 1
+            },
+            {
+                "price": 12000.6,
+                "quantity": 136,
+                "orderCount": 1
+            },
+            {
+                "price": 12000.1,
+                "quantity": 5,
+                "orderCount": 2
+            },
+            {
+                "price": 11000.0,
+                "quantity": 32,
+                "orderCount": 1
+            },
+            {
+                "price": 8555.0,
+                "quantity": 6,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 15899.9,
+                "quantity": 58,
+                "orderCount": 1
+            },
+            {
+                "price": 15900.0,
+                "quantity": 134,
+                "orderCount": 2
+            },
+            {
+                "price": 15998.699999999999,
+                "quantity": 28,
+                "orderCount": 1
+            },
+            {
+                "price": 15998.8,
+                "quantity": 19,
+                "orderCount": 1
+            },
+            {
+                "price": 15998.9,
+                "quantity": 10,
+                "orderCount": 1
+            },
+            {
+                "price": 15999.0,
+                "quantity": 3,
+                "orderCount": 1
+            },
+            {
+                "price": 15999.399999999998,
+                "quantity": 16,
+                "orderCount": 1
+            },
+            {
+                "price": 15999.499999999998,
+                "quantity": 56,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 304,
+        "sellVolume": 2371,
+        "weeklyAveragePrice": 16154.885813333343
     }
 }

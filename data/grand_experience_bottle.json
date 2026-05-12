@@ -1,9 +1,95 @@
 {
-    "time": 1778599121,
+    "time": 1778600809,
     "item": "grand_experience_bottle",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 89,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "grand_experience_bottle",
+        "buyTopEntries": [
+            {
+                "price": 1270.5999999999995,
+                "quantity": 932,
+                "orderCount": 1
+            },
+            {
+                "price": 1270.4999999999995,
+                "quantity": 153,
+                "orderCount": 1
+            },
+            {
+                "price": 1270.3999999999996,
+                "quantity": 64,
+                "orderCount": 1
+            },
+            {
+                "price": 1270.1,
+                "quantity": 5,
+                "orderCount": 1
+            },
+            {
+                "price": 1261.2999999999988,
+                "quantity": 90,
+                "orderCount": 1
+            },
+            {
+                "price": 1250.6999999999994,
+                "quantity": 30,
+                "orderCount": 2
+            },
+            {
+                "price": 1250.0,
+                "quantity": 7,
+                "orderCount": 1
+            },
+            {
+                "price": 1128.0,
+                "quantity": 430,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 2988.0000000000036,
+                "quantity": 62,
+                "orderCount": 1
+            },
+            {
+                "price": 2988.1000000000035,
+                "quantity": 1077,
+                "orderCount": 1
+            },
+            {
+                "price": 2988.2000000000035,
+                "quantity": 71,
+                "orderCount": 1
+            },
+            {
+                "price": 2988.4000000000033,
+                "quantity": 6,
+                "orderCount": 1
+            },
+            {
+                "price": 2988.500000000003,
+                "quantity": 9,
+                "orderCount": 1
+            },
+            {
+                "price": 2988.600000000003,
+                "quantity": 41,
+                "orderCount": 1
+            },
+            {
+                "price": 2989.3000000000025,
+                "quantity": 142,
+                "orderCount": 1
+            },
+            {
+                "price": 2989.700000000002,
+                "quantity": 11,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 5770,
+        "sellVolume": 3198,
+        "weeklyAveragePrice": 2631.7579568075134
     }
 }

@@ -1,9 +1,95 @@
 {
-    "time": 1778599118,
+    "time": 1778600799,
     "item": "enchanted_bamboo",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 92,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "enchanted_bamboo",
+        "buyTopEntries": [
+            {
+                "price": 75.1,
+                "quantity": 957,
+                "orderCount": 1
+            },
+            {
+                "price": 75.0,
+                "quantity": 512,
+                "orderCount": 1
+            },
+            {
+                "price": 70.1,
+                "quantity": 3075,
+                "orderCount": 1
+            },
+            {
+                "price": 64.99999999999996,
+                "quantity": 8247,
+                "orderCount": 1
+            },
+            {
+                "price": 64.69999999999997,
+                "quantity": 34,
+                "orderCount": 1
+            },
+            {
+                "price": 63.70000000000001,
+                "quantity": 12226,
+                "orderCount": 1
+            },
+            {
+                "price": 63.300000000000004,
+                "quantity": 970,
+                "orderCount": 1
+            },
+            {
+                "price": 63.2,
+                "quantity": 888,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 199.30000000000004,
+                "quantity": 1601,
+                "orderCount": 1
+            },
+            {
+                "price": 199.40000000000003,
+                "quantity": 12678,
+                "orderCount": 6
+            },
+            {
+                "price": 199.60000000000002,
+                "quantity": 431,
+                "orderCount": 1
+            },
+            {
+                "price": 199.8,
+                "quantity": 998,
+                "orderCount": 1
+            },
+            {
+                "price": 200.0,
+                "quantity": 290,
+                "orderCount": 1
+            },
+            {
+                "price": 244.0,
+                "quantity": 574,
+                "orderCount": 1
+            },
+            {
+                "price": 244.40000000000003,
+                "quantity": 1689,
+                "orderCount": 1
+            },
+            {
+                "price": 244.8,
+                "quantity": 143,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 64446,
+        "sellVolume": 52844,
+        "weeklyAveragePrice": 181.18570114942528
     }
 }

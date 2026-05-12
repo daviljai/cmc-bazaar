@@ -1,9 +1,55 @@
 {
-    "time": 1778599142,
+    "time": 1778600869,
     "item": "large_minion_backpack",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 68,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "large_minion_backpack",
+        "buyTopEntries": [
+            {
+                "price": 50000.0,
+                "quantity": 3,
+                "orderCount": 1
+            },
+            {
+                "price": 11.0,
+                "quantity": 200,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 194999.9,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 195000.0,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 199999.29999999996,
+                "quantity": 3,
+                "orderCount": 1
+            },
+            {
+                "price": 199999.8,
+                "quantity": 5,
+                "orderCount": 1
+            },
+            {
+                "price": 199999.9,
+                "quantity": 9,
+                "orderCount": 1
+            },
+            {
+                "price": 214999.9,
+                "quantity": 1,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 203,
+        "sellVolume": 20,
+        "weeklyAveragePrice": 155031.27421359223
     }
 }

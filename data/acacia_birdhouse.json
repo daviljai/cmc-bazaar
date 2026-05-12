@@ -1,9 +1,95 @@
 {
-    "time": 1778599086,
+    "time": 1778600525,
     "item": "acacia_birdhouse",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 124,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "acacia_birdhouse",
+        "buyTopEntries": [
+            {
+                "price": 206000.30000000002,
+                "quantity": 13,
+                "orderCount": 2
+            },
+            {
+                "price": 206000.0,
+                "quantity": 10,
+                "orderCount": 2
+            },
+            {
+                "price": 205507.40000000002,
+                "quantity": 4,
+                "orderCount": 1
+            },
+            {
+                "price": 205507.1,
+                "quantity": 9,
+                "orderCount": 1
+            },
+            {
+                "price": 205506.60000000006,
+                "quantity": 5,
+                "orderCount": 1
+            },
+            {
+                "price": 205505.30000000002,
+                "quantity": 9,
+                "orderCount": 1
+            },
+            {
+                "price": 205503.30000000002,
+                "quantity": 29,
+                "orderCount": 1
+            },
+            {
+                "price": 200005.5000000001,
+                "quantity": 4,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 399988.80000000005,
+                "quantity": 3,
+                "orderCount": 1
+            },
+            {
+                "price": 399988.9,
+                "quantity": 11,
+                "orderCount": 1
+            },
+            {
+                "price": 399991.2000000004,
+                "quantity": 2,
+                "orderCount": 1
+            },
+            {
+                "price": 399991.50000000035,
+                "quantity": 6,
+                "orderCount": 2
+            },
+            {
+                "price": 399991.6000000003,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 399992.1000000002,
+                "quantity": 11,
+                "orderCount": 1
+            },
+            {
+                "price": 399992.30000000016,
+                "quantity": 18,
+                "orderCount": 1
+            },
+            {
+                "price": 399992.40000000014,
+                "quantity": 22,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 99,
+        "sellVolume": 316,
+        "weeklyAveragePrice": 387922.4455652176
     }
 }

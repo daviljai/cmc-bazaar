@@ -1,9 +1,29 @@
 {
-    "time": 1778599104,
+    "time": 1778600760,
     "item": "feather",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 106,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "feather",
+        "buyTopEntries": [],
+        "sellTopEntries": [
+            {
+                "price": 25.599999999999994,
+                "quantity": 1108,
+                "orderCount": 1
+            },
+            {
+                "price": 25.699999999999996,
+                "quantity": 135,
+                "orderCount": 1
+            },
+            {
+                "price": 99.60000000000002,
+                "quantity": 1012,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 0,
+        "sellVolume": 2255,
+        "weeklyAveragePrice": 17.71631746031746
     }
 }

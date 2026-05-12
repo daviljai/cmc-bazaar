@@ -1,9 +1,24 @@
 {
-    "time": 1778599179,
+    "time": 1778601160,
     "item": "turbo_potato_2",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 31,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "turbo_potato_2",
+        "buyTopEntries": [
+            {
+                "price": 100.1,
+                "quantity": 9,
+                "orderCount": 1
+            },
+            {
+                "price": 100.0,
+                "quantity": 1,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [],
+        "buyVolume": 10,
+        "sellVolume": 0,
+        "weeklyAveragePrice": 67185.025
     }
 }

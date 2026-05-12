@@ -1,9 +1,54 @@
 {
-    "time": 1778599006,
+    "time": 1778599930,
     "item": "turbo_cocoa_1",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 204,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "turbo_cocoa_1",
+        "buyTopEntries": [
+            {
+                "price": 30000.1,
+                "quantity": 5,
+                "orderCount": 1
+            },
+            {
+                "price": 30000.0,
+                "quantity": 4,
+                "orderCount": 1
+            },
+            {
+                "price": 15000.2,
+                "quantity": 4,
+                "orderCount": 1
+            },
+            {
+                "price": 15000.0,
+                "quantity": 9,
+                "orderCount": 1
+            },
+            {
+                "price": 10001.500000000002,
+                "quantity": 6,
+                "orderCount": 1
+            },
+            {
+                "price": 10001.300000000001,
+                "quantity": 10,
+                "orderCount": 1
+            },
+            {
+                "price": 10001.2,
+                "quantity": 14,
+                "orderCount": 1
+            },
+            {
+                "price": 10001.1,
+                "quantity": 3,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [],
+        "buyVolume": 69,
+        "sellVolume": 0,
+        "weeklyAveragePrice": 51609.861052631575
     }
 }

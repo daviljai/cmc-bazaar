@@ -1,9 +1,95 @@
 {
-    "time": 1778599068,
+    "time": 1778600472,
     "item": "undead_catalyst",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 143,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "undead_catalyst",
+        "buyTopEntries": [
+            {
+                "price": 180.0,
+                "quantity": 11,
+                "orderCount": 2
+            },
+            {
+                "price": 160.2,
+                "quantity": 61,
+                "orderCount": 1
+            },
+            {
+                "price": 160.1,
+                "quantity": 35,
+                "orderCount": 1
+            },
+            {
+                "price": 160.0,
+                "quantity": 205,
+                "orderCount": 1
+            },
+            {
+                "price": 150.69999999999996,
+                "quantity": 670,
+                "orderCount": 1
+            },
+            {
+                "price": 150.49999999999997,
+                "quantity": 6,
+                "orderCount": 1
+            },
+            {
+                "price": 150.1,
+                "quantity": 989,
+                "orderCount": 1
+            },
+            {
+                "price": 150.0,
+                "quantity": 1000,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 2149.8,
+                "quantity": 11,
+                "orderCount": 1
+            },
+            {
+                "price": 2149.9,
+                "quantity": 2,
+                "orderCount": 1
+            },
+            {
+                "price": 2150.0,
+                "quantity": 10,
+                "orderCount": 1
+            },
+            {
+                "price": 2198.6000000000013,
+                "quantity": 3,
+                "orderCount": 1
+            },
+            {
+                "price": 2198.700000000001,
+                "quantity": 2,
+                "orderCount": 1
+            },
+            {
+                "price": 2198.900000000001,
+                "quantity": 2,
+                "orderCount": 1
+            },
+            {
+                "price": 2199.000000000001,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 2199.100000000001,
+                "quantity": 11,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 3969,
+        "sellVolume": 237,
+        "weeklyAveragePrice": 829.0493207547172
     }
 }

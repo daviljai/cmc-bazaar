@@ -1,9 +1,50 @@
 {
-    "time": 1778599126,
+    "time": 1778600822,
     "item": "raw_duck",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 84,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "raw_duck",
+        "buyTopEntries": [
+            {
+                "price": 3.5,
+                "quantity": 600,
+                "orderCount": 1
+            },
+            {
+                "price": 3.4,
+                "quantity": 25,
+                "orderCount": 2
+            },
+            {
+                "price": 1.9000000000000006,
+                "quantity": 8249,
+                "orderCount": 1
+            },
+            {
+                "price": 1.4000000000000001,
+                "quantity": 1024,
+                "orderCount": 1
+            },
+            {
+                "price": 0.2,
+                "quantity": 5,
+                "orderCount": 1
+            },
+            {
+                "price": 0.1,
+                "quantity": 3000,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 100.0,
+                "quantity": 3982,
+                "orderCount": 5
+            }
+        ],
+        "buyVolume": 12903,
+        "sellVolume": 3982,
+        "weeklyAveragePrice": 34.658611570247935
     }
 }

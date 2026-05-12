@@ -1,9 +1,80 @@
 {
-    "time": 1778599081,
+    "time": 1778600512,
     "item": "unstable_dragon_fragment",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 129,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "unstable_dragon_fragment",
+        "buyTopEntries": [
+            {
+                "price": 7701.300000000005,
+                "quantity": 50,
+                "orderCount": 1
+            },
+            {
+                "price": 7701.200000000004,
+                "quantity": 43,
+                "orderCount": 1
+            },
+            {
+                "price": 7701.000000000004,
+                "quantity": 3898,
+                "orderCount": 2
+            },
+            {
+                "price": 4051.999999999998,
+                "quantity": 80,
+                "orderCount": 1
+            },
+            {
+                "price": 4050.5999999999995,
+                "quantity": 49,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 14999.8,
+                "quantity": 28,
+                "orderCount": 1
+            },
+            {
+                "price": 14999.9,
+                "quantity": 83,
+                "orderCount": 1
+            },
+            {
+                "price": 15000.0,
+                "quantity": 62,
+                "orderCount": 2
+            },
+            {
+                "price": 18460.300000000007,
+                "quantity": 27,
+                "orderCount": 1
+            },
+            {
+                "price": 18460.8,
+                "quantity": 9,
+                "orderCount": 2
+            },
+            {
+                "price": 19993.900000000016,
+                "quantity": 15,
+                "orderCount": 1
+            },
+            {
+                "price": 19996.60000000005,
+                "quantity": 4,
+                "orderCount": 1
+            },
+            {
+                "price": 19996.700000000048,
+                "quantity": 38,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 4120,
+        "sellVolume": 642,
+        "weeklyAveragePrice": 10456.615379591838
     }
 }

@@ -1,9 +1,55 @@
 {
-    "time": 1778599195,
+    "time": 1778601387,
     "item": "turbo_cactus_3",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 15,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "turbo_cactus_3",
+        "buyTopEntries": [
+            {
+                "price": 30000.0,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 1.0,
+                "quantity": 12799,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 599999.9,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 600000.0,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 66999999.9,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 67000000.0,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 472999999.79999995,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 473000000.0,
+                "quantity": 1,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 12800,
+        "sellVolume": 6,
+        "weeklyAveragePrice": "NaN"
     }
 }

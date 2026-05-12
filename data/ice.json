@@ -1,9 +1,60 @@
 {
-    "time": 1778599168,
+    "time": 1778601126,
     "item": "ice",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 42,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "ice",
+        "buyTopEntries": [
+            {
+                "price": 3.9000000000000017,
+                "quantity": 11173,
+                "orderCount": 1
+            },
+            {
+                "price": 3.8000000000000016,
+                "quantity": 14392,
+                "orderCount": 2
+            },
+            {
+                "price": 3.7000000000000015,
+                "quantity": 12800,
+                "orderCount": 1
+            },
+            {
+                "price": 3.6000000000000014,
+                "quantity": 22269,
+                "orderCount": 2
+            },
+            {
+                "price": 3.200000000000001,
+                "quantity": 3541,
+                "orderCount": 1
+            },
+            {
+                "price": 3.100000000000001,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 3.000000000000001,
+                "quantity": 6815,
+                "orderCount": 1
+            },
+            {
+                "price": 2.900000000000001,
+                "quantity": 4,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 20.0,
+                "quantity": 68,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 160519,
+        "sellVolume": 68,
+        "weeklyAveragePrice": 5.657175000000001
     }
 }

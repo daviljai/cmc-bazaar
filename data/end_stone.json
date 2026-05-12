@@ -1,9 +1,45 @@
 {
-    "time": 1778599045,
+    "time": 1778600224,
     "item": "end_stone",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 165,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "end_stone",
+        "buyTopEntries": [
+            {
+                "price": 6.199999999999999,
+                "quantity": 801,
+                "orderCount": 1
+            },
+            {
+                "price": 6.1,
+                "quantity": 33747,
+                "orderCount": 3
+            },
+            {
+                "price": 6.0,
+                "quantity": 460,
+                "orderCount": 1
+            },
+            {
+                "price": 4.1,
+                "quantity": 11868,
+                "orderCount": 1
+            },
+            {
+                "price": 0.30000000000000004,
+                "quantity": 35285,
+                "orderCount": 4
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 40.0,
+                "quantity": 7519,
+                "orderCount": 3
+            }
+        ],
+        "buyVolume": 82161,
+        "sellVolume": 7519,
+        "weeklyAveragePrice": 11.493130434782609
     }
 }

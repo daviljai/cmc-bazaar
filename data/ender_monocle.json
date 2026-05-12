@@ -1,9 +1,95 @@
 {
-    "time": 1778598971,
+    "time": 1778599828,
     "item": "ender_monocle",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 239,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "ender_monocle",
+        "buyTopEntries": [
+            {
+                "price": 4011.199999999999,
+                "quantity": 2,
+                "orderCount": 1
+            },
+            {
+                "price": 4011.099999999999,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 4010.999999999999,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 4010.899999999999,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 4010.7999999999993,
+                "quantity": 58,
+                "orderCount": 1
+            },
+            {
+                "price": 4010.3999999999996,
+                "quantity": 8,
+                "orderCount": 1
+            },
+            {
+                "price": 4010.2999999999997,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 4010.0,
+                "quantity": 13,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 39994.80000000002,
+                "quantity": 2,
+                "orderCount": 2
+            },
+            {
+                "price": 39994.900000000016,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 39995.000000000015,
+                "quantity": 6,
+                "orderCount": 1
+            },
+            {
+                "price": 39995.10000000001,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 39995.20000000001,
+                "quantity": 3,
+                "orderCount": 1
+            },
+            {
+                "price": 39995.30000000001,
+                "quantity": 2,
+                "orderCount": 1
+            },
+            {
+                "price": 39995.40000000001,
+                "quantity": 4,
+                "orderCount": 3
+            },
+            {
+                "price": 39995.50000000001,
+                "quantity": 1,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 4221,
+        "sellVolume": 233,
+        "weeklyAveragePrice": 18393.06946308725
     }
 }

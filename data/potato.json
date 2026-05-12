@@ -1,9 +1,60 @@
 {
-    "time": 1778599058,
+    "time": 1778600446,
     "item": "potato",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 152,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "potato",
+        "buyTopEntries": [
+            {
+                "price": 1.4000000000000004,
+                "quantity": 5763,
+                "orderCount": 1
+            },
+            {
+                "price": 1.3000000000000003,
+                "quantity": 663,
+                "orderCount": 1
+            },
+            {
+                "price": 1.2000000000000002,
+                "quantity": 3049,
+                "orderCount": 1
+            },
+            {
+                "price": 1.1,
+                "quantity": 5,
+                "orderCount": 1
+            },
+            {
+                "price": 1.0,
+                "quantity": 11961,
+                "orderCount": 1
+            },
+            {
+                "price": 0.30000000000000004,
+                "quantity": 348,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 7.8,
+                "quantity": 20,
+                "orderCount": 1
+            },
+            {
+                "price": 8.0,
+                "quantity": 1408,
+                "orderCount": 1
+            },
+            {
+                "price": 9.0,
+                "quantity": 192,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 21789,
+        "sellVolume": 1620,
+        "weeklyAveragePrice": 2.409704142011835
     }
 }

@@ -1,9 +1,60 @@
 {
-    "time": 1778599184,
+    "time": 1778601173,
     "item": "beetroot",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 26,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "beetroot",
+        "buyTopEntries": [
+            {
+                "price": 0.5,
+                "quantity": 72453,
+                "orderCount": 6
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 39.699999999999996,
+                "quantity": 858,
+                "orderCount": 3
+            },
+            {
+                "price": 39.8,
+                "quantity": 1868,
+                "orderCount": 3
+            },
+            {
+                "price": 39.9,
+                "quantity": 136,
+                "orderCount": 1
+            },
+            {
+                "price": 63.0,
+                "quantity": 17,
+                "orderCount": 1
+            },
+            {
+                "price": 65.0,
+                "quantity": 40,
+                "orderCount": 1
+            },
+            {
+                "price": 68.0,
+                "quantity": 472,
+                "orderCount": 1
+            },
+            {
+                "price": 69.80000000000001,
+                "quantity": 14278,
+                "orderCount": 11
+            },
+            {
+                "price": 70.0,
+                "quantity": 573,
+                "orderCount": 2
+            }
+        ],
+        "buyVolume": 72453,
+        "sellVolume": 22748,
+        "weeklyAveragePrice": 4.050461538461538
     }
 }

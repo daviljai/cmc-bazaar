@@ -1,9 +1,85 @@
 {
-    "time": 1778599176,
+    "time": 1778601150,
     "item": "turbo_pumpkin_1",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 34,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "turbo_pumpkin_1",
+        "buyTopEntries": [
+            {
+                "price": 10001.700000000006,
+                "quantity": 11,
+                "orderCount": 1
+            },
+            {
+                "price": 10001.600000000006,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 10001.500000000005,
+                "quantity": 71,
+                "orderCount": 1
+            },
+            {
+                "price": 10000.300000000001,
+                "quantity": 19,
+                "orderCount": 1
+            },
+            {
+                "price": 10000.0,
+                "quantity": 49,
+                "orderCount": 1
+            },
+            {
+                "price": 40.2,
+                "quantity": 100,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 99997.19999999984,
+                "quantity": 6,
+                "orderCount": 2
+            },
+            {
+                "price": 99997.29999999984,
+                "quantity": 5,
+                "orderCount": 1
+            },
+            {
+                "price": 99997.49999999985,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 99997.69999999987,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 99997.79999999987,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 99997.89999999988,
+                "quantity": 12,
+                "orderCount": 1
+            },
+            {
+                "price": 99998.69999999992,
+                "quantity": 2,
+                "orderCount": 1
+            },
+            {
+                "price": 144999.19999999995,
+                "quantity": 1,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 251,
+        "sellVolume": 33,
+        "weeklyAveragePrice": 35418.330568807316
     }
 }

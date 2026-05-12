@@ -1,9 +1,95 @@
 {
-    "time": 1778599154,
+    "time": 1778601087,
     "item": "polished_pumpkin",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 56,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "polished_pumpkin",
+        "buyTopEntries": [
+            {
+                "price": 102001.10000000006,
+                "quantity": 20,
+                "orderCount": 1
+            },
+            {
+                "price": 102001.00000000006,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 102000.90000000005,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 102000.70000000004,
+                "quantity": 30,
+                "orderCount": 1
+            },
+            {
+                "price": 102000.50000000003,
+                "quantity": 100,
+                "orderCount": 1
+            },
+            {
+                "price": 93001.00000000006,
+                "quantity": 2,
+                "orderCount": 1
+            },
+            {
+                "price": 93000.20000000001,
+                "quantity": 5,
+                "orderCount": 1
+            },
+            {
+                "price": 72487.60000000021,
+                "quantity": 16,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 118999.19999999995,
+                "quantity": 10,
+                "orderCount": 1
+            },
+            {
+                "price": 118999.29999999996,
+                "quantity": 9,
+                "orderCount": 2
+            },
+            {
+                "price": 118999.39999999997,
+                "quantity": 2,
+                "orderCount": 1
+            },
+            {
+                "price": 118999.59999999998,
+                "quantity": 10,
+                "orderCount": 1
+            },
+            {
+                "price": 118999.69999999998,
+                "quantity": 5,
+                "orderCount": 1
+            },
+            {
+                "price": 118999.79999999999,
+                "quantity": 9,
+                "orderCount": 1
+            },
+            {
+                "price": 118999.9,
+                "quantity": 55,
+                "orderCount": 1
+            },
+            {
+                "price": 123886.69999999992,
+                "quantity": 2,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 207,
+        "sellVolume": 384,
+        "weeklyAveragePrice": 113460.37043404255
     }
 }

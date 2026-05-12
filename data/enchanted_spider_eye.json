@@ -1,9 +1,80 @@
 {
-    "time": 1778599164,
+    "time": 1778601117,
     "item": "enchanted_spider_eye",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 46,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "enchanted_spider_eye",
+        "buyTopEntries": [
+            {
+                "price": 401.0000000000002,
+                "quantity": 4211,
+                "orderCount": 1
+            },
+            {
+                "price": 400.9000000000002,
+                "quantity": 4966,
+                "orderCount": 1
+            },
+            {
+                "price": 400.8000000000002,
+                "quantity": 2600,
+                "orderCount": 1
+            },
+            {
+                "price": 400.0,
+                "quantity": 23555,
+                "orderCount": 2
+            },
+            {
+                "price": 279.0,
+                "quantity": 12480,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 493.49999999999966,
+                "quantity": 394,
+                "orderCount": 1
+            },
+            {
+                "price": 493.5999999999997,
+                "quantity": 983,
+                "orderCount": 1
+            },
+            {
+                "price": 493.7999999999997,
+                "quantity": 435,
+                "orderCount": 1
+            },
+            {
+                "price": 493.89999999999975,
+                "quantity": 514,
+                "orderCount": 1
+            },
+            {
+                "price": 494.29999999999984,
+                "quantity": 1891,
+                "orderCount": 1
+            },
+            {
+                "price": 494.4999999999999,
+                "quantity": 224,
+                "orderCount": 1
+            },
+            {
+                "price": 494.5999999999999,
+                "quantity": 957,
+                "orderCount": 3
+            },
+            {
+                "price": 494.69999999999993,
+                "quantity": 271,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 47812,
+        "sellVolume": 23985,
+        "weeklyAveragePrice": 452.4752298850575
     }
 }

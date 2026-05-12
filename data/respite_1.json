@@ -1,9 +1,40 @@
 {
-    "time": 1778599177,
+    "time": 1778601153,
     "item": "respite_1",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 33,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "respite_1",
+        "buyTopEntries": [
+            {
+                "price": 50001.29999999998,
+                "quantity": 15,
+                "orderCount": 1
+            },
+            {
+                "price": 50001.19999999998,
+                "quantity": 5,
+                "orderCount": 1
+            },
+            {
+                "price": 50000.999999999985,
+                "quantity": 13,
+                "orderCount": 1
+            },
+            {
+                "price": 50000.299999999996,
+                "quantity": 6,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 200000.0,
+                "quantity": 1,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 39,
+        "sellVolume": 1,
+        "weeklyAveragePrice": 51832.05555555554
     }
 }

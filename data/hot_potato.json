@@ -1,9 +1,95 @@
 {
-    "time": 1778599197,
+    "time": 1778601394,
     "item": "hot_potato",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 13,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "hot_potato",
+        "buyTopEntries": [
+            {
+                "price": 27000.199999999997,
+                "quantity": 10,
+                "orderCount": 1
+            },
+            {
+                "price": 27000.1,
+                "quantity": 5,
+                "orderCount": 1
+            },
+            {
+                "price": 27000.0,
+                "quantity": 3,
+                "orderCount": 1
+            },
+            {
+                "price": 26001.69999999999,
+                "quantity": 19,
+                "orderCount": 1
+            },
+            {
+                "price": 26001.59999999999,
+                "quantity": 17,
+                "orderCount": 1
+            },
+            {
+                "price": 25003.699999999946,
+                "quantity": 3,
+                "orderCount": 1
+            },
+            {
+                "price": 25003.099999999955,
+                "quantity": 20,
+                "orderCount": 1
+            },
+            {
+                "price": 25001.799999999974,
+                "quantity": 65,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 35798.00000000003,
+                "quantity": 54,
+                "orderCount": 2
+            },
+            {
+                "price": 35798.10000000003,
+                "quantity": 6,
+                "orderCount": 1
+            },
+            {
+                "price": 35798.200000000026,
+                "quantity": 24,
+                "orderCount": 1
+            },
+            {
+                "price": 35798.300000000025,
+                "quantity": 6,
+                "orderCount": 1
+            },
+            {
+                "price": 35798.40000000002,
+                "quantity": 20,
+                "orderCount": 1
+            },
+            {
+                "price": 35798.50000000002,
+                "quantity": 12,
+                "orderCount": 1
+            },
+            {
+                "price": 35798.60000000002,
+                "quantity": 21,
+                "orderCount": 1
+            },
+            {
+                "price": 35798.80000000002,
+                "quantity": 10,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 420,
+        "sellVolume": 689,
+        "weeklyAveragePrice": 35179.37519774012
     }
 }

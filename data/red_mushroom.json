@@ -1,9 +1,54 @@
 {
-    "time": 1778599042,
+    "time": 1778600218,
     "item": "red_mushroom",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 168,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "red_mushroom",
+        "buyTopEntries": [],
+        "sellTopEntries": [
+            {
+                "price": 49.9,
+                "quantity": 40,
+                "orderCount": 1
+            },
+            {
+                "price": 50.0,
+                "quantity": 9,
+                "orderCount": 1
+            },
+            {
+                "price": 60.0,
+                "quantity": 386,
+                "orderCount": 1
+            },
+            {
+                "price": 122.60000000000014,
+                "quantity": 272,
+                "orderCount": 1
+            },
+            {
+                "price": 124.00000000000006,
+                "quantity": 306,
+                "orderCount": 1
+            },
+            {
+                "price": 124.80000000000001,
+                "quantity": 32,
+                "orderCount": 1
+            },
+            {
+                "price": 135.9,
+                "quantity": 512,
+                "orderCount": 1
+            },
+            {
+                "price": 136.0,
+                "quantity": 29,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 0,
+        "sellVolume": 3147,
+        "weeklyAveragePrice": 35.193230769230766
     }
 }

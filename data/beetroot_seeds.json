@@ -1,5 +1,5 @@
 {
-    "time": 1778599219,
+    "time": 1778601454,
     "item": "beetroot_seeds",
     "data": {
         "success": true,
@@ -17,6 +17,26 @@
             }
         ],
         "sellTopEntries": [
+            {
+                "price": 99.40000000000003,
+                "quantity": 905,
+                "orderCount": 1
+            },
+            {
+                "price": 99.50000000000003,
+                "quantity": 668,
+                "orderCount": 1
+            },
+            {
+                "price": 99.60000000000002,
+                "quantity": 773,
+                "orderCount": 1
+            },
+            {
+                "price": 99.70000000000002,
+                "quantity": 448,
+                "orderCount": 1
+            },
             {
                 "price": 99.80000000000001,
                 "quantity": 685,
@@ -36,30 +56,10 @@
                 "price": 185.0,
                 "quantity": 1620,
                 "orderCount": 1
-            },
-            {
-                "price": 190.0,
-                "quantity": 16,
-                "orderCount": 1
-            },
-            {
-                "price": 197.30000000000015,
-                "quantity": 1694,
-                "orderCount": 1
-            },
-            {
-                "price": 197.40000000000015,
-                "quantity": 3495,
-                "orderCount": 2
-            },
-            {
-                "price": 197.80000000000013,
-                "quantity": 85,
-                "orderCount": 1
             }
         ],
         "buyVolume": 20017,
-        "sellVolume": 57931,
+        "sellVolume": 60725,
         "weeklyAveragePrice": 75.53209090909094
     }
 }

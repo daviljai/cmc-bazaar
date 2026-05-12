@@ -1,9 +1,44 @@
 {
-    "time": 1778599120,
+    "time": 1778600806,
     "item": "small_minion_backpack",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 90,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "small_minion_backpack",
+        "buyTopEntries": [
+            {
+                "price": 11.2,
+                "quantity": 2,
+                "orderCount": 1
+            },
+            {
+                "price": 11.1,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 11.0,
+                "quantity": 86,
+                "orderCount": 3
+            },
+            {
+                "price": 10.0,
+                "quantity": 449,
+                "orderCount": 2
+            },
+            {
+                "price": 1.4000000000000004,
+                "quantity": 845,
+                "orderCount": 2
+            },
+            {
+                "price": 1.3000000000000003,
+                "quantity": 5977,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [],
+        "buyVolume": 7360,
+        "sellVolume": 0,
+        "weeklyAveragePrice": 11.4825
     }
 }

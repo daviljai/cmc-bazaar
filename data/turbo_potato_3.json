@@ -1,9 +1,13 @@
 {
-    "time": 1778599188,
+    "time": 1778601368,
     "item": "turbo_potato_3",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 22,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "turbo_potato_3",
+        "buyTopEntries": [],
+        "sellTopEntries": [],
+        "buyVolume": 0,
+        "sellVolume": 0,
+        "weeklyAveragePrice": "NaN"
     }
 }

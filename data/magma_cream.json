@@ -1,5 +1,5 @@
 {
-    "time": 1778598920,
+    "time": 1778599514,
     "item": "magma_cream",
     "data": {
         "success": true,
@@ -7,7 +7,7 @@
         "buyTopEntries": [
             {
                 "price": 1.5000000000000004,
-                "quantity": 1330,
+                "quantity": 1200,
                 "orderCount": 1
             },
             {
@@ -68,7 +68,7 @@
                 "orderCount": 1
             }
         ],
-        "buyVolume": 42811,
+        "buyVolume": 42681,
         "sellVolume": 7152,
         "weeklyAveragePrice": 12.11575478927203
     }

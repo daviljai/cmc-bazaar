@@ -1,9 +1,80 @@
 {
-    "time": 1778598970,
+    "time": 1778599824,
     "item": "enchanted_cookie",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 241,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "enchanted_cookie",
+        "buyTopEntries": [
+            {
+                "price": 25000.0,
+                "quantity": 7,
+                "orderCount": 1
+            },
+            {
+                "price": 13000.300000000001,
+                "quantity": 50,
+                "orderCount": 1
+            },
+            {
+                "price": 13000.1,
+                "quantity": 18,
+                "orderCount": 1
+            },
+            {
+                "price": 10000.2,
+                "quantity": 33,
+                "orderCount": 1
+            },
+            {
+                "price": 10000.0,
+                "quantity": 63,
+                "orderCount": 3
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 44998.200000000026,
+                "quantity": 29,
+                "orderCount": 1
+            },
+            {
+                "price": 44998.300000000025,
+                "quantity": 147,
+                "orderCount": 1
+            },
+            {
+                "price": 44998.40000000002,
+                "quantity": 39,
+                "orderCount": 1
+            },
+            {
+                "price": 44998.50000000002,
+                "quantity": 7,
+                "orderCount": 1
+            },
+            {
+                "price": 44998.60000000002,
+                "quantity": 53,
+                "orderCount": 1
+            },
+            {
+                "price": 44998.70000000002,
+                "quantity": 5,
+                "orderCount": 1
+            },
+            {
+                "price": 44999.000000000015,
+                "quantity": 8,
+                "orderCount": 1
+            },
+            {
+                "price": 44999.8,
+                "quantity": 4,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 171,
+        "sellVolume": 1206,
+        "weeklyAveragePrice": 41653.81170000002
     }
 }

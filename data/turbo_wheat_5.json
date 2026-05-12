@@ -1,9 +1,75 @@
 {
-    "time": 1778599033,
+    "time": 1778600191,
     "item": "turbo_wheat_5",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 177,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "turbo_wheat_5",
+        "buyTopEntries": [
+            {
+                "price": 300.10000000000025,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 299.9000000000002,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 299.8000000000002,
+                "quantity": 2,
+                "orderCount": 1
+            },
+            {
+                "price": 299.70000000000016,
+                "quantity": 6,
+                "orderCount": 2
+            },
+            {
+                "price": 299.5000000000001,
+                "quantity": 10,
+                "orderCount": 1
+            },
+            {
+                "price": 299.30000000000007,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 299.0,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 100.69999999999996,
+                "quantity": 10,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 2000000.0,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 2999999.5999999996,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 3799999.9,
+                "quantity": 2,
+                "orderCount": 1
+            },
+            {
+                "price": 3999999.8,
+                "quantity": 1,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 46,
+        "sellVolume": 5,
+        "weeklyAveragePrice": 1560000.0
     }
 }

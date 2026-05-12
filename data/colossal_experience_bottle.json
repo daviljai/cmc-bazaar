@@ -1,9 +1,65 @@
 {
-    "time": 1778598973,
+    "time": 1778599834,
     "item": "colossal_experience_bottle",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 237,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "colossal_experience_bottle",
+        "buyTopEntries": [
+            {
+                "price": 1000000.2999999999,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 1000000.2,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 1000000.1,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 300007.6999999994,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 300006.6999999996,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 300006.1999999997,
+                "quantity": 3,
+                "orderCount": 1
+            },
+            {
+                "price": 159000.30000000002,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 122222.1,
+                "quantity": 1,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 2799999.9,
+                "quantity": 4,
+                "orderCount": 1
+            },
+            {
+                "price": 2800000.0,
+                "quantity": 14,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 152,
+        "sellVolume": 18,
+        "weeklyAveragePrice": 2514666.666222222
     }
 }

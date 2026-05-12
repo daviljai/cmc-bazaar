@@ -1,5 +1,5 @@
 {
-    "time": 1778599213,
+    "time": 1778601437,
     "item": "smite_6",
     "data": {
         "success": true,
@@ -80,6 +80,6 @@
         ],
         "buyVolume": 238,
         "sellVolume": 112,
-        "weeklyAveragePrice": 28986.525392857147
+        "weeklyAveragePrice": 28986.47096428572
     }
 }

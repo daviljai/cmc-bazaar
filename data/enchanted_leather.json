@@ -1,10 +1,15 @@
 {
-    "time": 1778598924,
+    "time": 1778599524,
     "item": "enchanted_leather",
     "data": {
         "success": true,
         "itemId": "enchanted_leather",
         "buyTopEntries": [
+            {
+                "price": 2010.8999999999992,
+                "quantity": 45,
+                "orderCount": 1
+            },
             {
                 "price": 2010.7999999999993,
                 "quantity": 840,
@@ -38,11 +43,6 @@
             {
                 "price": 1300.2999999999997,
                 "quantity": 64,
-                "orderCount": 1
-            },
-            {
-                "price": 1300.1,
-                "quantity": 24,
                 "orderCount": 1
             }
         ],
@@ -88,7 +88,7 @@
                 "orderCount": 2
             }
         ],
-        "buyVolume": 4836,
+        "buyVolume": 4881,
         "sellVolume": 15990,
         "weeklyAveragePrice": 4007.736611764705
     }

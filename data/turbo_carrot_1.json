@@ -1,9 +1,70 @@
 {
-    "time": 1778599008,
+    "time": 1778600119,
     "item": "turbo_carrot_1",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 202,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "turbo_carrot_1",
+        "buyTopEntries": [
+            {
+                "price": 1000.1,
+                "quantity": 191,
+                "orderCount": 2
+            },
+            {
+                "price": 1000.0,
+                "quantity": 40,
+                "orderCount": 1
+            },
+            {
+                "price": 100.0,
+                "quantity": 69,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 15998.9,
+                "quantity": 2,
+                "orderCount": 1
+            },
+            {
+                "price": 15999.0,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 16898.9,
+                "quantity": 4,
+                "orderCount": 1
+            },
+            {
+                "price": 16999.20000000001,
+                "quantity": 3,
+                "orderCount": 1
+            },
+            {
+                "price": 16999.600000000006,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 16999.700000000004,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 16999.800000000003,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 16999.9,
+                "quantity": 1,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 300,
+        "sellVolume": 259,
+        "weeklyAveragePrice": 5055.398444444446
     }
 }

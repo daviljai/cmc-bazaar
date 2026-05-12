@@ -1,9 +1,90 @@
 {
-    "time": 1778598982,
+    "time": 1778599861,
     "item": "box_of_seeds",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 228,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "box_of_seeds",
+        "buyTopEntries": [
+            {
+                "price": 11000.1,
+                "quantity": 229,
+                "orderCount": 1
+            },
+            {
+                "price": 8011.200000000004,
+                "quantity": 64,
+                "orderCount": 1
+            },
+            {
+                "price": 7000.1,
+                "quantity": 24,
+                "orderCount": 1
+            },
+            {
+                "price": 506.00000000000136,
+                "quantity": 15,
+                "orderCount": 1
+            },
+            {
+                "price": 505.10000000000116,
+                "quantity": 500,
+                "orderCount": 1
+            },
+            {
+                "price": 500.1,
+                "quantity": 104,
+                "orderCount": 3
+            },
+            {
+                "price": 0.2,
+                "quantity": 1280,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 14199.8,
+                "quantity": 22,
+                "orderCount": 3
+            },
+            {
+                "price": 14199.9,
+                "quantity": 98,
+                "orderCount": 1
+            },
+            {
+                "price": 14498.099999999997,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 14498.299999999997,
+                "quantity": 190,
+                "orderCount": 1
+            },
+            {
+                "price": 14498.399999999998,
+                "quantity": 2,
+                "orderCount": 1
+            },
+            {
+                "price": 14499.0,
+                "quantity": 44,
+                "orderCount": 1
+            },
+            {
+                "price": 14988.199999999993,
+                "quantity": 121,
+                "orderCount": 1
+            },
+            {
+                "price": 14988.699999999995,
+                "quantity": 1,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 2216,
+        "sellVolume": 871,
+        "weeklyAveragePrice": 11923.764864864863
     }
 }

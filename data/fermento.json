@@ -1,9 +1,90 @@
 {
-    "time": 1778599047,
+    "time": 1778600231,
     "item": "fermento",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 163,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "fermento",
+        "buyTopEntries": [
+            {
+                "price": 260000.0,
+                "quantity": 384,
+                "orderCount": 1
+            },
+            {
+                "price": 210001.5000000001,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 150000.0,
+                "quantity": 900,
+                "orderCount": 4
+            },
+            {
+                "price": 101000.60000000003,
+                "quantity": 5,
+                "orderCount": 1
+            },
+            {
+                "price": 100000.1,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 100000.0,
+                "quantity": 1420,
+                "orderCount": 1
+            },
+            {
+                "price": 10.599999999999998,
+                "quantity": 1280,
+                "orderCount": 1
+            },
+            {
+                "price": 10.1,
+                "quantity": 10,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 265554.00000000023,
+                "quantity": 14,
+                "orderCount": 1
+            },
+            {
+                "price": 265554.1000000002,
+                "quantity": 9,
+                "orderCount": 1
+            },
+            {
+                "price": 265554.6000000001,
+                "quantity": 9,
+                "orderCount": 1
+            },
+            {
+                "price": 265554.70000000007,
+                "quantity": 3,
+                "orderCount": 1
+            },
+            {
+                "price": 350000.0,
+                "quantity": 22,
+                "orderCount": 1
+            },
+            {
+                "price": 370000.0,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 375000.0,
+                "quantity": 6,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 5025,
+        "sellVolume": 64,
+        "weeklyAveragePrice": 278367.5042162163
     }
 }

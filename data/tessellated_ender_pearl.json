@@ -1,9 +1,75 @@
 {
-    "time": 1778599122,
+    "time": 1778600813,
     "item": "tessellated_ender_pearl",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 88,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "tessellated_ender_pearl",
+        "buyTopEntries": [
+            {
+                "price": 250000.60000000003,
+                "quantity": 5,
+                "orderCount": 1
+            },
+            {
+                "price": 250000.50000000003,
+                "quantity": 11,
+                "orderCount": 1
+            },
+            {
+                "price": 250000.40000000002,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 250000.2,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 250000.1,
+                "quantity": 5,
+                "orderCount": 1
+            },
+            {
+                "price": 200506.80000000005,
+                "quantity": 5,
+                "orderCount": 1
+            },
+            {
+                "price": 200500.1,
+                "quantity": 2,
+                "orderCount": 1
+            },
+            {
+                "price": 200001.10000000006,
+                "quantity": 4,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 2499997.5999999996,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 2499997.6999999997,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 2499997.9,
+                "quantity": 3,
+                "orderCount": 1
+            },
+            {
+                "price": 2499998.999999999,
+                "quantity": 1,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 267,
+        "sellVolume": 6,
+        "weeklyAveragePrice": 200506.70000000004
     }
 }

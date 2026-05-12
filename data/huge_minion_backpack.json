@@ -1,9 +1,54 @@
 {
-    "time": 1778598981,
+    "time": 1778599858,
     "item": "huge_minion_backpack",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 229,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "huge_minion_backpack",
+        "buyTopEntries": [
+            {
+                "price": 3000000.1,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 1500000.2000000002,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 1500000.1,
+                "quantity": 11,
+                "orderCount": 2
+            },
+            {
+                "price": 1500000.0,
+                "quantity": 2,
+                "orderCount": 1
+            },
+            {
+                "price": 500000.0,
+                "quantity": 5,
+                "orderCount": 1
+            },
+            {
+                "price": 450000.1,
+                "quantity": 2,
+                "orderCount": 2
+            },
+            {
+                "price": 450000.0,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 300000.0,
+                "quantity": 12,
+                "orderCount": 3
+            }
+        ],
+        "sellTopEntries": [],
+        "buyVolume": 57,
+        "sellVolume": 0,
+        "weeklyAveragePrice": "NaN"
     }
 }

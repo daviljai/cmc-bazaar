@@ -1,10 +1,15 @@
 {
-    "time": 1778598916,
+    "time": 1778599504,
     "item": "enchanted_packed_ice",
     "data": {
         "success": true,
         "itemId": "enchanted_packed_ice",
         "buyTopEntries": [
+            {
+                "price": 46025.0,
+                "quantity": 62,
+                "orderCount": 1
+            },
             {
                 "price": 46001.699999999975,
                 "quantity": 256,
@@ -28,11 +33,6 @@
             {
                 "price": 46001.19999999998,
                 "quantity": 27,
-                "orderCount": 1
-            },
-            {
-                "price": 46000.999999999985,
-                "quantity": 62,
                 "orderCount": 1
             },
             {

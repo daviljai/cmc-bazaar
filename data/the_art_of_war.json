@@ -1,9 +1,65 @@
 {
-    "time": 1778599096,
+    "time": 1778600555,
     "item": "the_art_of_war",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 114,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "the_art_of_war",
+        "buyTopEntries": [
+            {
+                "price": 5000003.399999999,
+                "quantity": 4,
+                "orderCount": 1
+            },
+            {
+                "price": 5000003.3,
+                "quantity": 3,
+                "orderCount": 1
+            },
+            {
+                "price": 1000000.7999999998,
+                "quantity": 1,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 7899998.9,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 7899999.0,
+                "quantity": 2,
+                "orderCount": 1
+            },
+            {
+                "price": 7899999.400000002,
+                "quantity": 2,
+                "orderCount": 1
+            },
+            {
+                "price": 7900000.0,
+                "quantity": 3,
+                "orderCount": 1
+            },
+            {
+                "price": 8996998.500000006,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 10000000.0,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 13499999.500000002,
+                "quantity": 1,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 8,
+        "sellVolume": 11,
+        "weeklyAveragePrice": 8137999.5320000015
     }
 }

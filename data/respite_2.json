@@ -1,9 +1,80 @@
 {
-    "time": 1778599185,
+    "time": 1778601176,
     "item": "respite_2",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 25,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "respite_2",
+        "buyTopEntries": [
+            {
+                "price": 100001.30000000008,
+                "quantity": 4,
+                "orderCount": 1
+            },
+            {
+                "price": 100001.20000000007,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 100001.00000000006,
+                "quantity": 7,
+                "orderCount": 1
+            },
+            {
+                "price": 100000.70000000004,
+                "quantity": 6,
+                "orderCount": 1
+            },
+            {
+                "price": 100000.20000000001,
+                "quantity": 1,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 983999.9,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 984000.0,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 999994.1000000001,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 999994.2000000001,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 999994.8000000007,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 999994.9000000007,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 999995.6000000006,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 999996.2000000004,
+                "quantity": 1,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 19,
+        "sellVolume": 11,
+        "weeklyAveragePrice": 222667.0406666668
     }
 }

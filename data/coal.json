@@ -1,9 +1,85 @@
 {
-    "time": 1778599127,
+    "time": 1778600826,
     "item": "coal",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 83,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "coal",
+        "buyTopEntries": [
+            {
+                "price": 5.3,
+                "quantity": 37037,
+                "orderCount": 3
+            },
+            {
+                "price": 5.2,
+                "quantity": 13658,
+                "orderCount": 2
+            },
+            {
+                "price": 5.1,
+                "quantity": 12800,
+                "orderCount": 1
+            },
+            {
+                "price": 5.0,
+                "quantity": 38400,
+                "orderCount": 3
+            },
+            {
+                "price": 4.0,
+                "quantity": 1338,
+                "orderCount": 2
+            },
+            {
+                "price": 2.0,
+                "quantity": 3319,
+                "orderCount": 2
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 45.29999999999999,
+                "quantity": 2206,
+                "orderCount": 1
+            },
+            {
+                "price": 45.49999999999999,
+                "quantity": 1599,
+                "orderCount": 1
+            },
+            {
+                "price": 45.599999999999994,
+                "quantity": 64,
+                "orderCount": 1
+            },
+            {
+                "price": 45.699999999999996,
+                "quantity": 1216,
+                "orderCount": 1
+            },
+            {
+                "price": 45.8,
+                "quantity": 640,
+                "orderCount": 1
+            },
+            {
+                "price": 45.9,
+                "quantity": 32,
+                "orderCount": 1
+            },
+            {
+                "price": 47.0,
+                "quantity": 5,
+                "orderCount": 1
+            },
+            {
+                "price": 49.39999999999999,
+                "quantity": 1314,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 106552,
+        "sellVolume": 17661,
+        "weeklyAveragePrice": 14.06171111111111
     }
 }

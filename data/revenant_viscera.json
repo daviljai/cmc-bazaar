@@ -1,9 +1,90 @@
 {
-    "time": 1778599044,
+    "time": 1778600221,
     "item": "revenant_viscera",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 166,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "revenant_viscera",
+        "buyTopEntries": [
+            {
+                "price": 110010.30000000002,
+                "quantity": 64,
+                "orderCount": 1
+            },
+            {
+                "price": 110010.1,
+                "quantity": 54,
+                "orderCount": 1
+            },
+            {
+                "price": 110010.0,
+                "quantity": 199,
+                "orderCount": 1
+            },
+            {
+                "price": 110004.80000000005,
+                "quantity": 52,
+                "orderCount": 1
+            },
+            {
+                "price": 110004.60000000003,
+                "quantity": 14,
+                "orderCount": 1
+            },
+            {
+                "price": 110004.50000000003,
+                "quantity": 18,
+                "orderCount": 1
+            },
+            {
+                "price": 110004.40000000002,
+                "quantity": 62,
+                "orderCount": 2
+            },
+            {
+                "price": 110004.0,
+                "quantity": 10,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 130000.0,
+                "quantity": 49,
+                "orderCount": 1
+            },
+            {
+                "price": 139999.8,
+                "quantity": 58,
+                "orderCount": 1
+            },
+            {
+                "price": 139999.9,
+                "quantity": 187,
+                "orderCount": 1
+            },
+            {
+                "price": 140000.0,
+                "quantity": 377,
+                "orderCount": 2
+            },
+            {
+                "price": 141000.0,
+                "quantity": 4,
+                "orderCount": 2
+            },
+            {
+                "price": 150000.0,
+                "quantity": 10,
+                "orderCount": 1
+            },
+            {
+                "price": 156000.0,
+                "quantity": 256,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 929,
+        "sellVolume": 941,
+        "weeklyAveragePrice": 116726.3994264706
     }
 }

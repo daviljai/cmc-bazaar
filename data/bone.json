@@ -1,5 +1,5 @@
 {
-    "time": 1778598930,
+    "time": 1778599540,
     "item": "bone",
     "data": {
         "success": true,
@@ -7,7 +7,7 @@
         "buyTopEntries": [
             {
                 "price": 1.1,
-                "quantity": 2501,
+                "quantity": 2490,
                 "orderCount": 1
             },
             {
@@ -28,7 +28,7 @@
                 "orderCount": 2
             }
         ],
-        "buyVolume": 15264,
+        "buyVolume": 15253,
         "sellVolume": 11720,
         "weeklyAveragePrice": 6.009527777777778
     }

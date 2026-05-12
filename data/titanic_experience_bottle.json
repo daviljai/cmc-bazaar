@@ -1,9 +1,95 @@
 {
-    "time": 1778599129,
+    "time": 1778600832,
     "item": "titanic_experience_bottle",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 81,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "titanic_experience_bottle",
+        "buyTopEntries": [
+            {
+                "price": 113000.70000000004,
+                "quantity": 7,
+                "orderCount": 1
+            },
+            {
+                "price": 113000.60000000003,
+                "quantity": 3,
+                "orderCount": 1
+            },
+            {
+                "price": 113000.40000000002,
+                "quantity": 115,
+                "orderCount": 1
+            },
+            {
+                "price": 111167.20000000001,
+                "quantity": 88,
+                "orderCount": 1
+            },
+            {
+                "price": 110006.00000000035,
+                "quantity": 5,
+                "orderCount": 1
+            },
+            {
+                "price": 110005.70000000033,
+                "quantity": 4,
+                "orderCount": 1
+            },
+            {
+                "price": 110005.50000000032,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 110002.90000000017,
+                "quantity": 71,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 139998.59999999992,
+                "quantity": 15,
+                "orderCount": 1
+            },
+            {
+                "price": 139998.69999999992,
+                "quantity": 12,
+                "orderCount": 1
+            },
+            {
+                "price": 140000.0,
+                "quantity": 45,
+                "orderCount": 1
+            },
+            {
+                "price": 144999.8,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 149996.89999999982,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 149997.49999999985,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 149998.0999999999,
+                "quantity": 2,
+                "orderCount": 1
+            },
+            {
+                "price": 149998.2999999999,
+                "quantity": 1,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 540,
+        "sellVolume": 135,
+        "weeklyAveragePrice": 126458.09324752475
     }
 }

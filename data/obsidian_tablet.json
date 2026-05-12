@@ -1,9 +1,95 @@
 {
-    "time": 1778599060,
+    "time": 1778600449,
     "item": "obsidian_tablet",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 151,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "obsidian_tablet",
+        "buyTopEntries": [
+            {
+                "price": 900001.4999999999,
+                "quantity": 9,
+                "orderCount": 1
+            },
+            {
+                "price": 900001.4,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 900001.3999999999,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 900001.2999999999,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 900001.1,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 900000.2999999997,
+                "quantity": 8,
+                "orderCount": 1
+            },
+            {
+                "price": 899999.7999999998,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 899999.1,
+                "quantity": 10,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 2450000.0,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 2499999.5999999996,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 2499999.6999999997,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 2499999.9,
+                "quantity": 5,
+                "orderCount": 1
+            },
+            {
+                "price": 6499999.800000001,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 7899996.800000001,
+                "quantity": 2,
+                "orderCount": 1
+            },
+            {
+                "price": 7999996.600000013,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 7999997.20000001,
+                "quantity": 1,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 146,
+        "sellVolume": 13,
+        "weeklyAveragePrice": 3001979.468307692
     }
 }

@@ -1,9 +1,40 @@
 {
-    "time": 1778599137,
+    "time": 1778600855,
     "item": "duck_egg",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 73,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "duck_egg",
+        "buyTopEntries": [
+            {
+                "price": 0.7999999999999999,
+                "quantity": 2,
+                "orderCount": 1
+            },
+            {
+                "price": 0.7,
+                "quantity": 14583,
+                "orderCount": 2
+            },
+            {
+                "price": 0.6,
+                "quantity": 10,
+                "orderCount": 1
+            },
+            {
+                "price": 0.1,
+                "quantity": 11112,
+                "orderCount": 2
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 20.0,
+                "quantity": 3,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 25707,
+        "sellVolume": 3,
+        "weeklyAveragePrice": 5.947368421052632
     }
 }

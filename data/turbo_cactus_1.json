@@ -1,9 +1,75 @@
 {
-    "time": 1778599178,
+    "time": 1778601156,
     "item": "turbo_cactus_1",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 32,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "turbo_cactus_1",
+        "buyTopEntries": [
+            {
+                "price": 2000.4999999999995,
+                "quantity": 17,
+                "orderCount": 1
+            },
+            {
+                "price": 2000.3999999999996,
+                "quantity": 7,
+                "orderCount": 1
+            },
+            {
+                "price": 1000.0,
+                "quantity": 965,
+                "orderCount": 1
+            },
+            {
+                "price": 10.0,
+                "quantity": 100,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 17998.800000000003,
+                "quantity": 6,
+                "orderCount": 1
+            },
+            {
+                "price": 17998.9,
+                "quantity": 21,
+                "orderCount": 2
+            },
+            {
+                "price": 17999.0,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 19999.20000000001,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 19999.30000000001,
+                "quantity": 18,
+                "orderCount": 1
+            },
+            {
+                "price": 19999.40000000001,
+                "quantity": 19,
+                "orderCount": 1
+            },
+            {
+                "price": 19999.500000000007,
+                "quantity": 4,
+                "orderCount": 2
+            },
+            {
+                "price": 19999.700000000004,
+                "quantity": 3,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 1089,
+        "sellVolume": 77,
+        "weeklyAveragePrice": 17876.42292307693
     }
 }

@@ -1,9 +1,40 @@
 {
-    "time": 1778599145,
+    "time": 1778601060,
     "item": "melon_block",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 65,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "melon_block",
+        "buyTopEntries": [
+            {
+                "price": 4.1,
+                "quantity": 13447,
+                "orderCount": 2
+            },
+            {
+                "price": 3.2,
+                "quantity": 64,
+                "orderCount": 1
+            },
+            {
+                "price": 1.5000000000000004,
+                "quantity": 5551,
+                "orderCount": 1
+            },
+            {
+                "price": 1.4000000000000004,
+                "quantity": 12,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 8.0,
+                "quantity": 177,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 19074,
+        "sellVolume": 177,
+        "weeklyAveragePrice": 8.0564
     }
 }

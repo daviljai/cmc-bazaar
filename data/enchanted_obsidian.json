@@ -1,5 +1,5 @@
 {
-    "time": 1778599216,
+    "time": 1778601447,
     "item": "enchanted_obsidian",
     "data": {
         "success": true,
@@ -7,7 +7,7 @@
         "buyTopEntries": [
             {
                 "price": 1328.7999999999975,
-                "quantity": 1894,
+                "quantity": 1888,
                 "orderCount": 1
             },
             {
@@ -88,7 +88,7 @@
                 "orderCount": 2
             }
         ],
-        "buyVolume": 26557,
+        "buyVolume": 26551,
         "sellVolume": 25794,
         "weeklyAveragePrice": 1534.4677551020402
     }

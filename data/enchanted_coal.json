@@ -1,5 +1,5 @@
 {
-    "time": 1778598931,
+    "time": 1778599544,
     "item": "enchanted_coal",
     "data": {
         "success": true,
@@ -90,6 +90,6 @@
         ],
         "buyVolume": 40299,
         "sellVolume": 12840,
-        "weeklyAveragePrice": 775.7151860465119
+        "weeklyAveragePrice": 726.8075952380956
     }
 }

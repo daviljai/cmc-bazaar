@@ -1,9 +1,70 @@
 {
-    "time": 1778599095,
+    "time": 1778600551,
     "item": "potato_spreading",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 115,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "potato_spreading",
+        "buyTopEntries": [
+            {
+                "price": 2.900000000000001,
+                "quantity": 43,
+                "orderCount": 2
+            },
+            {
+                "price": 2.4000000000000004,
+                "quantity": 49,
+                "orderCount": 1
+            },
+            {
+                "price": 2.0,
+                "quantity": 2,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 24986.300000000025,
+                "quantity": 7,
+                "orderCount": 1
+            },
+            {
+                "price": 24986.60000000002,
+                "quantity": 20,
+                "orderCount": 1
+            },
+            {
+                "price": 24986.800000000017,
+                "quantity": 3,
+                "orderCount": 1
+            },
+            {
+                "price": 24987.30000000001,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 24987.40000000001,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 24987.600000000006,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 24988.0,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 24989.700000000004,
+                "quantity": 1,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 94,
+        "sellVolume": 149,
+        "weeklyAveragePrice": 5241.8315555555555
     }
 }

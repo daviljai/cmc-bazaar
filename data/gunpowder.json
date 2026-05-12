@@ -1,9 +1,95 @@
 {
-    "time": 1778599117,
+    "time": 1778600796,
     "item": "gunpowder",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 94,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "gunpowder",
+        "buyTopEntries": [
+            {
+                "price": 7.299999999999998,
+                "quantity": 54,
+                "orderCount": 1
+            },
+            {
+                "price": 7.199999999999998,
+                "quantity": 9999,
+                "orderCount": 1
+            },
+            {
+                "price": 6.999999999999999,
+                "quantity": 1464,
+                "orderCount": 1
+            },
+            {
+                "price": 6.8999999999999995,
+                "quantity": 600,
+                "orderCount": 1
+            },
+            {
+                "price": 5.799999999999999,
+                "quantity": 502,
+                "orderCount": 1
+            },
+            {
+                "price": 5.6,
+                "quantity": 948,
+                "orderCount": 1
+            },
+            {
+                "price": 2.8000000000000007,
+                "quantity": 12475,
+                "orderCount": 1
+            },
+            {
+                "price": 2.5000000000000004,
+                "quantity": 11318,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 149.8,
+                "quantity": 128,
+                "orderCount": 1
+            },
+            {
+                "price": 149.9,
+                "quantity": 213,
+                "orderCount": 1
+            },
+            {
+                "price": 150.0,
+                "quantity": 640,
+                "orderCount": 1
+            },
+            {
+                "price": 224.0,
+                "quantity": 4037,
+                "orderCount": 7
+            },
+            {
+                "price": 298.0,
+                "quantity": 560,
+                "orderCount": 1
+            },
+            {
+                "price": 299.9,
+                "quantity": 645,
+                "orderCount": 2
+            },
+            {
+                "price": 373.0,
+                "quantity": 640,
+                "orderCount": 1
+            },
+            {
+                "price": 449.0,
+                "quantity": 1280,
+                "orderCount": 2
+            }
+        ],
+        "buyVolume": 43589,
+        "sellVolume": 13050,
+        "weeklyAveragePrice": 90.19561904761906
     }
 }

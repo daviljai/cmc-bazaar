@@ -1,5 +1,5 @@
 {
-    "time": 1778598938,
+    "time": 1778599560,
     "item": "summoning_eye",
     "data": {
         "success": true,
@@ -48,9 +48,14 @@
         ],
         "sellTopEntries": [
             {
+                "price": 1584999.9,
+                "quantity": 10,
+                "orderCount": 1
+            },
+            {
                 "price": 1585000.0,
-                "quantity": 5,
-                "orderCount": 3
+                "quantity": 2,
+                "orderCount": 1
             },
             {
                 "price": 1589996.9,
@@ -81,15 +86,10 @@
                 "price": 1649998.5,
                 "quantity": 16,
                 "orderCount": 1
-            },
-            {
-                "price": 1649998.5999999987,
-                "quantity": 1,
-                "orderCount": 1
             }
         ],
         "buyVolume": 683,
-        "sellVolume": 412,
+        "sellVolume": 409,
         "weeklyAveragePrice": 1738140.4305566435
     }
 }

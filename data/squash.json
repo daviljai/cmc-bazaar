@@ -1,9 +1,70 @@
 {
-    "time": 1778599037,
+    "time": 1778600201,
     "item": "squash",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 173,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "squash",
+        "buyTopEntries": [
+            {
+                "price": 70013.70000000022,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 70013.60000000021,
+                "quantity": 8,
+                "orderCount": 1
+            },
+            {
+                "price": 70013.5000000002,
+                "quantity": 23,
+                "orderCount": 1
+            },
+            {
+                "price": 70013.4000000002,
+                "quantity": 16,
+                "orderCount": 1
+            },
+            {
+                "price": 70013.30000000019,
+                "quantity": 64,
+                "orderCount": 1
+            },
+            {
+                "price": 70013.20000000019,
+                "quantity": 135,
+                "orderCount": 1
+            },
+            {
+                "price": 70013.00000000017,
+                "quantity": 40,
+                "orderCount": 1
+            },
+            {
+                "price": 70011.8000000001,
+                "quantity": 62,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 84999.59999999998,
+                "quantity": 3,
+                "orderCount": 1
+            },
+            {
+                "price": 84999.69999999998,
+                "quantity": 3,
+                "orderCount": 1
+            },
+            {
+                "price": 99998.49999999991,
+                "quantity": 2,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 52793,
+        "sellVolume": 8,
+        "weeklyAveragePrice": 82853.8115
     }
 }

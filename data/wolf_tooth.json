@@ -1,9 +1,95 @@
 {
-    "time": 1778598992,
+    "time": 1778599891,
     "item": "wolf_tooth",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 218,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "wolf_tooth",
+        "buyTopEntries": [
+            {
+                "price": 906.5000000000015,
+                "quantity": 5994,
+                "orderCount": 1
+            },
+            {
+                "price": 906.4000000000015,
+                "quantity": 3386,
+                "orderCount": 1
+            },
+            {
+                "price": 906.3000000000014,
+                "quantity": 200,
+                "orderCount": 1
+            },
+            {
+                "price": 906.2000000000014,
+                "quantity": 1026,
+                "orderCount": 1
+            },
+            {
+                "price": 906.1000000000014,
+                "quantity": 2450,
+                "orderCount": 1
+            },
+            {
+                "price": 906.0000000000014,
+                "quantity": 5979,
+                "orderCount": 1
+            },
+            {
+                "price": 905.9000000000013,
+                "quantity": 5403,
+                "orderCount": 1
+            },
+            {
+                "price": 905.5000000000013,
+                "quantity": 1473,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 999.6999999999999,
+                "quantity": 1831,
+                "orderCount": 2
+            },
+            {
+                "price": 999.8,
+                "quantity": 847,
+                "orderCount": 1
+            },
+            {
+                "price": 999.9,
+                "quantity": 881,
+                "orderCount": 1
+            },
+            {
+                "price": 1000.0,
+                "quantity": 1531,
+                "orderCount": 3
+            },
+            {
+                "price": 1050.0,
+                "quantity": 531,
+                "orderCount": 1
+            },
+            {
+                "price": 1050.6000000000004,
+                "quantity": 1056,
+                "orderCount": 1
+            },
+            {
+                "price": 1050.7000000000003,
+                "quantity": 121,
+                "orderCount": 1
+            },
+            {
+                "price": 1050.8000000000002,
+                "quantity": 215,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 89005,
+        "sellVolume": 61420,
+        "weeklyAveragePrice": 1045.999431616341
     }
 }

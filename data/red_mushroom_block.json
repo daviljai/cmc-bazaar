@@ -1,9 +1,54 @@
 {
-    "time": 1778599119,
+    "time": 1778600803,
     "item": "red_mushroom_block",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 91,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "red_mushroom_block",
+        "buyTopEntries": [],
+        "sellTopEntries": [
+            {
+                "price": 0.8,
+                "quantity": 900,
+                "orderCount": 2
+            },
+            {
+                "price": 0.9,
+                "quantity": 438,
+                "orderCount": 1
+            },
+            {
+                "price": 1.0,
+                "quantity": 6,
+                "orderCount": 1
+            },
+            {
+                "price": 2.0,
+                "quantity": 93,
+                "orderCount": 1
+            },
+            {
+                "price": 2.6999999999999997,
+                "quantity": 270,
+                "orderCount": 1
+            },
+            {
+                "price": 2.8,
+                "quantity": 278,
+                "orderCount": 1
+            },
+            {
+                "price": 3.0,
+                "quantity": 541,
+                "orderCount": 1
+            },
+            {
+                "price": 4.0000000000000036,
+                "quantity": 25,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 0,
+        "sellVolume": 11273,
+        "weeklyAveragePrice": 1.0053333333333334
     }
 }

@@ -1,9 +1,75 @@
 {
-    "time": 1778599114,
+    "time": 1778600789,
     "item": "enchanted_bookshelf",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 96,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "enchanted_bookshelf",
+        "buyTopEntries": [
+            {
+                "price": 2000.0,
+                "quantity": 15,
+                "orderCount": 1
+            },
+            {
+                "price": 1800.0,
+                "quantity": 7,
+                "orderCount": 1
+            },
+            {
+                "price": 1705.7999999999993,
+                "quantity": 24,
+                "orderCount": 1
+            },
+            {
+                "price": 1705.4999999999995,
+                "quantity": 18,
+                "orderCount": 1
+            },
+            {
+                "price": 1705.1,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 1704.9,
+                "quantity": 12,
+                "orderCount": 1
+            },
+            {
+                "price": 1701.1999999999998,
+                "quantity": 3,
+                "orderCount": 1
+            },
+            {
+                "price": 1600.2999999999997,
+                "quantity": 1,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 14999.9,
+                "quantity": 72,
+                "orderCount": 1
+            },
+            {
+                "price": 15000.0,
+                "quantity": 5,
+                "orderCount": 2
+            },
+            {
+                "price": 27200.0,
+                "quantity": 4,
+                "orderCount": 1
+            },
+            {
+                "price": 27278.700000000004,
+                "quantity": 5,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 125,
+        "sellVolume": 86,
+        "weeklyAveragePrice": 20580.809411764705
     }
 }

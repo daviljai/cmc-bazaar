@@ -1,9 +1,75 @@
 {
-    "time": 1778599082,
+    "time": 1778600515,
     "item": "oak_log",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 128,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "oak_log",
+        "buyTopEntries": [
+            {
+                "price": 10.2,
+                "quantity": 13118,
+                "orderCount": 2
+            },
+            {
+                "price": 10.1,
+                "quantity": 12800,
+                "orderCount": 1
+            },
+            {
+                "price": 10.0,
+                "quantity": 32372,
+                "orderCount": 10
+            },
+            {
+                "price": 8.0,
+                "quantity": 123,
+                "orderCount": 1
+            },
+            {
+                "price": 5.5,
+                "quantity": 119,
+                "orderCount": 1
+            },
+            {
+                "price": 5.1,
+                "quantity": 5426,
+                "orderCount": 1
+            },
+            {
+                "price": 5.0,
+                "quantity": 74122,
+                "orderCount": 6
+            },
+            {
+                "price": 1.3000000000000003,
+                "quantity": 9746,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 26.9,
+                "quantity": 660,
+                "orderCount": 3
+            },
+            {
+                "price": 27.0,
+                "quantity": 304,
+                "orderCount": 1
+            },
+            {
+                "price": 29.9,
+                "quantity": 547,
+                "orderCount": 1
+            },
+            {
+                "price": 30.0,
+                "quantity": 1083,
+                "orderCount": 2
+            }
+        ],
+        "buyVolume": 195278,
+        "sellVolume": 2594,
+        "weeklyAveragePrice": 23.83555140186916
     }
 }

@@ -1,9 +1,55 @@
 {
-    "time": 1778599038,
+    "time": 1778600205,
     "item": "beef",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 172,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "beef",
+        "buyTopEntries": [
+            {
+                "price": 35.1,
+                "quantity": 697,
+                "orderCount": 1
+            },
+            {
+                "price": 35.0,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 10.0,
+                "quantity": 599,
+                "orderCount": 1
+            },
+            {
+                "price": 1.5000000000000004,
+                "quantity": 11334,
+                "orderCount": 1
+            },
+            {
+                "price": 1.4000000000000004,
+                "quantity": 8389,
+                "orderCount": 1
+            },
+            {
+                "price": 1.3000000000000003,
+                "quantity": 1102,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 140.0,
+                "quantity": 316,
+                "orderCount": 1
+            },
+            {
+                "price": 150.0,
+                "quantity": 290,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 22122,
+        "sellVolume": 606,
+        "weeklyAveragePrice": 45.41372549019608
     }
 }

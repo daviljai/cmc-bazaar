@@ -1,9 +1,95 @@
 {
-    "time": 1778599169,
+    "time": 1778601130,
     "item": "revenant_catalyst",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 41,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "revenant_catalyst",
+        "buyTopEntries": [
+            {
+                "price": 10000.1,
+                "quantity": 293,
+                "orderCount": 1
+            },
+            {
+                "price": 6600.0,
+                "quantity": 10,
+                "orderCount": 1
+            },
+            {
+                "price": 6500.0,
+                "quantity": 50,
+                "orderCount": 1
+            },
+            {
+                "price": 6003.7000000000135,
+                "quantity": 96,
+                "orderCount": 1
+            },
+            {
+                "price": 6003.600000000013,
+                "quantity": 4,
+                "orderCount": 1
+            },
+            {
+                "price": 6003.500000000013,
+                "quantity": 8,
+                "orderCount": 1
+            },
+            {
+                "price": 6003.300000000012,
+                "quantity": 10,
+                "orderCount": 1
+            },
+            {
+                "price": 6002.6000000000095,
+                "quantity": 9,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 49997.90000000003,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 49998.00000000003,
+                "quantity": 2,
+                "orderCount": 1
+            },
+            {
+                "price": 49998.10000000003,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 49998.200000000026,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 49998.300000000025,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 49998.40000000002,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 49998.50000000002,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 49998.70000000002,
+                "quantity": 12,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 1522,
+        "sellVolume": 171,
+        "weeklyAveragePrice": 32384.590297872353
     }
 }

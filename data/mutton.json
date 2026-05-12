@@ -1,9 +1,30 @@
 {
-    "time": 1778599107,
+    "time": 1778600769,
     "item": "mutton",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 103,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "mutton",
+        "buyTopEntries": [
+            {
+                "price": 3.900000000000001,
+                "quantity": 197,
+                "orderCount": 1
+            },
+            {
+                "price": 3.8000000000000007,
+                "quantity": 10617,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 10.0,
+                "quantity": 15,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 10814,
+        "sellVolume": 15,
+        "weeklyAveragePrice": 8.541548387096775
     }
 }

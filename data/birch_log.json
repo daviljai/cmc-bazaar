@@ -1,9 +1,75 @@
 {
-    "time": 1778599085,
+    "time": 1778600522,
     "item": "birch_log",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 125,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "birch_log",
+        "buyTopEntries": [
+            {
+                "price": 0.5,
+                "quantity": 3404,
+                "orderCount": 1
+            },
+            {
+                "price": 0.30000000000000004,
+                "quantity": 9766,
+                "orderCount": 1
+            },
+            {
+                "price": 0.2,
+                "quantity": 2,
+                "orderCount": 1
+            },
+            {
+                "price": 0.1,
+                "quantity": 36939,
+                "orderCount": 3
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 3.9,
+                "quantity": 28,
+                "orderCount": 1
+            },
+            {
+                "price": 4.0,
+                "quantity": 10,
+                "orderCount": 1
+            },
+            {
+                "price": 289.29999999999984,
+                "quantity": 1478,
+                "orderCount": 2
+            },
+            {
+                "price": 289.4999999999999,
+                "quantity": 958,
+                "orderCount": 1
+            },
+            {
+                "price": 290.0,
+                "quantity": 8140,
+                "orderCount": 1
+            },
+            {
+                "price": 298.9999999999998,
+                "quantity": 927,
+                "orderCount": 1
+            },
+            {
+                "price": 299.5999999999999,
+                "quantity": 337,
+                "orderCount": 1
+            },
+            {
+                "price": 299.79999999999995,
+                "quantity": 2283,
+                "orderCount": 2
+            }
+        ],
+        "buyVolume": 50111,
+        "sellVolume": 14161,
+        "weeklyAveragePrice": 3.295693989071038
     }
 }

@@ -1,9 +1,80 @@
 {
-    "time": 1778599079,
+    "time": 1778600505,
     "item": "enchanted_fireworks",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 131,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "enchanted_fireworks",
+        "buyTopEntries": [
+            {
+                "price": 21000.0,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 20014.69999999999,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 20014.299999999996,
+                "quantity": 16,
+                "orderCount": 1
+            },
+            {
+                "price": 20013.1,
+                "quantity": 16,
+                "orderCount": 1
+            },
+            {
+                "price": 6672.0,
+                "quantity": 1000,
+                "orderCount": 1
+            },
+            {
+                "price": 320.4000000000001,
+                "quantity": 512,
+                "orderCount": 1
+            },
+            {
+                "price": 300.60000000000014,
+                "quantity": 16,
+                "orderCount": 1
+            },
+            {
+                "price": 300.4000000000001,
+                "quantity": 16,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 225000.0,
+                "quantity": 24,
+                "orderCount": 1
+            },
+            {
+                "price": 274999.6000000001,
+                "quantity": 4,
+                "orderCount": 1
+            },
+            {
+                "price": 274999.70000000007,
+                "quantity": 5,
+                "orderCount": 1
+            },
+            {
+                "price": 299999.9,
+                "quantity": 2,
+                "orderCount": 1
+            },
+            {
+                "price": 390998.80000000005,
+                "quantity": 2,
+                "orderCount": 2
+            }
+        ],
+        "buyVolume": 1836,
+        "sellVolume": 37,
+        "weeklyAveragePrice": 182692.48053333335
     }
 }

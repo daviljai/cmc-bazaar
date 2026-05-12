@@ -1,9 +1,35 @@
 {
-    "time": 1778599034,
+    "time": 1778600195,
     "item": "turbo_carrot_5",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 176,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "turbo_carrot_5",
+        "buyTopEntries": [
+            {
+                "price": 1000.0,
+                "quantity": 48,
+                "orderCount": 1
+            },
+            {
+                "price": 200.2,
+                "quantity": 3,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 799999.9,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 800000.0,
+                "quantity": 1,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 51,
+        "sellVolume": 2,
+        "weeklyAveragePrice": "NaN"
     }
 }

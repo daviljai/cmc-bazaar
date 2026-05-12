@@ -1,9 +1,50 @@
 {
-    "time": 1778599013,
+    "time": 1778600132,
     "item": "turbo_melon_2",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 197,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "turbo_melon_2",
+        "buyTopEntries": [
+            {
+                "price": 7000.0,
+                "quantity": 5,
+                "orderCount": 2
+            },
+            {
+                "price": 500.20000000000005,
+                "quantity": 5,
+                "orderCount": 1
+            },
+            {
+                "price": 500.0,
+                "quantity": 4,
+                "orderCount": 1
+            },
+            {
+                "price": 20.1,
+                "quantity": 2,
+                "orderCount": 1
+            },
+            {
+                "price": 20.0,
+                "quantity": 20,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 499999.70000000007,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 500000.0,
+                "quantity": 1,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 36,
+        "sellVolume": 2,
+        "weeklyAveragePrice": 113266.63066666666
     }
 }

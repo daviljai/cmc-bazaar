@@ -1,9 +1,95 @@
 {
-    "time": 1778599125,
+    "time": 1778600819,
     "item": "hamster_wheel",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 86,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "hamster_wheel",
+        "buyTopEntries": [
+            {
+                "price": 4199.0,
+                "quantity": 979,
+                "orderCount": 1
+            },
+            {
+                "price": 3000.8999999999996,
+                "quantity": 15,
+                "orderCount": 1
+            },
+            {
+                "price": 3000.7999999999997,
+                "quantity": 160,
+                "orderCount": 1
+            },
+            {
+                "price": 3000.7,
+                "quantity": 233,
+                "orderCount": 1
+            },
+            {
+                "price": 3000.6,
+                "quantity": 76,
+                "orderCount": 1
+            },
+            {
+                "price": 3000.2999999999997,
+                "quantity": 247,
+                "orderCount": 1
+            },
+            {
+                "price": 3000.2,
+                "quantity": 1243,
+                "orderCount": 1
+            },
+            {
+                "price": 2600.2,
+                "quantity": 271,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 7997.199999999993,
+                "quantity": 29,
+                "orderCount": 1
+            },
+            {
+                "price": 7997.299999999994,
+                "quantity": 81,
+                "orderCount": 1
+            },
+            {
+                "price": 7997.399999999994,
+                "quantity": 348,
+                "orderCount": 1
+            },
+            {
+                "price": 7997.4999999999945,
+                "quantity": 6,
+                "orderCount": 1
+            },
+            {
+                "price": 7997.599999999995,
+                "quantity": 30,
+                "orderCount": 1
+            },
+            {
+                "price": 7997.699999999995,
+                "quantity": 14,
+                "orderCount": 1
+            },
+            {
+                "price": 7997.799999999996,
+                "quantity": 17,
+                "orderCount": 1
+            },
+            {
+                "price": 7997.899999999996,
+                "quantity": 20,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 17009,
+        "sellVolume": 1974,
+        "weeklyAveragePrice": 5265.3995498721215
     }
 }

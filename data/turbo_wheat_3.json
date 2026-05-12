@@ -1,9 +1,35 @@
 {
-    "time": 1778599023,
+    "time": 1778600162,
     "item": "turbo_wheat_3",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 187,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "turbo_wheat_3",
+        "buyTopEntries": [
+            {
+                "price": 150.1,
+                "quantity": 10,
+                "orderCount": 1
+            },
+            {
+                "price": 150.0,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 50.0,
+                "quantity": 1,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 75000.0,
+                "quantity": 1,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 12,
+        "sellVolume": 1,
+        "weeklyAveragePrice": "NaN"
     }
 }

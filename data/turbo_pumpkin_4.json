@@ -1,9 +1,65 @@
 {
-    "time": 1778599202,
+    "time": 1778601407,
     "item": "turbo_pumpkin_4",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 8,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "turbo_pumpkin_4",
+        "buyTopEntries": [
+            {
+                "price": 10000.0,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 5000.500000000002,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 5000.4000000000015,
+                "quantity": 3,
+                "orderCount": 2
+            },
+            {
+                "price": 5000.1,
+                "quantity": 4,
+                "orderCount": 1
+            },
+            {
+                "price": 1000.3000000000001,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 1000.2,
+                "quantity": 3,
+                "orderCount": 2
+            },
+            {
+                "price": 1000.0,
+                "quantity": 11,
+                "orderCount": 2
+            },
+            {
+                "price": 100.29999999999998,
+                "quantity": 2,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 1699999.9,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 1999999.5999999996,
+                "quantity": 1,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 130,
+        "sellVolume": 2,
+        "weeklyAveragePrice": 1247999.9584
     }
 }

@@ -1,9 +1,60 @@
 {
-    "time": 1778599057,
+    "time": 1778600442,
     "item": "chicken",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 153,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "chicken",
+        "buyTopEntries": [
+            {
+                "price": 16.400000000000002,
+                "quantity": 500,
+                "orderCount": 1
+            },
+            {
+                "price": 16.3,
+                "quantity": 42,
+                "orderCount": 1
+            },
+            {
+                "price": 16.2,
+                "quantity": 4044,
+                "orderCount": 2
+            },
+            {
+                "price": 15.999999999999996,
+                "quantity": 404,
+                "orderCount": 1
+            },
+            {
+                "price": 15.899999999999997,
+                "quantity": 2560,
+                "orderCount": 1
+            },
+            {
+                "price": 15.2,
+                "quantity": 1021,
+                "orderCount": 1
+            },
+            {
+                "price": 15.1,
+                "quantity": 6210,
+                "orderCount": 2
+            },
+            {
+                "price": 15.0,
+                "quantity": 969,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 95.0,
+                "quantity": 568,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 32562,
+        "sellVolume": 568,
+        "weeklyAveragePrice": 24.347083333333334
     }
 }

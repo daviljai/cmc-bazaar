@@ -1,9 +1,95 @@
 {
-    "time": 1778599152,
+    "time": 1778601080,
     "item": "enchanted_rotten_flesh",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 58,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "enchanted_rotten_flesh",
+        "buyTopEntries": [
+            {
+                "price": 575.0,
+                "quantity": 12535,
+                "orderCount": 1
+            },
+            {
+                "price": 530.0,
+                "quantity": 887,
+                "orderCount": 1
+            },
+            {
+                "price": 428.8000000000002,
+                "quantity": 11092,
+                "orderCount": 1
+            },
+            {
+                "price": 428.70000000000016,
+                "quantity": 12726,
+                "orderCount": 1
+            },
+            {
+                "price": 428.60000000000014,
+                "quantity": 6400,
+                "orderCount": 1
+            },
+            {
+                "price": 428.5000000000001,
+                "quantity": 571,
+                "orderCount": 1
+            },
+            {
+                "price": 428.30000000000007,
+                "quantity": 12518,
+                "orderCount": 1
+            },
+            {
+                "price": 427.50000000000057,
+                "quantity": 5915,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 596.1999999999995,
+                "quantity": 1111,
+                "orderCount": 3
+            },
+            {
+                "price": 596.2999999999995,
+                "quantity": 2572,
+                "orderCount": 2
+            },
+            {
+                "price": 596.4999999999995,
+                "quantity": 1984,
+                "orderCount": 1
+            },
+            {
+                "price": 596.5999999999996,
+                "quantity": 1984,
+                "orderCount": 1
+            },
+            {
+                "price": 596.7999999999996,
+                "quantity": 1453,
+                "orderCount": 1
+            },
+            {
+                "price": 596.9,
+                "quantity": 768,
+                "orderCount": 1
+            },
+            {
+                "price": 598.1999999999999,
+                "quantity": 719,
+                "orderCount": 2
+            },
+            {
+                "price": 598.3,
+                "quantity": 1306,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 105052,
+        "sellVolume": 67029,
+        "weeklyAveragePrice": 526.0159737827714
     }
 }

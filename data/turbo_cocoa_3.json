@@ -1,9 +1,13 @@
 {
-    "time": 1778599022,
+    "time": 1778600158,
     "item": "turbo_cocoa_3",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 188,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "turbo_cocoa_3",
+        "buyTopEntries": [],
+        "sellTopEntries": [],
+        "buyVolume": 0,
+        "sellVolume": 0,
+        "weeklyAveragePrice": "NaN"
     }
 }

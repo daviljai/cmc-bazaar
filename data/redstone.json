@@ -1,9 +1,65 @@
 {
-    "time": 1778598963,
+    "time": 1778599805,
     "item": "redstone",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 247,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "redstone",
+        "buyTopEntries": [
+            {
+                "price": 1.6000000000000003,
+                "quantity": 10,
+                "orderCount": 1
+            },
+            {
+                "price": 1.0,
+                "quantity": 12800,
+                "orderCount": 1
+            },
+            {
+                "price": 0.7999999999999999,
+                "quantity": 3,
+                "orderCount": 1
+            },
+            {
+                "price": 0.5,
+                "quantity": 400,
+                "orderCount": 1
+            },
+            {
+                "price": 0.4,
+                "quantity": 12800,
+                "orderCount": 1
+            },
+            {
+                "price": 0.2,
+                "quantity": 11178,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 31.799999999999997,
+                "quantity": 2048,
+                "orderCount": 1
+            },
+            {
+                "price": 31.9,
+                "quantity": 1320,
+                "orderCount": 2
+            },
+            {
+                "price": 33.0,
+                "quantity": 64,
+                "orderCount": 1
+            },
+            {
+                "price": 34.599999999999994,
+                "quantity": 14,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 37191,
+        "sellVolume": 3446,
+        "weeklyAveragePrice": 17.910834285714284
     }
 }

@@ -1,9 +1,80 @@
 {
-    "time": 1778599131,
+    "time": 1778600839,
     "item": "enchanted_gold_ingot",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 79,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "enchanted_gold_ingot",
+        "buyTopEntries": [
+            {
+                "price": 1000.0,
+                "quantity": 548,
+                "orderCount": 2
+            },
+            {
+                "price": 900.4000000000001,
+                "quantity": 1029,
+                "orderCount": 1
+            },
+            {
+                "price": 815.4000000000027,
+                "quantity": 127,
+                "orderCount": 1
+            },
+            {
+                "price": 750.9000000000002,
+                "quantity": 6390,
+                "orderCount": 1
+            },
+            {
+                "price": 690.1,
+                "quantity": 3975,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 1317.6000000000004,
+                "quantity": 309,
+                "orderCount": 2
+            },
+            {
+                "price": 1317.7000000000003,
+                "quantity": 1152,
+                "orderCount": 1
+            },
+            {
+                "price": 1317.8000000000002,
+                "quantity": 110,
+                "orderCount": 1
+            },
+            {
+                "price": 1317.9,
+                "quantity": 1267,
+                "orderCount": 1
+            },
+            {
+                "price": 1318.0,
+                "quantity": 420,
+                "orderCount": 1
+            },
+            {
+                "price": 1319.000000000001,
+                "quantity": 259,
+                "orderCount": 1
+            },
+            {
+                "price": 1319.1000000000008,
+                "quantity": 1010,
+                "orderCount": 1
+            },
+            {
+                "price": 1319.2000000000007,
+                "quantity": 272,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 12069,
+        "sellVolume": 50990,
+        "weeklyAveragePrice": 1166.718097007224
     }
 }

@@ -1,9 +1,35 @@
 {
-    "time": 1778598985,
+    "time": 1778599871,
     "item": "rabbit_hide",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 225,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "rabbit_hide",
+        "buyTopEntries": [
+            {
+                "price": 0.5,
+                "quantity": 4000,
+                "orderCount": 1
+            },
+            {
+                "price": 0.4,
+                "quantity": 4984,
+                "orderCount": 1
+            },
+            {
+                "price": 0.30000000000000004,
+                "quantity": 5913,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 29.599999999999994,
+                "quantity": 527,
+                "orderCount": 2
+            }
+        ],
+        "buyVolume": 14897,
+        "sellVolume": 527,
+        "weeklyAveragePrice": 11.746163265306118
     }
 }

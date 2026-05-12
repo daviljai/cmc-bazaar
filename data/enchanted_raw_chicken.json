@@ -1,9 +1,95 @@
 {
-    "time": 1778599063,
+    "time": 1778600459,
     "item": "enchanted_raw_chicken",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 147,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "enchanted_raw_chicken",
+        "buyTopEntries": [
+            {
+                "price": 700.3000000000001,
+                "quantity": 542,
+                "orderCount": 1
+            },
+            {
+                "price": 700.2,
+                "quantity": 116,
+                "orderCount": 1
+            },
+            {
+                "price": 700.1,
+                "quantity": 9,
+                "orderCount": 1
+            },
+            {
+                "price": 560.2,
+                "quantity": 21,
+                "orderCount": 1
+            },
+            {
+                "price": 552.0,
+                "quantity": 1190,
+                "orderCount": 1
+            },
+            {
+                "price": 501.7000000000004,
+                "quantity": 5180,
+                "orderCount": 1
+            },
+            {
+                "price": 501.4000000000003,
+                "quantity": 16,
+                "orderCount": 1
+            },
+            {
+                "price": 340.4000000000001,
+                "quantity": 388,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 999.5999999999999,
+                "quantity": 53,
+                "orderCount": 1
+            },
+            {
+                "price": 999.6999999999999,
+                "quantity": 11,
+                "orderCount": 1
+            },
+            {
+                "price": 999.8,
+                "quantity": 59,
+                "orderCount": 1
+            },
+            {
+                "price": 999.9,
+                "quantity": 4,
+                "orderCount": 1
+            },
+            {
+                "price": 1000.0,
+                "quantity": 4,
+                "orderCount": 1
+            },
+            {
+                "price": 3499.9,
+                "quantity": 350,
+                "orderCount": 1
+            },
+            {
+                "price": 3898.700000000001,
+                "quantity": 1511,
+                "orderCount": 1
+            },
+            {
+                "price": 3898.800000000001,
+                "quantity": 1984,
+                "orderCount": 2
+            }
+        ],
+        "buyVolume": 7462,
+        "sellVolume": 3976,
+        "weeklyAveragePrice": 897.2635483870968
     }
 }

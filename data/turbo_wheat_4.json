@@ -1,9 +1,24 @@
 {
-    "time": 1778599028,
+    "time": 1778600175,
     "item": "turbo_wheat_4",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 182,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "turbo_wheat_4",
+        "buyTopEntries": [
+            {
+                "price": 1000.1,
+                "quantity": 5,
+                "orderCount": 1
+            },
+            {
+                "price": 100.19999999999999,
+                "quantity": 1,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [],
+        "buyVolume": 6,
+        "sellVolume": 0,
+        "weeklyAveragePrice": "NaN"
     }
 }

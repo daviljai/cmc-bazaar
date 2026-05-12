@@ -1,9 +1,95 @@
 {
-    "time": 1778599066,
+    "time": 1778600469,
     "item": "enchanted_cobblestone",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 144,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "enchanted_cobblestone",
+        "buyTopEntries": [
+            {
+                "price": 668.0000000000007,
+                "quantity": 134,
+                "orderCount": 1
+            },
+            {
+                "price": 667.9000000000007,
+                "quantity": 2667,
+                "orderCount": 1
+            },
+            {
+                "price": 667.7000000000006,
+                "quantity": 1000,
+                "orderCount": 1
+            },
+            {
+                "price": 667.5000000000006,
+                "quantity": 10000,
+                "orderCount": 1
+            },
+            {
+                "price": 667.4000000000005,
+                "quantity": 12800,
+                "orderCount": 1
+            },
+            {
+                "price": 667.3000000000005,
+                "quantity": 607,
+                "orderCount": 1
+            },
+            {
+                "price": 666.7000000000004,
+                "quantity": 640,
+                "orderCount": 1
+            },
+            {
+                "price": 666.4000000000003,
+                "quantity": 256,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 758.9,
+                "quantity": 735,
+                "orderCount": 2
+            },
+            {
+                "price": 759.0,
+                "quantity": 121,
+                "orderCount": 1
+            },
+            {
+                "price": 760.0,
+                "quantity": 452,
+                "orderCount": 1
+            },
+            {
+                "price": 768.0,
+                "quantity": 527,
+                "orderCount": 1
+            },
+            {
+                "price": 768.1,
+                "quantity": 1186,
+                "orderCount": 1
+            },
+            {
+                "price": 768.4999999999998,
+                "quantity": 1111,
+                "orderCount": 1
+            },
+            {
+                "price": 768.9999999999999,
+                "quantity": 81,
+                "orderCount": 1
+            },
+            {
+                "price": 769.0999999999999,
+                "quantity": 1216,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 90977,
+        "sellVolume": 58706,
+        "weeklyAveragePrice": 748.7479396751742
     }
 }

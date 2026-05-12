@@ -1,9 +1,95 @@
 {
-    "time": 1778599071,
+    "time": 1778600482,
     "item": "wise_dragon_fragment",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 139,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "wise_dragon_fragment",
+        "buyTopEntries": [
+            {
+                "price": 13000.300000000001,
+                "quantity": 56,
+                "orderCount": 1
+            },
+            {
+                "price": 13000.2,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 13000.0,
+                "quantity": 240,
+                "orderCount": 1
+            },
+            {
+                "price": 6050.0,
+                "quantity": 43,
+                "orderCount": 1
+            },
+            {
+                "price": 6000.0,
+                "quantity": 202,
+                "orderCount": 2
+            },
+            {
+                "price": 4170.300000000001,
+                "quantity": 134,
+                "orderCount": 1
+            },
+            {
+                "price": 4151.600000000006,
+                "quantity": 250,
+                "orderCount": 1
+            },
+            {
+                "price": 4110.500000000002,
+                "quantity": 233,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 24597.000000000044,
+                "quantity": 60,
+                "orderCount": 1
+            },
+            {
+                "price": 24597.100000000042,
+                "quantity": 17,
+                "orderCount": 1
+            },
+            {
+                "price": 24597.20000000004,
+                "quantity": 18,
+                "orderCount": 1
+            },
+            {
+                "price": 24597.30000000004,
+                "quantity": 3,
+                "orderCount": 1
+            },
+            {
+                "price": 24597.400000000038,
+                "quantity": 3,
+                "orderCount": 1
+            },
+            {
+                "price": 24597.500000000036,
+                "quantity": 4,
+                "orderCount": 1
+            },
+            {
+                "price": 24597.600000000035,
+                "quantity": 131,
+                "orderCount": 1
+            },
+            {
+                "price": 24598.200000000026,
+                "quantity": 25,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 2106,
+        "sellVolume": 394,
+        "weeklyAveragePrice": 10631.286757575761
     }
 }

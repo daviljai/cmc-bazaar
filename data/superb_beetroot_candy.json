@@ -1,9 +1,70 @@
 {
-    "time": 1778599103,
+    "time": 1778600756,
     "item": "superb_beetroot_candy",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 107,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "superb_beetroot_candy",
+        "buyTopEntries": [
+            {
+                "price": 1000000.2999999999,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 1000000.2,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 1000000.1,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 900000.0,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 850000.2,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 850000.0,
+                "quantity": 2,
+                "orderCount": 1
+            },
+            {
+                "price": 810000.2,
+                "quantity": 5,
+                "orderCount": 1
+            },
+            {
+                "price": 801000.2,
+                "quantity": 8,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 2199999.8,
+                "quantity": 2,
+                "orderCount": 1
+            },
+            {
+                "price": 2199999.9,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 2699999.9,
+                "quantity": 1,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 44,
+        "sellVolume": 4,
+        "weeklyAveragePrice": 1398844.1169999994
     }
 }

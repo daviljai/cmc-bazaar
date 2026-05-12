@@ -1,9 +1,95 @@
 {
-    "time": 1778598997,
+    "time": 1778599904,
     "item": "enchanted_emerald",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 213,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "enchanted_emerald",
+        "buyTopEntries": [
+            {
+                "price": 1000.7000000000002,
+                "quantity": 3200,
+                "orderCount": 1
+            },
+            {
+                "price": 1000.6000000000001,
+                "quantity": 774,
+                "orderCount": 1
+            },
+            {
+                "price": 1000.4000000000001,
+                "quantity": 26,
+                "orderCount": 1
+            },
+            {
+                "price": 1000.3000000000001,
+                "quantity": 119,
+                "orderCount": 1
+            },
+            {
+                "price": 873.3000000000006,
+                "quantity": 1812,
+                "orderCount": 1
+            },
+            {
+                "price": 872.8000000000005,
+                "quantity": 548,
+                "orderCount": 1
+            },
+            {
+                "price": 872.2000000000004,
+                "quantity": 77,
+                "orderCount": 1
+            },
+            {
+                "price": 870.0,
+                "quantity": 239,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 2487.2000000000016,
+                "quantity": 510,
+                "orderCount": 1
+            },
+            {
+                "price": 2487.3000000000015,
+                "quantity": 493,
+                "orderCount": 1
+            },
+            {
+                "price": 2487.4000000000015,
+                "quantity": 716,
+                "orderCount": 1
+            },
+            {
+                "price": 2487.5000000000014,
+                "quantity": 142,
+                "orderCount": 1
+            },
+            {
+                "price": 2487.700000000001,
+                "quantity": 24,
+                "orderCount": 1
+            },
+            {
+                "price": 2487.800000000001,
+                "quantity": 231,
+                "orderCount": 1
+            },
+            {
+                "price": 2488.000000000001,
+                "quantity": 217,
+                "orderCount": 1
+            },
+            {
+                "price": 2488.100000000001,
+                "quantity": 42,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 15419,
+        "sellVolume": 14980,
+        "weeklyAveragePrice": 1473.5395508021395
     }
 }

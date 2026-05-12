@@ -1,9 +1,95 @@
 {
-    "time": 1778599097,
+    "time": 1778600558,
     "item": "enchanted_blaze_rod",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 113,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "enchanted_blaze_rod",
+        "buyTopEntries": [
+            {
+                "price": 221040.0,
+                "quantity": 2,
+                "orderCount": 1
+            },
+            {
+                "price": 221025.60000000003,
+                "quantity": 75,
+                "orderCount": 1
+            },
+            {
+                "price": 221025.50000000003,
+                "quantity": 25,
+                "orderCount": 1
+            },
+            {
+                "price": 221025.40000000002,
+                "quantity": 3,
+                "orderCount": 1
+            },
+            {
+                "price": 221025.30000000002,
+                "quantity": 23,
+                "orderCount": 1
+            },
+            {
+                "price": 221007.00000000023,
+                "quantity": 150,
+                "orderCount": 1
+            },
+            {
+                "price": 221006.80000000022,
+                "quantity": 172,
+                "orderCount": 1
+            },
+            {
+                "price": 211010.70000000004,
+                "quantity": 59,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 233299.69999999998,
+                "quantity": 31,
+                "orderCount": 1
+            },
+            {
+                "price": 233299.8,
+                "quantity": 101,
+                "orderCount": 1
+            },
+            {
+                "price": 233299.9,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 233300.0,
+                "quantity": 17,
+                "orderCount": 1
+            },
+            {
+                "price": 233322.69999999958,
+                "quantity": 45,
+                "orderCount": 1
+            },
+            {
+                "price": 233322.79999999958,
+                "quantity": 51,
+                "orderCount": 2
+            },
+            {
+                "price": 233322.8999999996,
+                "quantity": 434,
+                "orderCount": 1
+            },
+            {
+                "price": 233322.9999999996,
+                "quantity": 56,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 11468,
+        "sellVolume": 3627,
+        "weeklyAveragePrice": 226908.423931624
     }
 }

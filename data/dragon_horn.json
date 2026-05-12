@@ -1,9 +1,65 @@
 {
-    "time": 1778599041,
+    "time": 1778600214,
     "item": "dragon_horn",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 169,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "dragon_horn",
+        "buyTopEntries": [
+            {
+                "price": 20000000.1,
+                "quantity": 3,
+                "orderCount": 1
+            },
+            {
+                "price": 20000000.0,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 500000.69999999984,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 500000.3999999999,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 500000.1,
+                "quantity": 2,
+                "orderCount": 1
+            },
+            {
+                "price": 300000.4999999999,
+                "quantity": 10,
+                "orderCount": 1
+            },
+            {
+                "price": 51000.399999999994,
+                "quantity": 5,
+                "orderCount": 1
+            },
+            {
+                "price": 51000.299999999996,
+                "quantity": 5,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 25000000.0,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 100000000.0,
+                "quantity": 1,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 43,
+        "sellVolume": 2,
+        "weeklyAveragePrice": 27266319.999333333
     }
 }

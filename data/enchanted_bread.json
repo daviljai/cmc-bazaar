@@ -1,9 +1,85 @@
 {
-    "time": 1778599130,
+    "time": 1778600836,
     "item": "enchanted_bread",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 80,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "enchanted_bread",
+        "buyTopEntries": [
+            {
+                "price": 20.1,
+                "quantity": 11011,
+                "orderCount": 2
+            },
+            {
+                "price": 20.0,
+                "quantity": 94361,
+                "orderCount": 8
+            },
+            {
+                "price": 16.700000000000006,
+                "quantity": 3027,
+                "orderCount": 3
+            },
+            {
+                "price": 10.299999999999999,
+                "quantity": 6,
+                "orderCount": 1
+            },
+            {
+                "price": 10.1,
+                "quantity": 47,
+                "orderCount": 2
+            },
+            {
+                "price": 0.1,
+                "quantity": 11728,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 78.80000000000001,
+                "quantity": 626,
+                "orderCount": 1
+            },
+            {
+                "price": 78.9,
+                "quantity": 14,
+                "orderCount": 1
+            },
+            {
+                "price": 79.0,
+                "quantity": 81,
+                "orderCount": 3
+            },
+            {
+                "price": 79.40000000000003,
+                "quantity": 17,
+                "orderCount": 1
+            },
+            {
+                "price": 79.50000000000003,
+                "quantity": 2,
+                "orderCount": 1
+            },
+            {
+                "price": 80.0,
+                "quantity": 3,
+                "orderCount": 1
+            },
+            {
+                "price": 99.9,
+                "quantity": 37,
+                "orderCount": 2
+            },
+            {
+                "price": 104.0,
+                "quantity": 10,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 120180,
+        "sellVolume": 790,
+        "weeklyAveragePrice": 38.42651851851852
     }
 }

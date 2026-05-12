@@ -1,5 +1,5 @@
 {
-    "time": 1778598934,
+    "time": 1778599550,
     "item": "enchanted_magma_cream",
     "data": {
         "success": true,
@@ -7,7 +7,7 @@
         "buyTopEntries": [
             {
                 "price": 608.8000000000002,
-                "quantity": 4594,
+                "quantity": 4590,
                 "orderCount": 1
             },
             {
@@ -88,7 +88,7 @@
                 "orderCount": 1
             }
         ],
-        "buyVolume": 70889,
+        "buyVolume": 70885,
         "sellVolume": 85383,
         "weeklyAveragePrice": 626.2372584269663
     }

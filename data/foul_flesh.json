@@ -1,9 +1,95 @@
 {
-    "time": 1778598991,
+    "time": 1778599887,
     "item": "foul_flesh",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 219,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "foul_flesh",
+        "buyTopEntries": [
+            {
+                "price": 9000.600000000002,
+                "quantity": 9383,
+                "orderCount": 1
+            },
+            {
+                "price": 9000.500000000002,
+                "quantity": 2365,
+                "orderCount": 1
+            },
+            {
+                "price": 9000.0,
+                "quantity": 1616,
+                "orderCount": 1
+            },
+            {
+                "price": 8002.600000000006,
+                "quantity": 110,
+                "orderCount": 1
+            },
+            {
+                "price": 8001.600000000002,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 8000.0,
+                "quantity": 5739,
+                "orderCount": 1
+            },
+            {
+                "price": 4003.3,
+                "quantity": 1002,
+                "orderCount": 1
+            },
+            {
+                "price": 3835.0,
+                "quantity": 2303,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 9999.9,
+                "quantity": 10,
+                "orderCount": 1
+            },
+            {
+                "price": 10000.0,
+                "quantity": 2,
+                "orderCount": 1
+            },
+            {
+                "price": 10598.099999999997,
+                "quantity": 54,
+                "orderCount": 2
+            },
+            {
+                "price": 10598.199999999997,
+                "quantity": 5,
+                "orderCount": 1
+            },
+            {
+                "price": 10598.299999999997,
+                "quantity": 61,
+                "orderCount": 1
+            },
+            {
+                "price": 10598.399999999998,
+                "quantity": 16,
+                "orderCount": 1
+            },
+            {
+                "price": 10598.499999999998,
+                "quantity": 7,
+                "orderCount": 1
+            },
+            {
+                "price": 10598.599999999999,
+                "quantity": 11,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 22538,
+        "sellVolume": 6052,
+        "weeklyAveragePrice": 9680.597662591688
     }
 }

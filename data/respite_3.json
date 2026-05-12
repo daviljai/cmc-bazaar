@@ -1,9 +1,95 @@
 {
-    "time": 1778599193,
+    "time": 1778601381,
     "item": "respite_3",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 17,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "respite_3",
+        "buyTopEntries": [
+            {
+                "price": 330000.0,
+                "quantity": 4,
+                "orderCount": 1
+            },
+            {
+                "price": 320001.1999999997,
+                "quantity": 4,
+                "orderCount": 2
+            },
+            {
+                "price": 320001.09999999974,
+                "quantity": 3,
+                "orderCount": 2
+            },
+            {
+                "price": 320000.99999999977,
+                "quantity": 4,
+                "orderCount": 1
+            },
+            {
+                "price": 320000.69999999984,
+                "quantity": 3,
+                "orderCount": 1
+            },
+            {
+                "price": 320000.29999999993,
+                "quantity": 3,
+                "orderCount": 1
+            },
+            {
+                "price": 320000.0,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 300100.99999999977,
+                "quantity": 1,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 999987.5000000003,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 999987.9000000003,
+                "quantity": 2,
+                "orderCount": 1
+            },
+            {
+                "price": 999988.0000000002,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 999988.3000000002,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 999989.0,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 999999.4000000001,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 999999.6000000001,
+                "quantity": 6,
+                "orderCount": 1
+            },
+            {
+                "price": 1000000.0,
+                "quantity": 4,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 32,
+        "sellVolume": 18,
+        "weeklyAveragePrice": 1039987.011555556
     }
 }

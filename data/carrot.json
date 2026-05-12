@@ -1,9 +1,80 @@
 {
-    "time": 1778599048,
+    "time": 1778600234,
     "item": "carrot",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 162,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "carrot",
+        "buyTopEntries": [
+            {
+                "price": 1.5000000000000004,
+                "quantity": 3,
+                "orderCount": 1
+            },
+            {
+                "price": 1.4,
+                "quantity": 64,
+                "orderCount": 1
+            },
+            {
+                "price": 1.2000000000000002,
+                "quantity": 649,
+                "orderCount": 1
+            },
+            {
+                "price": 1.1,
+                "quantity": 12800,
+                "orderCount": 1
+            },
+            {
+                "price": 0.1,
+                "quantity": 1000,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 88.00000000000011,
+                "quantity": 2,
+                "orderCount": 1
+            },
+            {
+                "price": 88.10000000000011,
+                "quantity": 1056,
+                "orderCount": 1
+            },
+            {
+                "price": 88.50000000000009,
+                "quantity": 4719,
+                "orderCount": 5
+            },
+            {
+                "price": 89.60000000000002,
+                "quantity": 2,
+                "orderCount": 1
+            },
+            {
+                "price": 89.80000000000001,
+                "quantity": 2161,
+                "orderCount": 2
+            },
+            {
+                "price": 89.9,
+                "quantity": 2112,
+                "orderCount": 1
+            },
+            {
+                "price": 90.1,
+                "quantity": 1050,
+                "orderCount": 1
+            },
+            {
+                "price": 99.50000000000003,
+                "quantity": 1450,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 14516,
+        "sellVolume": 13371,
+        "weeklyAveragePrice": 11.004230769230775
     }
 }

@@ -1,9 +1,95 @@
 {
-    "time": 1778599088,
+    "time": 1778600532,
     "item": "enchanted_hay_bale_new",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 122,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "enchanted_hay_bale_new",
+        "buyTopEntries": [
+            {
+                "price": 10011.000000000007,
+                "quantity": 13,
+                "orderCount": 1
+            },
+            {
+                "price": 10010.900000000007,
+                "quantity": 100,
+                "orderCount": 1
+            },
+            {
+                "price": 10010.800000000007,
+                "quantity": 84,
+                "orderCount": 1
+            },
+            {
+                "price": 10009.400000000001,
+                "quantity": 32,
+                "orderCount": 1
+            },
+            {
+                "price": 10001.200000000004,
+                "quantity": 3,
+                "orderCount": 1
+            },
+            {
+                "price": 10000.0,
+                "quantity": 20,
+                "orderCount": 1
+            },
+            {
+                "price": 8000.800000000003,
+                "quantity": 10,
+                "orderCount": 1
+            },
+            {
+                "price": 8000.0,
+                "quantity": 173,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 34995.20000000007,
+                "quantity": 92,
+                "orderCount": 1
+            },
+            {
+                "price": 34995.30000000007,
+                "quantity": 11,
+                "orderCount": 1
+            },
+            {
+                "price": 34995.40000000007,
+                "quantity": 38,
+                "orderCount": 2
+            },
+            {
+                "price": 34995.500000000065,
+                "quantity": 53,
+                "orderCount": 3
+            },
+            {
+                "price": 34995.600000000064,
+                "quantity": 2,
+                "orderCount": 1
+            },
+            {
+                "price": 34995.70000000006,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 34996.200000000055,
+                "quantity": 623,
+                "orderCount": 1
+            },
+            {
+                "price": 34996.900000000045,
+                "quantity": 32,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 435,
+        "sellVolume": 1887,
+        "weeklyAveragePrice": 27509.05294545458
     }
 }

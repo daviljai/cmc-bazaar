@@ -1,9 +1,60 @@
 {
-    "time": 1778599128,
+    "time": 1778600829,
     "item": "egg",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 82,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "egg",
+        "buyTopEntries": [
+            {
+                "price": 120.1,
+                "quantity": 355,
+                "orderCount": 1
+            },
+            {
+                "price": 120.0,
+                "quantity": 12045,
+                "orderCount": 1
+            },
+            {
+                "price": 40.0,
+                "quantity": 20,
+                "orderCount": 1
+            },
+            {
+                "price": 20.400000000000006,
+                "quantity": 16,
+                "orderCount": 1
+            },
+            {
+                "price": 20.300000000000004,
+                "quantity": 3,
+                "orderCount": 1
+            },
+            {
+                "price": 10.0,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 1.9,
+                "quantity": 3,
+                "orderCount": 1
+            },
+            {
+                "price": 1.4000000000000001,
+                "quantity": 375,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 1300.0,
+                "quantity": 26,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 13385,
+        "sellVolume": 26,
+        "weeklyAveragePrice": 344.68206451612906
     }
 }

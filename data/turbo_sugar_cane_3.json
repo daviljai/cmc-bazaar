@@ -1,9 +1,45 @@
 {
-    "time": 1778599191,
+    "time": 1778601374,
     "item": "turbo_sugar_cane_3",
     "data": {
-        "message": "Too many requests. Please slow down.",
-        "retryAfter": 19,
-        "error": "rate_limit_exceeded"
+        "success": true,
+        "itemId": "turbo_sugar_cane_3",
+        "buyTopEntries": [
+            {
+                "price": 1.1,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 1.0,
+                "quantity": 12,
+                "orderCount": 1
+            }
+        ],
+        "sellTopEntries": [
+            {
+                "price": 700000.0,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 999999.9,
+                "quantity": 1,
+                "orderCount": 1
+            },
+            {
+                "price": 2999999.8,
+                "quantity": 2,
+                "orderCount": 1
+            },
+            {
+                "price": 3000000.0,
+                "quantity": 1,
+                "orderCount": 1
+            }
+        ],
+        "buyVolume": 13,
+        "sellVolume": 5,
+        "weeklyAveragePrice": "NaN"
     }
 }
