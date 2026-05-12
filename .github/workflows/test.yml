@@ -1,0 +1,35 @@
+name: API Test
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install packages
+        run: pip install requests cloudscraper
+
+      - name: Run test
+        run: |
+          python - <<EOF
+          import cloudscraper
+
+          scraper = cloudscraper.create_scraper()
+
+          url = "https://api.craftersmc.net/v1/resources/skyblock/bazaar/items"
+
+          response = scraper.get(url)
+
+          print("STATUS:", response.status_code)
+          print(response.text[:1000])
+          EOF
