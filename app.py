@@ -5,13 +5,12 @@ import time
 import os
 
 from dotenv import load_dotenv
-load_dotenv()
-
 from flask import Flask, render_template, jsonify
+
+load_dotenv()
 
 BASE_URL = "https://api.craftersmc.net/v1"
 
-# API KEY
 API_KEY = os.getenv("API_KEY")
 
 headers = {
@@ -20,7 +19,10 @@ headers = {
 
 app = Flask(__name__)
 
+# =========================
 # DATABASE
+# =========================
+
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 DB_PATH = os.path.join(BASE_DIR, "bazaar.db")
@@ -94,41 +96,104 @@ CREATE TABLE IF NOT EXISTS bazaar (
 
 db.commit()
 
-
+# =========================
 # GET ITEM LIST
+# =========================
+
 def get_items():
 
-    url = f"{BASE_URL}/resources/skyblock/bazaar/items"
+    try:
 
-    response = requests.get(
-        url,
-        headers=headers
-    )
+        url = f"{BASE_URL}/resources/skyblock/bazaar/items"
 
-    data = response.json()
+        response = requests.get(
+            url,
+            headers=headers,
+            timeout=20
+        )
 
-    return data["items"]
+        print("ITEM STATUS:", response.status_code)
 
+        if response.status_code != 200:
+            return []
 
-# GET SINGLE ITEM DATA
+        data = response.json()
+
+        return data.get("items", [])
+
+    except Exception as e:
+
+        print("GET ITEMS ERROR:", e)
+
+        return []
+
+# =========================
+# GET ITEM DATA
+# =========================
+
 def get_item_data(item):
 
     url = f"{BASE_URL}/skyblock/bazaar/{item}/details"
 
     response = requests.get(
         url,
-        headers=headers
+        headers=headers,
+        timeout=20
     )
 
-    data = response.json()
+    print("STATUS:", response.status_code)
 
-    return data
+    # RATE LIMITED
+    if response.status_code == 429:
 
+        retry = int(
+            response.headers.get(
+                "Retry-After",
+                15
+            )
+        )
 
+        print("RATE LIMITED - waiting", retry, "sec")
+
+        time.sleep(retry)
+
+        return None
+
+    # BAD RESPONSE
+    if response.status_code != 200:
+        return None
+
+    try:
+        return response.json()
+
+    except Exception:
+        return None
+
+# =========================
+# LIMIT DATABASE SIZE
+# =========================
+
+def trim_old_data(item):
+
+    cursor.execute("""
+    DELETE FROM bazaar
+    WHERE rowid NOT IN (
+        SELECT rowid
+        FROM bazaar
+        WHERE item=?
+        ORDER BY timestamp DESC
+        LIMIT 3000
+    )
+    AND item=?
+    """, (item, item))
+
+    db.commit()
+
+# =========================
 # SCRAPER
-def scraper():
+# =========================
 
-    scanned_items = set()
+def scraper():
 
     while True:
 
@@ -136,71 +201,30 @@ def scraper():
 
             items = get_items()
 
-            # ONLY NEW ITEMS
-            new_items = [
-                item for item in items
-                if item not in scanned_items
-            ]
+            print("TOTAL ITEMS:", len(items))
 
-            # RESCAN ALL AFTER FINISHED
-            if not new_items:
-                new_items = items
-
-            print("Scanning", len(new_items), "items")
-
-            for item in new_items:
+            for item in items:
 
                 try:
 
+                    print("Fetching:", item)
+
                     data = get_item_data(item)
 
-                    print(item, data)
-
-                    # RATE LIMIT
-                    if (
-                        "error" in data and
-                        data["error"] == "rate_limit_exceeded"
-                    ):
-
-                        retry = data.get("retryAfter", 5)
-
-                        print(
-                            "Rate limited. Waiting",
-                            retry,
-                            "seconds"
-                        )
-
-                        time.sleep(retry)
-
+                    # failed request
+                    if not data:
                         continue
 
-                    # INVALID DATA
                     if "buyTopEntries" not in data:
                         continue
 
                     if "sellTopEntries" not in data:
                         continue
 
-                    # EMPTY BUY
                     if not data["buyTopEntries"]:
-
-                        print(
-                            "Skipping",
-                            item,
-                            "- no buy orders"
-                        )
-
                         continue
 
-                    # EMPTY SELL
                     if not data["sellTopEntries"]:
-
-                        print(
-                            "Skipping",
-                            item,
-                            "- no sell orders"
-                        )
-
                         continue
 
                     buy_entries = data["buyTopEntries"][:8]
@@ -229,10 +253,12 @@ def scraper():
                     ]
 
                     for entry in buy_entries:
+
                         values.append(entry["price"])
                         values.append(entry["quantity"])
 
                     for entry in sell_entries:
+
                         values.append(entry["price"])
                         values.append(entry["quantity"])
 
@@ -243,30 +269,37 @@ def scraper():
                     INSERT INTO bazaar
                     VALUES ({",".join(["?"] * len(values))})
                     """, values)
-        
+
                     db.commit()
 
-                    scanned_items.add(item)
+                    # keep latest 3000 only
+                    trim_old_data(item)
 
-                    print("Saved", item)
+                    print("Saved:", item)
 
-                    # WAIT BETWEEN REQUESTS
+                    # delay between requests
                     time.sleep(5)
 
                 except Exception as e:
 
-                    print("ERROR:", item, e)
+                    print("ITEM ERROR:", item, e)
 
-            print("Restarting scan instantly...\n")
+            print("\nSCAN COMPLETE")
+            print("WAITING 10 MINUTES...\n")
+
+            # WAIT 10 MINUTES
+            time.sleep(600)
 
         except Exception as e:
 
             print("MAIN LOOP ERROR:", e)
 
-            time.sleep(5)
+            time.sleep(10)
 
-
+# =========================
 # HOME
+# =========================
+
 @app.route("/")
 def home():
 
@@ -279,17 +312,19 @@ def home():
         items=items
     )
 
-
+# =========================
 # API
+# =========================
+
 @app.route("/api/<item>")
 def api(item):
 
     cursor.execute("""
     SELECT *
-FROM bazaar
-WHERE item=?
-ORDER BY timestamp ASC
-LIMIT 100
+    FROM bazaar
+    WHERE item=?
+    ORDER BY timestamp ASC
+    LIMIT 3000
     """, (item,))
 
     rows = cursor.fetchall()
@@ -300,65 +335,67 @@ LIMIT 100
 
         data.append({
 
-    "time": row[0],
-    "item": row[1],
+            "time": row[0],
+            "item": row[1],
 
-    "buy1_price": row[2],
-    "buy1_qty": row[3],
+            "buy1_price": row[2],
+            "buy1_qty": row[3],
 
-    "buy2_price": row[4],
-    "buy2_qty": row[5],
+            "buy2_price": row[4],
+            "buy2_qty": row[5],
 
-    "buy3_price": row[6],
-    "buy3_qty": row[7],
+            "buy3_price": row[6],
+            "buy3_qty": row[7],
 
-    "buy4_price": row[8],
-    "buy4_qty": row[9],
+            "buy4_price": row[8],
+            "buy4_qty": row[9],
 
-    "buy5_price": row[10],
-    "buy5_qty": row[11],
+            "buy5_price": row[10],
+            "buy5_qty": row[11],
 
-    "buy6_price": row[12],
-    "buy6_qty": row[13],
+            "buy6_price": row[12],
+            "buy6_qty": row[13],
 
-    "buy7_price": row[14],
-    "buy7_qty": row[15],
+            "buy7_price": row[14],
+            "buy7_qty": row[15],
 
-    "buy8_price": row[16],
-    "buy8_qty": row[17],
+            "buy8_price": row[16],
+            "buy8_qty": row[17],
 
-    "sell1_price": row[18],
-    "sell1_qty": row[19],
+            "sell1_price": row[18],
+            "sell1_qty": row[19],
 
-    "sell2_price": row[20],
-    "sell2_qty": row[21],
+            "sell2_price": row[20],
+            "sell2_qty": row[21],
 
-    "sell3_price": row[22],
-    "sell3_qty": row[23],
+            "sell3_price": row[22],
+            "sell3_qty": row[23],
 
-    "sell4_price": row[24],
-    "sell4_qty": row[25],
+            "sell4_price": row[24],
+            "sell4_qty": row[25],
 
-    "sell5_price": row[26],
-    "sell5_qty": row[27],
+            "sell5_price": row[26],
+            "sell5_qty": row[27],
 
-    "sell6_price": row[28],
-    "sell6_qty": row[29],
+            "sell6_price": row[28],
+            "sell6_qty": row[29],
 
-    "sell7_price": row[30],
-    "sell7_qty": row[31],
+            "sell7_price": row[30],
+            "sell7_qty": row[31],
 
-    "sell8_price": row[32],
-    "sell8_qty": row[33],
+            "sell8_price": row[32],
+            "sell8_qty": row[33],
 
-    "buy_volume": row[34],
-    "sell_volume": row[35]
-})
+            "buy_volume": row[34],
+            "sell_volume": row[35]
+        })
 
     return jsonify(data)
 
-
+# =========================
 # START
+# =========================
+
 if __name__ == "__main__":
 
     threading.Thread(
@@ -366,6 +403,9 @@ if __name__ == "__main__":
         daemon=True
     ).start()
 
-    app.run(host="0.0.0.0", port=5000,
+    app.run(
+        host="0.0.0.0",
+        port=int(os.environ.get("PORT", 5000)),
+        debug=False,
         use_reloader=False
     )
