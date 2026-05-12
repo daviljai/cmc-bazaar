@@ -2,6 +2,7 @@
 <html>
 
 <head>
+
     <title>CMC Bazaar</title>
 
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
@@ -9,99 +10,241 @@
     <style>
 
         body{
-            background:#111;
-            color:white;
-            font-family:Arial;
             margin:0;
             padding:20px;
+            background:#0f0f0f;
+            color:white;
+            font-family:Arial;
         }
 
         h1{
             text-align:center;
-        }
-
-        select{
-            width:300px;
-            padding:10px;
-            font-size:16px;
             margin-bottom:20px;
         }
 
-        .top{
+        .topbar{
             display:flex;
-            gap:20px;
-            align-items:center;
+            gap:15px;
+            margin-bottom:20px;
             flex-wrap:wrap;
         }
 
+        #search{
+            width:250px;
+            padding:12px;
+            border:none;
+            border-radius:8px;
+            background:#1e1e1e;
+            color:white;
+        }
+
+        #itemSelect{
+            width:300px;
+            padding:12px;
+            border:none;
+            border-radius:8px;
+            background:#1e1e1e;
+            color:white;
+        }
+
+        .layout{
+            display:flex;
+            gap:20px;
+        }
+
+        .left{
+            flex:1;
+        }
+
+        .sidebar{
+            width:320px;
+            background:#1a1a1a;
+            border-radius:12px;
+            padding:15px;
+            height:fit-content;
+        }
+
         .stats{
+            display:grid;
+            grid-template-columns:repeat(2,1fr);
+            gap:10px;
+            margin-bottom:20px;
+        }
+
+        .card{
             background:#1e1e1e;
             padding:15px;
             border-radius:10px;
-            min-width:250px;
         }
 
-        .chart-container{
-            height:80vh;
+        .chart-box{
             background:#1e1e1e;
             padding:20px;
-            border-radius:10px;
+            border-radius:12px;
+            margin-bottom:20px;
+            height:350px;
+        }
+
+        h2{
+            margin-top:0;
+        }
+
+        .orders{
+            display:flex;
+            gap:10px;
+        }
+
+        .orders div{
+            flex:1;
+        }
+
+        .order{
+            background:#222;
+            margin-bottom:6px;
+            padding:8px;
+            border-radius:6px;
+            font-size:14px;
+        }
+
+        .buy{
+            border-left:4px solid lime;
+        }
+
+        .sell{
+            border-left:4px solid red;
+        }
+
+        @media(max-width:1000px){
+
+            .layout{
+                flex-direction:column;
+            }
+
+            .sidebar{
+                width:100%;
+            }
         }
 
     </style>
+
 </head>
 
 <body>
 
-    <h1>CMC Bazaar Tracker</h1>
+<h1>CMC Bazaar Tracker</h1>
 
-    <div class="top">
+<div class="topbar">
 
-        <select id="itemSelect"></select>
+    <input
+        type="text"
+        id="search"
+        placeholder="Search item..."
+    >
+
+    <select id="itemSelect"></select>
+
+</div>
+
+<div class="layout">
+
+    <div class="left">
 
         <div class="stats">
 
-            <div>
+            <div class="card">
                 Initial Buy:
-                <span id="initialBuy">0</span>
+                <div id="initialBuy">0</div>
             </div>
 
-            <div>
+            <div class="card">
                 Current Buy:
-                <span id="currentBuy">0</span>
+                <div id="currentBuy">0</div>
             </div>
 
-            <div>
+            <div class="card">
                 Initial Sell:
-                <span id="initialSell">0</span>
+                <div id="initialSell">0</div>
+            </div>
+
+            <div class="card">
+                Current Sell:
+                <div id="currentSell">0</div>
+            </div>
+
+        </div>
+
+        <div class="chart-box">
+            <canvas id="priceChart"></canvas>
+        </div>
+
+        <div class="chart-box">
+            <canvas id="volumeChart"></canvas>
+        </div>
+
+    </div>
+
+    <div class="sidebar">
+
+        <h2>Top Orders</h2>
+
+        <div class="orders">
+
+            <div>
+
+                <h3>Buy Orders</h3>
+
+                <div id="buyOrders"></div>
+
             </div>
 
             <div>
-                Current Sell:
-                <span id="currentSell">0</span>
+
+                <h3>Sell Orders</h3>
+
+                <div id="sellOrders"></div>
+
             </div>
 
         </div>
 
     </div>
 
-    <div class="chart-container">
-        <canvas id="chart"></canvas>
-    </div>
+</div>
 
 <script>
 
-let chart;
+let priceChart;
+let volumeChart;
+
+let allItems = [];
 
 async function loadItems(){
 
     const response = await fetch("data/all_items.json");
 
-    const items = await response.json();
+    allItems = await response.json();
+
+    allItems.sort();
+
+    renderDropdown(allItems);
+
+    document.getElementById("search")
+        .addEventListener("input", filterItems);
+
+    document.getElementById("itemSelect")
+        .addEventListener("change", (e) => {
+            loadChart(e.target.value);
+        });
+
+    loadChart(allItems[0]);
+
+}
+
+function renderDropdown(items){
 
     const select = document.getElementById("itemSelect");
 
-    items.sort();
+    select.innerHTML = "";
 
     items.forEach(item => {
 
@@ -113,13 +256,19 @@ async function loadItems(){
         select.appendChild(option);
 
     });
+}
 
-    select.addEventListener("change", () => {
-        loadChart(select.value);
-    });
+function filterItems(){
 
-    loadChart(items[0]);
+    const text = document.getElementById("search")
+        .value
+        .toLowerCase();
 
+    const filtered = allItems.filter(item =>
+        item.toLowerCase().includes(text)
+    );
+
+    renderDropdown(filtered);
 }
 
 async function loadChart(item){
@@ -153,25 +302,37 @@ async function loadChart(item){
         x => x.data.sellTopEntries?.[0]?.price || 0
     );
 
-    document.getElementById("initialBuy").innerText =
-        buyPrices[0];
+    const buyVolumes = data.map(
+        x => x.data.buyVolume || 0
+    );
 
-    document.getElementById("currentBuy").innerText =
-        buyPrices[buyPrices.length - 1];
+    const sellVolumes = data.map(
+        x => x.data.sellVolume || 0
+    );
 
-    document.getElementById("initialSell").innerText =
-        sellPrices[0];
+    document.getElementById("initialBuy")
+        .innerText = buyPrices[0];
 
-    document.getElementById("currentSell").innerText =
-        sellPrices[sellPrices.length - 1];
+    document.getElementById("currentBuy")
+        .innerText = buyPrices[buyPrices.length - 1];
 
-    if(chart){
-        chart.destroy();
+    document.getElementById("initialSell")
+        .innerText = sellPrices[0];
+
+    document.getElementById("currentSell")
+        .innerText = sellPrices[sellPrices.length - 1];
+
+    if(priceChart){
+        priceChart.destroy();
     }
 
-    chart = new Chart(
+    if(volumeChart){
+        volumeChart.destroy();
+    }
 
-        document.getElementById("chart"),
+    priceChart = new Chart(
+
+        document.getElementById("priceChart"),
 
         {
             type:"line",
@@ -180,6 +341,7 @@ async function loadChart(item){
                 labels:labels,
 
                 datasets:[
+
                     {
                         label:"Buy Price",
                         data:buyPrices,
@@ -191,6 +353,7 @@ async function loadChart(item){
                         data:sellPrices,
                         borderColor:"red"
                     }
+
                 ]
             },
 
@@ -200,6 +363,75 @@ async function loadChart(item){
             }
         }
     );
+
+    volumeChart = new Chart(
+
+        document.getElementById("volumeChart"),
+
+        {
+            type:"line",
+
+            data:{
+                labels:labels,
+
+                datasets:[
+
+                    {
+                        label:"Buy Volume",
+                        data:buyVolumes,
+                        borderColor:"cyan"
+                    },
+
+                    {
+                        label:"Sell Volume",
+                        data:sellVolumes,
+                        borderColor:"orange"
+                    }
+
+                ]
+            },
+
+            options:{
+                responsive:true,
+                maintainAspectRatio:false
+            }
+        }
+    );
+
+    renderOrders(raw.data);
+
+}
+
+function renderOrders(data){
+
+    const buyDiv =
+        document.getElementById("buyOrders");
+
+    const sellDiv =
+        document.getElementById("sellOrders");
+
+    buyDiv.innerHTML = "";
+    sellDiv.innerHTML = "";
+
+    data.buyTopEntries.forEach(order => {
+
+        buyDiv.innerHTML += `
+            <div class="order buy">
+                Price: ${order.price.toFixed(1)}<br>
+                Qty: ${order.quantity}
+            </div>
+        `;
+    });
+
+    data.sellTopEntries.forEach(order => {
+
+        sellDiv.innerHTML += `
+            <div class="order sell">
+                Price: ${order.price.toFixed(1)}<br>
+                Qty: ${order.quantity}
+            </div>
+        `;
+    });
 }
 
 loadItems();
