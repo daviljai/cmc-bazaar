@@ -128,9 +128,9 @@ async function loadChart(item){
 
     const raw = await response.json();
 
-    const data = raw.data || [];
+    const data = [raw];
 
-    if(data.length === 0){
+    if(!raw.data){
 
         alert("No data");
 
@@ -145,9 +145,13 @@ async function loadChart(item){
 
     });
 
-    const buyPrices = data.map(x => x.data.buyTopEntries[0].price);
+    const buyPrices = data.map(
+    x => x.data.buyTopEntries?.[0]?.price || 0
+    );
 
-    const sellPrices = data.map(x => x.data.sellTopEntries[0].price);
+    const sellPrices = data.map(
+        x => x.data.sellTopEntries?.[0]?.price || 0
+    );
 
     document.getElementById("initialBuy").innerText =
         buyPrices[0];
