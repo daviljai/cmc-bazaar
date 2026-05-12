@@ -1,4 +1,4 @@
-import requests
+import cloudscraper
 import json
 import os
 import time
@@ -11,11 +11,17 @@ headers = {
     "X-API-Key": API_KEY
 }
 
+scraper = cloudscraper.create_scraper()
+
 url = f"{BASE_URL}/resources/skyblock/bazaar/items"
 
-response = requests.get(url, headers=headers)
+response = scraper.get(
+    url,
+    headers=headers
+)
 
 print("STATUS:", response.status_code)
+print(response.text[:500])
 
 data = response.json()
 
