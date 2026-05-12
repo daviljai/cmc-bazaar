@@ -39,38 +39,50 @@ with open("data/all_items.json", "w") as f:
 # FETCH EACH ITEM
 for item in items:
 
-    try:
+    while True:
 
-        print("Fetching:", item)
+        try:
 
-        item_url = f"{BASE_URL}/skyblock/bazaar/{item}/details"
+            print("Fetching:", item)
 
-        response = scraper.get(
-            item_url,
-            headers=headers
-        )
+            item_url = f"{BASE_URL}/skyblock/bazaar/{item}/details"
 
-        print("STATUS:", response.status_code)
+            response = scraper.get(
+                item_url,
+                headers=headers
+            )
 
-        item_data = response.json()
+            print("STATUS:", response.status_code)
 
-        output = {
-            "time": int(time.time()),
-            "item": item,
-            "data": item_data
-        }
+            # RATE LIMITED
+            if response.status_code == 429:
 
-        file_path = f"data/{item}.json"
+                print("RATE LIMITED - waiting 15 sec")
+                time.sleep(15)
+                continue
 
-        with open(file_path, "w") as f:
-            json.dump(output, f, indent=4)
+            item_data = response.json()
 
-        print("Saved:", file_path)
+            output = {
+                "time": int(time.time()),
+                "item": item,
+                "data": item_data
+            }
 
-        time.sleep(1)
+            file_path = f"data/{item}.json"
 
-    except Exception as e:
+            with open(file_path, "w") as f:
+                json.dump(output, f, indent=4)
 
-        print("ERROR:", item, e)
+            print("Saved:", file_path)
 
-print("DONE")
+            # NORMAL DELAY
+            time.sleep(3)
+
+            break
+
+        except Exception as e:
+
+            print("ERROR:", item, e)
+
+            time.sleep(10)
