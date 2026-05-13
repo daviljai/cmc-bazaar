@@ -1,6 +1,10 @@
 name: Bazaar Scanner
 
 on:
+
+  schedule:
+    - cron: "*/15 * * * *"
+
   workflow_dispatch:
 
 jobs:
@@ -8,8 +12,6 @@ jobs:
   scan:
 
     runs-on: ubuntu-latest
-
-    timeout-minutes: 360
 
     steps:
 
@@ -24,31 +26,19 @@ jobs:
       - name: Install Requirements
         run: pip install -r requirements.txt
 
-      - name: Run Forever
+      - name: Run Scraper
         env:
           API_KEY: ${{ secrets.API_KEY }}
+        run: python real_scraper.py
+
+      - name: Commit Changes
         run: |
 
-          while true
-          do
+          git config --global user.name "github-actions"
+          git config --global user.email "actions@github.com"
 
-            echo "STARTING SCAN"
+          git add .
 
-            python real_scraper.py
+          git commit -m "Auto update" || echo "No changes"
 
-            echo "SCAN COMPLETE"
-
-            git config --global user.name "github-actions"
-            git config --global user.email "actions@github.com"
-
-            git add .
-
-            git commit -m "Auto update" || echo "No changes"
-
-            git push
-
-            echo "WAITING 15 MINUTES"
-
-            sleep 900
-
-          done
+          git push
