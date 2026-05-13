@@ -32,12 +32,23 @@ items_response = requests.get(
 print("ITEM STATUS:", items_response.status_code)
 
 if items_response.status_code != 200:
+
     print("Failed to fetch item list")
+
     exit()
 
 items_data = items_response.json()
 
 items = items_data["items"]
+
+# SAVE ITEM LIST
+with open(f"{DATA_FOLDER}/all_items.json", "w") as f:
+
+    json.dump(
+        items,
+        f,
+        indent=4
+    )
 
 print("TOTAL ITEMS:", len(items))
 
@@ -78,9 +89,18 @@ for item in items:
 
             data = response.json()
 
+            # INVALID API DATA
+            if not data.get("success"):
+
+                print("Invalid data:", item)
+
+                break
+
             # CREATE ENTRY
             entry = {
+
                 "time": int(time.time()),
+
                 "data": data
             }
 
@@ -92,18 +112,26 @@ for item in items:
                 with open(path, "r") as f:
 
                     try:
+
                         history = json.load(f)
 
                     except:
+
                         history = []
 
             else:
+
+                history = []
+
+            # FIX IF FILE IS OBJECT
+            if not isinstance(history, list):
+
                 history = []
 
             # ADD NEW ENTRY
             history.append(entry)
 
-            # KEEP LAST 3000 ENTRIES
+            # KEEP LAST ENTRIES
             history = history[-MAX_ENTRIES:]
 
             # SAVE
@@ -118,7 +146,7 @@ for item in items:
             print("Saved:", path)
 
             # SMALL DELAY
-            time.sleep(2)
+            time.sleep(1)
 
             break
 
