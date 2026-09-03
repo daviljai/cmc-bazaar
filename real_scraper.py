@@ -15,7 +15,6 @@ headers = {
 }
 
 DATA_FOLDER = "data"
-
 MAX_ENTRIES = 3200
 
 os.makedirs(DATA_FOLDER, exist_ok=True)
@@ -32,128 +31,78 @@ items_response = requests.get(
 print("ITEM STATUS:", items_response.status_code)
 
 if items_response.status_code != 200:
-
-    print("Failed to fetch item list")
-
-    exit()
+    print("API ERROR BODY:", items_response.text[:2000])
+    print("API KEY PRESENT:", bool(API_KEY))
+    print("API KEY LENGTH:", len(API_KEY) if API_KEY else 0)
+    raise SystemExit(1)
 
 items_data = items_response.json()
-
 items = items_data["items"]
 
 # SAVE ITEM LIST
 with open(f"{DATA_FOLDER}/all_items.json", "w") as f:
-
-    json.dump(
-        items,
-        f,
-        indent=4
-    )
+    json.dump(items, f, indent=4)
 
 print("TOTAL ITEMS:", len(items))
 
 # SCAN ITEMS
 for item in items:
-
     while True:
-
         try:
-
             print("Fetching:", item)
 
             url = f"{BASE_URL}/skyblock/bazaar/{item}/details"
-
-            response = requests.get(
-                url,
-                headers=headers,
-                timeout=20
-            )
+            response = requests.get(url, headers=headers, timeout=20)
 
             print("STATUS:", response.status_code)
 
-            # RATE LIMITED
             if response.status_code == 429:
-
                 print("RATE LIMITED - waiting 15 sec")
-
                 time.sleep(15)
-
                 continue
 
-            # SKIP BAD RESPONSES
             if response.status_code != 200:
-
+                print("API ERROR BODY:", response.text[:1000])
                 print("Skipping:", item)
-
                 break
 
             data = response.json()
 
-            # INVALID API DATA
             if not data.get("success"):
-
                 print("Invalid data:", item)
-
                 break
 
-            # CREATE ENTRY
             entry = {
-
                 "time": int(time.time()),
-
                 "data": data
             }
 
             path = f"{DATA_FOLDER}/{item}.json"
 
-            # LOAD OLD DATA
             if os.path.exists(path):
-
                 with open(path, "r") as f:
-
                     try:
-
                         history = json.load(f)
-
-                    except:
-
+                    except Exception:
                         history = []
-
             else:
-
                 history = []
 
-            # FIX IF FILE IS OBJECT
             if not isinstance(history, list):
-
                 history = []
 
-            # ADD NEW ENTRY
             history.append(entry)
-
-            # KEEP LAST ENTRIES
             history = history[-MAX_ENTRIES:]
 
-            # SAVE
             with open(path, "w") as f:
-
-                json.dump(
-                    history,
-                    f,
-                    indent=4
-                )
+                json.dump(history, f, indent=4)
 
             print("Saved:", path)
-
-            # SMALL DELAY
             time.sleep(1)
-
             break
 
         except Exception as e:
-
             print("ERROR:", item, e)
-
             time.sleep(5)
 
 print("SCAN COMPLETE")
